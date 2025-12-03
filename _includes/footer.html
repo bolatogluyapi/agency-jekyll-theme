@@ -1,4 +1,3 @@
-<!-- Footer -->
 <footer class="footer" id="footer" style="background-color: white">
   <div class="container">
     {% if site.locale and site.locale != "" and site.locale != nil %}
@@ -8,7 +7,6 @@
           >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
         >
       </div>
-      <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           {% for link in site.data.sitetext[site.locale].footer.social %}
@@ -22,16 +20,10 @@
           {% endfor %}
         </ul>
       </div>
-      <!-- Legal -->
       <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
+        <span style="color: #fed136; font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; font-size: 1.2rem;">
+          Sağlam Yapı, Estetik Dokunuş
+        </span>
       </div>
     </div>
     {% else %}
@@ -41,7 +33,6 @@
           >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
         >
       </div>
-      <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           {% for link in site.data.sitetext.footer.social %}
@@ -55,16 +46,10 @@
           {% endfor %}
         </ul>
       </div>
-      <!-- Legal -->
       <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
+        <span style="color: #fed136; font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; font-size: 1.2rem;">
+          Sağlam Yapı, Estetik Dokunuş
+        </span>
       </div>
     </div>
     {% endif %}
@@ -84,4 +69,3 @@
   }
 </script>
 {% endif %}
-<!-- End Footer -->
