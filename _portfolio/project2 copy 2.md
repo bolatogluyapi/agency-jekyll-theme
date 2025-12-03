@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: PVC Teras Kapama
+  title: PVC Teras Kapama 2
   subtitle: Turhal / Kış Bahçesi
   thumbnail: https://i.pinimg.com/1200x/53/24/0b/53240bd86a7cb18f5695497180d30284.jpg
 
