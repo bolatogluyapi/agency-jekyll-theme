@@ -42,11 +42,15 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
 
-/* Portföy Resimlerini Eşitleme */
+/* ---------------------------------------------------------
+   BURASI YENİLENDİ: Portföy Resimlerini Zorla Eşitleme
+   --------------------------------------------------------- */
 #portfolio .portfolio-item .portfolio-link img {
-  height: 260px;       /* Tüm resimler bu yükseklikte olacak */
-  width: 100%;         /* Genişlik kutuya tam oturacak */
-  object-fit: cover;   /* Resmi sündürmeden, ortalayarak fazlalıkları kırpar */
+  height: 260px !important;       /* Yükseklik kesinlikle bu olacak */
+  width: 100% !important;         /* Genişlik kutuyu %100 dolduracak */
+  min-width: 100% !important;     /* KÜÇÜK RESİMLER İÇİN: Zorla genişlet */
+  object-fit: cover !important;   /* Görüntüyü sündürmeden kırparak oturt */
+  display: block !important;      /* Resim altındaki boşlukları yok et */
 }
 
 
