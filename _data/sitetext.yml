@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "SAĞLAM YAPI, ESTETİK DOKUNUŞ"
+    title: "PENCERENİZ KALİTEYE AÇILSIN"
     text: "EVİNİZİN Konforunu ve DEĞERİNİ Artırıyoruz"
     button: "PROJELERİMİZİ GÖRÜN"
     buttonlink: "#portfolio"
