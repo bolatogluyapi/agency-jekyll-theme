@@ -1,0 +1,35 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - master  # Senin ana dalının adı master olduğu için burası master kalmalı
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Kodu Çek (Checkout)
+      uses: actions/checkout@v3
+
+    - name: Ruby Kurulumu
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1' # Güncel ve hızlı bir Ruby sürümü
+        bundler-cache: true
+
+    - name: Siteyi İnşa Et (Build)
+      run: |
+        bundle install
+        bundle exec jekyll build
+
+    - name: Sunucuya Gönder (Deploy)
+      uses: easingthemes/ssh-deploy@main
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        ARGS: "-rlgoDzvc -i --delete"
+        SOURCE: "_site/"
+        REMOTE_HOST: ${{ secrets.SSH_HOST }}
+        REMOTE_USER: ${{ secrets.SSH_USER }}
+        TARGET: "/var/www/bolatogluyapi" # Sunucuda oluşturduğumuz klasör
+        EXCLUDE: "/dist/, /node_modules/"

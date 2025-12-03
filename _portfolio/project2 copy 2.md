@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: PVC Teras Kapama
   subtitle: Turhal / Kış Bahçesi
-  thumbnail: https://i.pinimg.com/736x/f6/02/26/f602261dc32d5ecb53fc37ca621131fa.jpg
+  thumbnail: https://i.pinimg.com/1200x/53/24/0b/53240bd86a7cb18f5695497180d30284.jpg
 
 #what displays when the item is clicked:
 title: PVC Teras Kapatma ve Kış Bahçesi
 subtitle: Turhal
-image: https://i.pinimg.com/736x/f6/02/26/f602261dc32d5ecb53fc37ca621131fa.jpg
+image: https://i.pinimg.com/1200x/53/24/0b/53240bd86a7cb18f5695497180d30284.jpg
 alt: PVC Kış Bahçesi
 
 ---
