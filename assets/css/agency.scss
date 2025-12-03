@@ -41,3 +41,64 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
+
+/* Portföy Resimlerini Eşitleme */
+#portfolio .portfolio-item .portfolio-link img {
+  height: 260px;       /* Tüm resimler bu yükseklikte olacak */
+  width: 100%;         /* Genişlik kutuya tam oturacak */
+  object-fit: cover;   /* Resmi sündürmeden, ortalayarak fazlalıkları kırpar */
+}
+
+
+/* Ana Sayfa Başlık Ayarı */
+header.masthead .intro-text .intro-heading {
+  font-size: 40px !important;    /* Yazı boyutunu küçülttük */
+  line-height: 50px !important;  /* Satır aralığını açtık */
+  margin-bottom: 25px !important;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px !important;    /* Üstteki italik yazıyı da biraz kibarlaştırdık */
+  font-style: italic;
+}
+
+/* Mobilde (Telefonda) daha da küçülsün diye: */
+@media (max-width: 768px) {
+  header.masthead .intro-text .intro-heading {
+      font-size: 28px !important;
+      line-height: 35px !important;
+  }
+}
+
+
+/* Header Görselini Karartma (Siyah Perde) */
+header.masthead {
+  position: relative; /* Gerekli altyapı */
+}
+
+header.masthead::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Aşağıdaki 0.6 değeri koyuluk oranıdır. Daha koyu için 0.7, daha açık için 0.5 yapabilirsin */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0; /* Resmin hemen üstüne oturur */
+}
+
+header.masthead .container {
+  position: relative;
+  z-index: 1; /* Yazıların bu siyah perdenin üstünde kalmasını garanti eder */
+}
+
+
+/* Logoyu Belirginleştirme */
+#mainNav .navbar-brand img {
+  opacity: 1 !important;         /* Yarı saydamlığı iptal et, tam net yap */
+  background-color: rgba(255, 255, 255, 0.9); /* Arkasına %90 beyaz bir fon koy */
+  padding: 5px;                  /* Logoyu kenarlardan biraz içeri it */
+  border-radius: 5px;            /* Köşeleri hafif yuvarlat */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Hafif bir gölge verip öne çıkar */
+}

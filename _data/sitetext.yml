@@ -11,31 +11,46 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: "SAĞLAM TEMELLER, KALİTELİ YAŞAM"
+    text: "EVİNİZİN Konforunu ve DEĞERİNİ Artırıyoruz"
+    button: "PROJELERİMİZİ GÖRÜN"
+    buttonlink: "#portfolio"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "HİZMETLERİMİZ"
+    text: "Kaliteli malzeme, usta işçilik ve garantili hizmet anlayışıyla sunduğumuz çözümler."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "PVC Kapı ve Pencere"
+        desc: "Isı ve ses yalıtımı sağlayan, uzun ömürlü ve estetik PVC doğrama sistemleri ile evinizin konforunu artırıyoruz."
+        icon: fas fa-window-maximize
+
+      - title: "Korkuluk ve Küpeşte"
+        desc: "Balkon ve merdivenleriniz için paslanmaz alüminyum korkuluk sistemleri ile hem güvenlik hem de şıklık katıyoruz."
+        icon: fas fa-shield-alt
+
+      - title: "Anahtar Teslim Tadilat"
+        desc: "Kaba inşaattan ince işçiliğe; banyo, mutfak yenileme, fayans ve boya işlerinizi tek elden, garantili olarak yapıyoruz."
+        icon: fas fa-tools
+
+      - title: "Cam Balkon Sistemleri"
+        desc: "Katlanır ve sürgülü cam balkon sistemlerimizle balkonlarınızı dört mevsim kullanabileceğiniz yaşam alanlarına çeviriyoruz."
+        icon: fas fa-layer-group
+
+      - title: "Çelik Kapı Sistemleri"
+        desc: "Yüksek güvenlikli, merkezi kilit sistemine sahip, estetik ve modern çelik kapı modelleri ile evinizi koruma altına alıyoruz."
+        icon: fas fa-door-closed
+
+      - title: "Duşakabin ve Banyo"
+        desc: "Banyonuza özel ölçüde üretilen, kırılmaz temperli cam duşakabinler ve şık banyo dolabı uygulamaları."
+        icon: fas fa-bath
+
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "PROJELERİMİZ"
+    text: "Siz hayal ettiniz, biz gerçeğe dönüştürdük. İşte mutlu müşterilerimizin evlerinden kareler."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Projeyi Kapat"
 
   timeline:
     title: "Timeline"
@@ -69,9 +84,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Hakkımızda"
+    text: "Yapı Sektöründe 20 Yıllık İmza"
+    body: "Bolatoğlu Yapı, 2005 yılından bu yana yapı sektöründe kalite standartlarını belirleyen bir çözüm ortağıdır. PVC sistemleri ve inşaat teknolojilerindeki son gelişmeleri yakından takip ederek, bölgemize en modern çözümleri getiriyoruz. Tecrübemiz eski, vizyonumuz her zaman yeni."
     section: about
 
   clients:
@@ -130,33 +145,37 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "İLETİŞİM"
+    text: "Sorularınız ve teklif almak için aşağıdaki formu doldurabilir veya doğrudan WhatsApp'tan yazabilirsiniz: <br><br> <a href='https://wa.me/905302945495' target='_blank' style='background-color:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold;'><i class='fab fa-whatsapp'></i> WhatsApp ile Hızlı İletişim</a>"    # Aşağıdaki numarayı kendininkiyle değiştirmeyi unutma!
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    name: "Adınız Soyadınız *"
+    name-validation: "Lütfen adınızı giriniz."
+    email: "E-posta Adresiniz *"
+    email-validation: "Lütfen geçerli bir e-posta adresi giriniz."
+    phone: "Telefon Numaranız"
+    phone-validation: "Lütfen telefon numaranızı giriniz."
+    message: "Mesajınız / Talebiniz *"
+    message-validation: "Lütfen mesajınızı yazınız."
+    subject: "Web Sitesinden Yeni Mesaj Var"
+    submit: "MESAJI GÖNDER"
 
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+#      - url: https://twitter.com
+#        icon: "fab fa-twitter"
+ #     - url: https://facebook.com
+ #       icon: "fab fa-facebook-f"
+#      - url: https://linkedin.com
+#        icon: "fab fa-linkedin-in"
+ #     - url: https://github.com/raviriley/agency-jekyll-theme
+ #       icon: "fab fa-github"
+      - url: https://www.instagram.com/bolatoglu_yapi/#
         icon: "fab fa-instagram"
+      - url: https://wa.me/905302945495
+        icon: "fab fa-whatsapp"
+      - url: https://www.tiktok.com/@bolatoglu.yap.sun
+        icon: "fab fa-tiktok" 
 
 en-001: #English (World)
   <<: *DEFAULT_EN
