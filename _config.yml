@@ -23,7 +23,7 @@ author     : BOLATOGLU YAPI
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
-logo:
+tema_logo:
   path: "assets/img/logo1.png"
   height: 80
 
