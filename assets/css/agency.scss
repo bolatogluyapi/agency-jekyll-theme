@@ -44,28 +44,46 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/footer.scss";
 
 /* =======================================================
-   BOLATOĞLU YAPI - NÜKLEER DÜZELTMELER (KESİN ÇÖZÜM)
+   BOLATOĞLU YAPI - TAM STANDARDİZASYON KODLARI
    ======================================================= */
 
-/* 1. PORTFÖY KUTUSUNU VE RESMİNİ ZORLA EŞİTLEME */
-
-/* Önce Kutunun Sınırlarını Kaldırıyoruz */
+/* 1. PORTFÖY KUTUSU (ÇERÇEVE) AYARI */
 #portfolio .portfolio-item {
-    max-width: none !important; /* Temanın 400px sınırını kırar */
-    width: 100% !important;     /* Kutuyu sütuna tam yayar */
-    margin: 0 0 30px 0 !important; /* Kenar boşluklarını düzenler */
+    max-width: none !important;    /* Kutunun daralmasını engeller */
+    width: 100% !important;        /* Sütuna tam yayılır */
+    margin-bottom: 30px !important; /* Kutular arası boşluk */
+    background-color: #fff !important; /* Arka planı beyaz yapar */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Hepsine hafif gölge verir */
 }
 
-/* Sonra Resmi Kutuya Tam Oturtuyoruz */
+/* 2. PORTFÖY RESMİ AYARI (KESİN ÇÖZÜM) */
+#portfolio .portfolio-item .portfolio-link {
+    display: block !important;     /* Linki blok yapar */
+    position: relative !important;
+    margin: 0 auto !important;
+}
+
 #portfolio .portfolio-item .portfolio-link img {
-    height: 260px !important;       /* Yükseklik kesinlikle bu olacak */
-    width: 100% !important;         /* Genişlik kutuyu %100 dolduracak */
-    object-fit: cover !important;   /* Görüntüyü bozmadan keserek oturt */
-    display: block !important;      /* Alt boşlukları yok et */
-    border: none !important;        /* Çerçeve varsa kaldır */
+    width: 100% !important;        /* Genişlik %100 olacak */
+    height: 260px !important;      /* Yükseklik SABİT 260px */
+    object-fit: cover !important;  /* Resmi bozmadan keserek oturt */
+    object-position: center !important; /* Resmi ortala */
+    display: block !important;     /* Altındaki boşluğu sil */
+    border: none !important;
 }
 
-/* 2. HEADER GÖRSELİNİ KARARTMA (Siyah Perde) */
+/* 3. PORTFÖY YAZI ALANI (CAPTION) AYARI */
+/* Bu kısım, resmin altındaki yazı kutusunu eşitler */
+#portfolio .portfolio-item .portfolio-caption {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 25px !important;
+    text-align: center !important;
+    background-color: #fff !important;
+    min-height: 150px !important; /* Yazı kısa olsa bile kutu küçülmez, eşit durur */
+}
+
+/* 4. HEADER GÖRSELİ KARARTMA */
 header.masthead {
     position: relative;
 }
@@ -84,7 +102,7 @@ header.masthead .container {
     z-index: 1;
 }
 
-/* 3. ANA SAYFA BAŞLIK AYARI */
+/* 5. ANA SAYFA BAŞLIK MOBİL AYARI */
 header.masthead .intro-text .intro-heading {
     font-size: 40px !important;
     line-height: 50px !important;
@@ -101,7 +119,7 @@ header.masthead .intro-text .intro-lead-in {
     }
 }
 
-/* 4. LOGOYU BELİRGİNLEŞTİRME */
+/* 6. LOGO AYARI */
 #mainNav .navbar-brand img {
     opacity: 1 !important;
     background-color: rgba(255, 255, 255, 0.9);
