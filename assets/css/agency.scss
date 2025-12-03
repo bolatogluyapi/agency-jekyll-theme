@@ -129,3 +129,13 @@ header.masthead .intro-text .intro-lead-in {
     max-height: 60px;
     width: auto;
 }
+
+/* -------------------------------------------------------
+   İLETİŞİM KISMI YAZI DÜZELTMESİ
+   ------------------------------------------------------- */
+section#contact .section-subheading {
+    color: #ffffff !important;       /* Yazıyı bembeyaz yap */
+    opacity: 1 !important;           /* Saydamlığı kaldır, tam net olsun */
+    font-weight: 500 !important;     /* Yazıyı biraz kalınlaştır */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.9) !important; /* Arkasına siyah gölge at (Okunurluğu %100 artırır) */
+}
