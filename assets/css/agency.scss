@@ -139,3 +139,32 @@ section#contact .section-subheading {
     font-weight: 500 !important;     /* Yazıyı biraz kalınlaştır */
     text-shadow: 1px 1px 3px rgba(0,0,0,0.9) !important; /* Arkasına siyah gölge at (Okunurluğu %100 artırır) */
 }
+
+/* =======================================================
+   6. MOBİL PORTFÖY MODAL DÜZELTMESİ (SOSYAL MESAFE AYARI)
+   ======================================================= */
+
+@media (max-width: 767px) {
+    /* Başlık Yazısını Küçült ve Düzenle */
+    .portfolio-modal .modal-body h2 {
+        font-size: 24px !important;       /* Yazı boyutunu mobilde 24px'e indir (Normalde 50px+) */
+        line-height: 1.3 !important;      /* Satır aralarını biraz aç ki üst üste binmesin */
+        margin-top: 20px !important;      /* Üstten boşluk bırak (X butonuna yapışmasın) */
+        margin-bottom: 15px !important;   /* Alttan boşluk */
+        word-wrap: break-word !important; /* Çok uzun kelime varsa taşmasın, aşağı geçsin */
+    }
+
+    /* Alt Başlığı (İtalik yazı) Küçült */
+    .portfolio-modal .modal-body p.item-intro {
+        font-size: 14px !important;
+        margin: 10px 0 20px !important;
+    }
+    
+    /* X Kapatma Butonunu Biraz Daha Güvenli Yere Al */
+    .portfolio-modal .close-modal {
+        top: 10px !important;
+        right: 10px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
