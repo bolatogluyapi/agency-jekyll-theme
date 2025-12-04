@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Pileli (Akordiyon) Sineklik
-  subtitle: Tokat / Tüm Pencereler
+  subtitle: Tokat / Yeşilırmak Evleri
   thumbnail: https://i.pinimg.com/1200x/b3/63/67/b36367c329cb20018914c626602d357a.jpg
 
 #what displays when the item is clicked:
