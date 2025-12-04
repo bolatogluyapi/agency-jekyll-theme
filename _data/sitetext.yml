@@ -753,3 +753,5 @@ de-LI: #German (Liechtenstein)
   <<: *DEFAULT_DE
 de-LU: #German (Luxembourg)
   <<: *DEFAULT_DE
+tr-TR:
+  <<: *DEFAULT_EN
