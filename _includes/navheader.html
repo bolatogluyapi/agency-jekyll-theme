@@ -2,6 +2,7 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top" style="display: flex; align-items: center;">
       <img src="assets/img/logo.png" alt="Bolatoğlu Yapı" style="height: 50px; width: auto;" />
+      
       <span class="brand-text">BOLATOĞLU YAPI</span>
     </a>
 
@@ -41,36 +42,14 @@
   </div>
 </nav>
 
-{% if site.locale and site.locale != "" and site.locale != nil %}
 <header class="masthead">
   <div class="container">
     <div class="intro-text">
-  {%- if site.data.sitetext[site.locale].header.title -%}
-      <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-  {%- endif -%}
-  {%- if site.data.sitetext[site.locale].header.text -%}
-      <h1 class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</h1>
-  {%- endif -%}
-  {%- if site.data.sitetext[site.locale].header.button -%}
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
-  {%- endif -%}
+      <div class="intro-lead-in">SAĞLAM TEMELLER, KALİTELİ YAŞAM</div>
+      
+      <h1 class="intro-heading text-uppercase">EVİNİZİN KONFORUNU VE DEĞERİNİ ARTIRIYORUZ</h1>
+      
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">PROJELERİMİZİ GÖRÜN</a>
     </div>
   </div>
 </header>
-{% else %}
-<header class="masthead">
-  <div class="container">
-    <div class="intro-text">
-  {%- if site.data.sitetext.header.title -%}
-      <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-  {%- endif -%}
-  {%- if site.data.sitetext.header.text -%}
-      <h1 class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</h1>
-  {%- endif -%}
-  {%- if site.data.sitetext.header.button -%}
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
-  {%- endif -%}
-    </div>
-  </div>
-</header>
-{% endif %}
