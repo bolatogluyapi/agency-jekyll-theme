@@ -27,7 +27,7 @@ tema_logo:
   path: "assets/img/logo1.png"
   #height: 80
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "tr-TR" # See available languages in _data/sitetext.yml
 
 analytics:
   google: G-D3NNRRYBZK
