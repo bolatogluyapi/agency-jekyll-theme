@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Altınmeşe Renkli PVC Pencere
 subtitle: Niksar / Çamiçi Yaylası
 image: https://i.pinimg.com/1200x/57/30/83/573083a6e603fbae615276651c0bd71b.jpg
-alt: Ahşap Desenli Pimapen
+alt: Niksar Çamiçi Yaylası ahşap görünümlü altınmeşe renkli PVC pencere ve sineklik uygulaması
 
 ---
 

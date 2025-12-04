@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: PVC Teras Kapatma ve Kış Bahçesi
 subtitle: Turhal
 image: https://i.pinimg.com/1200x/53/24/0b/53240bd86a7cb18f5695497180d30284.jpg
-alt: PVC Kış Bahçesi
+alt: Turhal müstakil ev sandviç panel çatılı ısıcamlı PVC teras kapatma ve kış bahçesi uygulaması
 
 ---
 

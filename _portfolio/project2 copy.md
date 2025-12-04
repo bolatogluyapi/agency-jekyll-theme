@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Pileli (Akordiyon) Sineklik Montajı
 subtitle: Tokat / Yeşilırmak Evleri
 image: https://i.pinimg.com/1200x/b3/63/67/b36367c329cb20018914c626602d357a.jpg
-alt: Pileli Sineklik
+alt: Tokat Yeşilırmak Evleri kapı ve pencere için pileli akordiyon sineklik montajı
 
 ---
 

@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Devirmeli (Volkswagen) Sürme PVC Kapı
 subtitle: Erbaa
 image: https://i.pinimg.com/736x/6d/ec/c2/6decc2c1a0f6326102a6711d6db8a12a.jpg
-alt: Sürme PVC Kapı
+alt: Erbaa bahçe çıkışı için tam yalıtımlı devirmeli volkswagen sürme PVC kapı montajı
 
 ---
 

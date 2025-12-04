@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Cam Ofis Bölme Sistemleri
 subtitle: Erbaa OSB
 image: https://i.pinimg.com/1200x/4a/bb/3a/4abb3a075f7830a349874030ae110e72.jpg
-alt: Ofis Bölme
+alt: Erbaa Organize Sanayi Bölgesi (OSB) siyah profilli cam ofis bölme ve alüminyum doğrama sistemleri
 
 ---
 

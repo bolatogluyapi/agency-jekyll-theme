@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: PVC Pencere Bakımı ve Fitil Değişimi
 subtitle: Turhal
 image: https://i.pinimg.com/1200x/88/2c/05/882c05005c6f26b247ac43579e84fc20.jpg
-alt: Fitil Değişimi
+alt: Turhal PVC pencere rüzgar önleyici EPDM kauçuk fitil ve conta değişimi uygulaması
 
 ---
 

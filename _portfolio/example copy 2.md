@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Isıcamlı Katlanır Cam Balkon
 subtitle: Karşıyaka Mahallesi / Tokat
 image: https://i.pinimg.com/736x/74/66/2d/74662dc690ffbeadae4867abb4cc37b9.jpg
-alt: Tokat Cam Balkon
+alt: Tokat Karşıyaka Mahallesi ısıcamlı (çift cam) katlanır cam balkon sistemi uygulaması
 
 ---
 

@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Paslanmaz Alüminyum (Kare) Küpeşte
 subtitle: Erbaa / Cumhuriyet Mahallesi
 image: https://i.pinimg.com/1200x/52/6a/f6/526af65da51c4c8ba12fb90001bf100a.jpg
-alt: Alüminyum Korkuluk
+alt: Erbaa Cumhuriyet Mahallesi paslanmaz kare alüminyum balkon korkuluğu montajı
 
 ---
 
