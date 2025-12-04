@@ -175,31 +175,31 @@ section#contact .section-subheading {
 
 .brand-text {
     color: #ffffff;              /* Yazı rengi: Beyaz */
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;            /* Kalınlık: Bold */
     text-transform: uppercase;   /* Hepsi BÜYÜK HARF */
-    margin-left: 20px;           /* Logo ile yazı arasındaki boşluk */
-    font-size: 20px;             /* Masaüstü yazı boyutu */
+    margin-left: 20px;           /* Logo ile yazı arasındaki boşluğu artırdık (12px -> 20px) */
+    font-size: 24px;             /* Yazı boyutunu biraz büyüttük (daha okunaklı olsun) */
     letter-spacing: 1px;         /* Harfler arası boşluk */
     line-height: 1;              /* Satır yüksekliği */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Hafif gölge ekleyerek okunurluğu artırdık */
 }
 
-/* Mobil Cihazlar İçin Ayar (Telefon) */
+/* Mobil Cihazlar İçin Ayar */
 @media (max-width: 767px) {
     .brand-text {
-        font-size: 15px;         /* Telefondaysa yazıyı küçült */
-        margin-left: 8px;        /* Boşluğu azalt */
+        font-size: 18px;         /* Telefondaysa yazıyı küçült */
+        margin-left: 10px;       /* Mobilde boşluk biraz daha az olsun */
     }
     
-    /* Logo boyutunu da mobilde biraz kısalım ki sığsın */
     #mainNav .navbar-brand img {
         max-height: 40px !important;
     }
 }
 
-/* Çok Küçük Telefonlar (iPhone SE vb.) İçin */
+/* Çok Küçük Telefonlar İçin */
 @media (max-width: 380px) {
     .brand-text {
-        display: none; /* Ekran çok çok küçükse yazıyı gizle, sadece logo kalsın */
+        display: none; 
     }
 }
