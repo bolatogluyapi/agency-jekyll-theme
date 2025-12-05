@@ -84,10 +84,13 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "Hakkımızda"
-    text: "Yapı Sektöründe 20 Yıllık İmza"
-    body: "Bolatoğlu Yapı, 2005 yılından bu yana yapı sektöründe kalite standartlarını belirleyen bir çözüm ortağıdır. PVC sistemleri ve inşaat teknolojilerindeki son gelişmeleri yakından takip ederek, bölgemize en modern çözümleri getiriyoruz. Tecrübemiz eski, vizyonumuz her zaman yeni."
-    section: about
+      title: "HAKKIMIZDA"
+      # Buradaki alt başlık anahtar kelimeyi içeriyor:
+      text: "Erbaa Pimapen Tecrübesi, Bolatoğlu Yapı Güvencesiyle"
+      
+      # Buradaki metin hikayeyi Google'a anlatıyor:
+      body: "2005 yılında sektörde **Erbaa Pimapen** adıyla başladığımız yolculuğumuza, değişen vizyonumuz ve büyüyen hedeflerimizle artık **Bolatoğlu Yapı** olarak devam ediyoruz.<br><br>Erbaa ve çevresinde yıllarca 'Erbaa Pimapen' kalitesiyle sunduğumuz PVC pencere, cam balkon ve tadilat hizmetlerini, şimdi daha kurumsal bir kimlikle tüm Tokat bölgesine taşıdık. İsim değiştirdik, ancak ustalığımız ve güvenilirliğimiz aynı kaldı."
+      section: about
 
   clients:
     section: clients
