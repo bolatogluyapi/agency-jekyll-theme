@@ -31,6 +31,7 @@
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <span style="display:none;">{{ project.caption.title }} {{ project.caption.subtitle }}</span>
         </div>
       </div>
       {% endfor %}
@@ -104,27 +105,40 @@ document.addEventListener("DOMContentLoaded", function() {
     const loadMoreRow = document.getElementById('loadMoreRow');
     const allItems = document.querySelectorAll('.portfolio-item-entry');
 
+    // TÜRKÇE KARAKTER NORMALLEŞTİRME FONKSİYONU
+    // İ -> i, I -> i, ı -> i yaparak her şeyi standartlaştırır.
+    function turkishNormalize(text) {
+        return text.replace(/Ğ/g, 'g').replace(/ğ/g, 'g')
+                   .replace(/Ü/g, 'u').replace(/ü/g, 'u')
+                   .replace(/Ş/g, 's').replace(/ş/g, 's')
+                   .replace(/I/g, 'i').replace(/ı/g, 'i')
+                   .replace(/İ/g, 'i')
+                   .replace(/Ö/g, 'o').replace(/ö/g, 'o')
+                   .replace(/Ç/g, 'c').replace(/ç/g, 'c')
+                   .toLowerCase();
+    }
+
     // 1. ARAMA FONKSİYONU
     if (searchInput) {
         searchInput.addEventListener('keyup', function(e) {
-            const term = e.target.value.toLowerCase().trim();
+            // Aranan kelimeyi al ve Türkçeleştir
+            const term = turkishNormalize(e.target.value).trim();
 
             if (term.length > 0) {
                 // --- ARAMA MODU ---
                 
-                // "Daha Fazla Göster" butonunu gizle (Çünkü arama sonuçları sayfalanamaz)
+                // "Daha Fazla Göster" butonunu gizle
                 if(loadMoreRow) loadMoreRow.style.display = 'none';
 
                 allItems.forEach(item => {
-                    // Projenin içindeki tüm metinleri al (Başlık, Alt başlık vs.)
-                    const textContent = item.textContent.toLowerCase();
+                    // Projenin içindeki metni al ve Türkçeleştir
+                    const textContent = turkishNormalize(item.textContent);
                     
                     if (textContent.includes(term)) {
-                        item.classList.remove('d-none'); // Eşleşeni göster
-                        // Animasyon
+                        item.classList.remove('d-none'); // Göster
                         item.style.opacity = 1;
                     } else {
-                        item.classList.add('d-none'); // Eşleşmeyeni gizle
+                        item.classList.add('d-none'); // Gizle
                     }
                 });
 
@@ -138,14 +152,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // 2. DAHA FAZLA GÖSTER BUTONU
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', function() {
-            // Sadece şu an gizli olan (.d-none) öğeleri bul
             const hiddenItems = document.querySelectorAll('.portfolio-item-entry.d-none');
             
-            // Sıradaki 6 tanesini aç
             for (let i = 0; i < 6; i++) {
                 if (hiddenItems[i]) {
                     hiddenItems[i].classList.remove('d-none');
-                    // Animasyon efekti
                     hiddenItems[i].style.opacity = 0;
                     setTimeout(() => { 
                         hiddenItems[i].style.opacity = 1; 
@@ -154,7 +165,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
             
-            // Eğer açılacak başka gizli eleman kalmadıysa butonu yok et
             const remainingHidden = document.querySelectorAll('.portfolio-item-entry.d-none').length;
             if (remainingHidden === 0) {
                 if(loadMoreRow) loadMoreRow.style.display = 'none';
@@ -162,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Portfolio'yu ilk haline (İlk 6 açık, gerisi kapalı) döndüren fonksiyon
+    // Portfolio'yu ilk haline döndüren fonksiyon
     function resetPortfolio() {
         allItems.forEach((item, index) => {
             if (index < 6) {
@@ -173,7 +183,6 @@ document.addEventListener("DOMContentLoaded", function() {
             item.style.opacity = 1;
         });
 
-        // Butonu geri getir (eğer toplam sayı 6'dan fazlaysa)
         if (allItems.length > 6 && loadMoreRow) {
             loadMoreRow.style.display = 'block';
         }
