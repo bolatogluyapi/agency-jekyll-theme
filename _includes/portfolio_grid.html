@@ -1,6 +1,7 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].portfolio.section | default: "portfolio" }}">
   <div class="container">
+    
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].portfolio.title | markdownify | default: "Portfolio" }}</h2>
@@ -8,7 +9,15 @@
       </div>
     </div>
     
-    <div class="row">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="text" id="projectSearch" class="form-control" placeholder="Proje ara (Örn: Erbaa, Cam Balkon, Niksar)..." style="height: 50px; border-radius: 25px; padding: 0 25px; border: 2px solid #fed136; font-size: 1.1rem;">
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="portfolioList">
       {% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-entry {% if forloop.index > 6 %}d-none{% endif %}">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
@@ -17,7 +26,7 @@
               <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="{{ project.caption.title }}">
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
@@ -49,7 +58,13 @@
       </div>
     </div>
     
-    <div class="row">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6">
+        <input type="text" id="projectSearch" class="form-control" placeholder="Proje ara..." style="height: 50px; border-radius: 25px; padding: 0 25px; border: 2px solid #fed136;">
+      </div>
+    </div>
+
+    <div class="row" id="portfolioList">
       {% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-entry {% if forloop.index > 6 %}d-none{% endif %}">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
@@ -84,20 +99,53 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // Sayfada birden fazla buton olabileceği ihtimaline karşı ID yerine Class veya sadece ilkini alıyoruz
-    // Ancak ID unique olmalı, template yapısında bir tane render olacağı için ID kullanabiliriz.
+    const searchInput = document.getElementById('projectSearch');
     const loadMoreBtn = document.getElementById('loadMoreBtn');
-    
+    const loadMoreRow = document.getElementById('loadMoreRow');
+    const allItems = document.querySelectorAll('.portfolio-item-entry');
+
+    // 1. ARAMA FONKSİYONU
+    if (searchInput) {
+        searchInput.addEventListener('keyup', function(e) {
+            const term = e.target.value.toLowerCase().trim();
+
+            if (term.length > 0) {
+                // --- ARAMA MODU ---
+                
+                // "Daha Fazla Göster" butonunu gizle (Çünkü arama sonuçları sayfalanamaz)
+                if(loadMoreRow) loadMoreRow.style.display = 'none';
+
+                allItems.forEach(item => {
+                    // Projenin içindeki tüm metinleri al (Başlık, Alt başlık vs.)
+                    const textContent = item.textContent.toLowerCase();
+                    
+                    if (textContent.includes(term)) {
+                        item.classList.remove('d-none'); // Eşleşeni göster
+                        // Animasyon
+                        item.style.opacity = 1;
+                    } else {
+                        item.classList.add('d-none'); // Eşleşmeyeni gizle
+                    }
+                });
+
+            } else {
+                // --- VARSAYILAN MOD (Arama silindiğinde) ---
+                resetPortfolio();
+            }
+        });
+    }
+
+    // 2. DAHA FAZLA GÖSTER BUTONU
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', function() {
-            // Gizli olan (.d-none) projeleri bul
+            // Sadece şu an gizli olan (.d-none) öğeleri bul
             const hiddenItems = document.querySelectorAll('.portfolio-item-entry.d-none');
             
             // Sıradaki 6 tanesini aç
             for (let i = 0; i < 6; i++) {
                 if (hiddenItems[i]) {
                     hiddenItems[i].classList.remove('d-none');
-                    // Hafif bir animasyon efekti (opsiyonel)
+                    // Animasyon efekti
                     hiddenItems[i].style.opacity = 0;
                     setTimeout(() => { 
                         hiddenItems[i].style.opacity = 1; 
@@ -106,15 +154,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
             
-            // Eğer hala gizli eleman kaldı mı diye kontrol et
+            // Eğer açılacak başka gizli eleman kalmadıysa butonu yok et
             const remainingHidden = document.querySelectorAll('.portfolio-item-entry.d-none').length;
-            
-            // Kalmadıysa butonu gizle
             if (remainingHidden === 0) {
-                const btnRow = document.getElementById('loadMoreRow');
-                if(btnRow) btnRow.style.display = 'none';
+                if(loadMoreRow) loadMoreRow.style.display = 'none';
             }
         });
+    }
+
+    // Portfolio'yu ilk haline (İlk 6 açık, gerisi kapalı) döndüren fonksiyon
+    function resetPortfolio() {
+        allItems.forEach((item, index) => {
+            if (index < 6) {
+                item.classList.remove('d-none');
+            } else {
+                item.classList.add('d-none');
+            }
+            item.style.opacity = 1;
+        });
+
+        // Butonu geri getir (eğer toplam sayı 6'dan fazlaysa)
+        if (allItems.length > 6 && loadMoreRow) {
+            loadMoreRow.style.display = 'block';
+        }
     }
 });
 </script>
