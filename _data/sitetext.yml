@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "PENCERENİZ KALİTEYE AÇILSIN"
+    title: "SAĞLAM TEMELLER, KALİTELİ YAŞAM"
     text: "EVİNİZİN Konforunu ve DEĞERİNİ Artırıyoruz"
     button: "PROJELERİMİZİ GÖRÜN"
     buttonlink: "#portfolio"
