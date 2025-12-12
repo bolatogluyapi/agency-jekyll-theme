@@ -173,7 +173,7 @@ en: &DEFAULT_EN
 #        icon: "fab fa-linkedin-in"
  #     - url: https://github.com/raviriley/agency-jekyll-theme
  #       icon: "fab fa-github"
-      - url: https://www.instagram.com/bolatoglu_yapi/#
+      - url: https://www.instagram.com/bolatogluyapi/#
         icon: "fab fa-instagram"
       - url: https://wa.me/905302945495
         icon: "fab fa-whatsapp"
