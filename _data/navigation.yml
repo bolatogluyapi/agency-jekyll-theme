@@ -13,6 +13,8 @@ en: &DEFAULT_EN
       section: about
     - title: "İLETİŞİM"
       section: contact
+    - title: "Detaylı Portföy"
+      url: "https://erbaapimapen.bolatogluyapi.com/"
 
 # İngilizce varyasyonları
 en-US:
