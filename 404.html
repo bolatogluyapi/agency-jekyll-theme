@@ -5,9 +5,65 @@ permalink: /404.html
 sitemap: false
 ---
 
-<section class="page-header">
-    <h1>SAYFA BULUNAMADI</h1>
-    <p>Aradığınız sayfa taşınmış veya kaldırılmış olabilir.<br>
-    <a href="/">Ana sayfaya dönün</a> veya
-    <a href="https://erbaapimapen.bolatogluyapi.com/">projelerimize göz atın</a>.</p>
+<section class="notfound">
+    <h1>404</h1>
+    <h2>Sayfa Bulunamadı</h2>
+    <p>Aradığınız sayfa taşınmış veya kaldırılmış olabilir.</p>
+    <div class="notfound-actions">
+        <a href="/" class="nf-btn nf-btn-primary">Ana Sayfa</a>
+        <a href="https://erbaapimapen.bolatogluyapi.com/" class="nf-btn">Projelerimiz</a>
+    </div>
 </section>
+
+<style>
+.notfound {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 100px 24px 120px;
+    text-align: center;
+}
+.notfound h1 {
+    font-size: clamp(5rem, 18vw, 9rem);
+    line-height: 1;
+    margin: 0 0 8px;
+    font-weight: 800;
+    color: #e8b93a;
+    letter-spacing: -0.03em;
+}
+.notfound h2 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    margin: 0 0 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.notfound p {
+    margin: 0 0 36px;
+    font-size: 1.05rem;
+    color: #666;
+    line-height: 1.7;
+}
+.notfound-actions {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nf-btn {
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border: 2px solid #1c1c1c;
+    color: #1c1c1c;
+    transition: 0.25s;
+}
+.nf-btn:hover { background: #1c1c1c; color: #fff; }
+.nf-btn-primary {
+    background: #e8b93a;
+    border-color: #e8b93a;
+    color: #1c1c1c;
+}
+.nf-btn-primary:hover { background: #d4a728; border-color: #d4a728; color: #1c1c1c; }
+</style>
