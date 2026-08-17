@@ -44,6 +44,12 @@ collections:
     permalink: /hizmetler/:name/
 
 defaults:
+  # WhatsApp/Instagram/Facebook'ta link paylasilinca gorunen onizleme gorseli.
+  # Kendi "image" alani olan sayfalar (projeler) bundan etkilenmez, kendi gorselini kullanir.
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/header.png
   - scope:
       path: ""
       type: portfolio
