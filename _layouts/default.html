@@ -8,6 +8,7 @@
       {{ content }}
 
 	  {% include footer.html %}
+	  {% include whatsapp.html %}
 
 	  <!-- Bootstrap core JavaScript -->
 	  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
@@ -23,19 +24,35 @@
 	  <!-- Custom scripts for this template -->
 	  <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
 
-	  <!-- Alt sayfadan /#bolum ile gelindiginde: bolume inildikten sonra
-	       adres cubugundaki isareti temizle, boylece takili kalmasin -->
+	  <!-- /#iletisim gibi bir adresle gelindiginde ilgili bolume goturur.
+	       - Sondaki egik cizgiyi temizler: /#iletisim/ da calisir
+	       - Sayfa tam yuklendikten sonra tekrar konumlanir; gorseller
+	         yerine oturdugunda kayma olmaz
+	       - Sonra adres cubugundaki isareti temizler, takili kalmasin -->
 	  <script>
 	    (function () {
-	      if (!window.location.hash || !window.history.replaceState) return;
-	      window.addEventListener("load", function () {
-	        setTimeout(function () {
+	      var isaret = window.location.hash;
+	      if (!isaret) return;
+
+	      var kimlik = isaret.replace(/^#/, "").replace(/\/+$/, "");
+	      if (!kimlik) return;
+
+	      function konumlan() {
+	        var hedef = document.getElementById(kimlik);
+	        if (hedef) {
+	          hedef.scrollIntoView();
+	        }
+	        if (window.history.replaceState) {
 	          window.history.replaceState(
 	            null,
 	            document.title,
 	            window.location.pathname + window.location.search
 	          );
-	        }, 500);
+	        }
+	      }
+
+	      window.addEventListener("load", function () {
+	        setTimeout(konumlan, 300);
 	      });
 	    })();
 	  </script>

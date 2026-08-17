@@ -271,3 +271,54 @@ img::-moz-selection {
     color: #ced4da;
   }
 }
+
+// Sabit WhatsApp butonu (her sayfada, sag alt kose)
+.whatsapp-buton {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 1040;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 58px;
+  padding: 0 22px;
+  border-radius: 29px;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  i {
+    font-size: 30px;
+    line-height: 1;
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
+  }
+}
+
+.whatsapp-etiket {
+  font-size: 15px;
+  font-weight: 700;
+  @include heading-font;
+}
+
+// Dar ekranda sadece ikon; yazi yer kaplamasin
+@media (max-width: 575px) {
+  .whatsapp-buton {
+    right: 16px;
+    bottom: 16px;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    justify-content: center;
+    .whatsapp-etiket {
+      display: none;
+    }
+  }
+}

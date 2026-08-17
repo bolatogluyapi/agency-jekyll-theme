@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: "SAĞLAM TEMELLER, KALİTELİ YAŞAM"
     text: "EVİNİZİN Konforunu ve DEĞERİNİ Artırıyoruz"
-    button: "PROJELERİMİZİ GÖRÜN"
+    button: "İŞLERİMİZİ GÖRÜN"
     buttonlink: "#projelerimiz"
 
   services:
@@ -24,8 +24,9 @@ en: &DEFAULT_EN
     # Yeni hizmet eklemek icin oraya bir .md dosyasi ac (bkz. YENI-IS-EKLEME.md).
 
   portfolio:
-    title: "PROJELERİMİZ"
-    text: "Siz hayal ettiniz, biz gerçeğe dönüştürdük. İşte mutlu müşterilerimizin evlerinden kareler."
+    # Menu, bu bolum ve /islerim/ sayfasi ayni kelimeyi kullanir: "isler".
+    title: "İŞLERİMİZ"
+    text: "Erbaa, Tokat, Niksar ve Turhal'da tamamladığımız işlerden bir bölümü. Her işin nasıl yapıldığını kendi sayfasında anlattık."
     section: projelerimiz
     closebutton: "Projeyi Kapat"
 

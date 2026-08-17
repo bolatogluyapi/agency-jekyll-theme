@@ -1,0 +1,17 @@
+{%- comment -%}
+  Her sayfanin sag alt kosesinde duran sabit WhatsApp butonu.
+  Numara _data/business.yml dosyasindaki phone alanindan gelir;
+  degistirmek istersen orayi duzenle, burayi degil.
+{%- endcomment -%}
+{%- assign wa_numara = site.data.business.phone | remove: "+" | remove: " " -%}
+{%- assign wa_mesaj = "Hizmetleriniz hakkında bilgi almak istiyorum" | url_encode | replace: "+", "%20" -%}
+<a
+  class="whatsapp-buton"
+  href="https://wa.me/{{ wa_numara }}?text={{ wa_mesaj }}"
+  target="_blank"
+  rel="noopener"
+  aria-label="WhatsApp üzerinden bilgi alın"
+>
+  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  <span class="whatsapp-etiket">WhatsApp</span>
+</a>
