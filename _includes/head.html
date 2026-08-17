@@ -42,7 +42,9 @@
   {% endif %}
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="{{ '/assets/css/agency.css' | relative_url }}" rel="stylesheet" />
+  <!-- ?v= parametresi her build'de degisir; boylece CSS guncellendiginde
+       tarayici ve Cloudflare onbellegi eski dosyayi servis etmeye devam etmez -->
+  <link href="{{ '/assets/css/agency.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" rel="stylesheet" />
 
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}

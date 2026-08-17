@@ -12,19 +12,17 @@
         </div>
       </div>
 	  
-      <div class="row text-center">
+      <div class="hizmet-liste">
       {% assign hizmetler = site.hizmetler | sort: "order" %}
       {% for service in hizmetler %}
-        <div class="col-md-4 hizmet-kart">
-          <a href="{{ service.url | relative_url }}">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
-          </a>
-          <div class="text-muted">{{ service.subtitle }}</div>
-        </div>
+        <a class="hizmet-kart" href="{{ service.url | relative_url }}">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
+          <span class="hizmet-ozet text-muted">{{ service.subtitle }}</span>
+        </a>
       {% endfor %}
       </div>
 
@@ -49,19 +47,17 @@
       </div>
     </div>
   
-      <div class="row text-center">
+      <div class="hizmet-liste">
       {% assign hizmetler = site.hizmetler | sort: "order" %}
       {% for service in hizmetler %}
-        <div class="col-md-4 hizmet-kart">
-          <a href="{{ service.url | relative_url }}">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
-          </a>
-          <div class="text-muted">{{ service.subtitle }}</div>
-        </div>
+        <a class="hizmet-kart" href="{{ service.url | relative_url }}">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
+          <span class="hizmet-ozet text-muted">{{ service.subtitle }}</span>
+        </a>
       {% endfor %}
       </div>
 

@@ -20,7 +20,7 @@ layout: default
       </div>
     </div>
 
-    <div class="row text-center">
+    <div class="hizmet-liste rozetli">
       {% assign hizmetler = site.hizmetler | sort: "order" %}
       {% for h in hizmetler %}
       {% assign adet = 0 %}
@@ -28,17 +28,16 @@ layout: default
         {% assign bulunan = site.portfolio | where: "category", kat %}
         {% assign adet = adet | plus: bulunan.size %}
       {% endfor %}
-      <div class="col-md-4 col-sm-6 hizmet-kart">
-        <a href="{{ h.url | relative_url }}">
-          <span class="fa-stack fa-3x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ h.icon | default: 'fas fa-tools' }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>{{ h.heading | default: h.title }}</h3>
-        </a>
-        <p class="text-muted">{{ h.subtitle }}</p>
-        {% if adet > 0 %}<span class="hizmet-adet">{{ adet }} tamamlanmış iş</span>{% endif %}
-      </div>
+      <a class="hizmet-kart" href="{{ h.url | relative_url }}">
+        <span class="fa-stack fa-3x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ h.icon | default: 'fas fa-tools' }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h3>{{ h.heading | default: h.title }}</h3>
+        <span class="hizmet-ozet text-muted">{{ h.subtitle }}</span>
+        {%- comment -%} rozet olmayan kartta da bos satir birakilir ki hizalama bozulmasin {%- endcomment -%}
+        <span class="hizmet-adet{% if adet == 0 %} bos{% endif %}">{% if adet > 0 %}{{ adet }} tamamlanmış iş{% endif %}</span>
+      </a>
       {% endfor %}
     </div>
 
