@@ -4,7 +4,7 @@
   Sadece ana sayfada basilir; ayni isletmeyi her sayfada tekrarlamaya gerek yok.
 {%- endcomment -%}
 {%- assign b = site.data.business -%}
-{%- assign hizmetler = site.data.sitetext[site.locale].services.list -%}
+{%- assign hizmetler = site.hizmetler | sort: 'order' -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -58,15 +58,16 @@
   ,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": {{ site.data.sitetext[site.locale].services.title | jsonify }},
+    "name": "Hizmetlerimiz",
     "itemListElement": [
       {%- for h in hizmetler %}
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": {{ h.title | jsonify }},
-          "description": {{ h.desc | jsonify }}
+          "name": {{ h.heading | default: h.title | jsonify }},
+          "description": {{ h.subtitle | jsonify }},
+          "url": {{ h.url | absolute_url | jsonify }}
         }
       }{% unless forloop.last %},{% endunless %}
       {%- endfor %}

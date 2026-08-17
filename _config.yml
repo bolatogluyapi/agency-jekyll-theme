@@ -54,6 +54,9 @@ defaults:
       type: hizmetler
     values:
       layout: service
+      # hizmet sayfalari blog yazisi degil; seo-tag varsayilanini duzelt
+      seo:
+        type: WebPage
 
 markdown: kramdown
 

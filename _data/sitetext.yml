@@ -20,31 +20,8 @@ en: &DEFAULT_EN
     title: "HİZMETLERİMİZ"
     text: "Kaliteli malzeme, usta işçilik ve garantili hizmet anlayışıyla sunduğumuz çözümler."
     section: hizmetlerimiz
-    list:
-      - title: "PVC Kapı ve Pencere"
-        desc: "Isı ve ses yalıtımı sağlayan, uzun ömürlü ve estetik PVC doğrama sistemleri ile evinizin konforunu artırıyoruz."
-        icon: fas fa-window-maximize
-
-      - title: "Korkuluk ve Küpeşte"
-        desc: "Balkon ve merdivenleriniz için paslanmaz alüminyum korkuluk sistemleri ile hem güvenlik hem de şıklık katıyoruz."
-        icon: fas fa-shield-alt
-
-      - title: "Anahtar Teslim Tadilat"
-        desc: "Kaba inşaattan ince işçiliğe; banyo, mutfak yenileme, fayans ve boya işlerinizi tek elden, garantili olarak yapıyoruz."
-        icon: fas fa-tools
-
-      - title: "Cam Balkon Sistemleri"
-        desc: "Katlanır ve sürgülü cam balkon sistemlerimizle balkonlarınızı dört mevsim kullanabileceğiniz yaşam alanlarına çeviriyoruz."
-        icon: fas fa-layer-group
-
-      - title: "Çelik Kapı Sistemleri"
-        desc: "Yüksek güvenlikli, merkezi kilit sistemine sahip, estetik ve modern çelik kapı modelleri ile evinizi koruma altına alıyoruz."
-        icon: fas fa-door-closed
-
-      - title: "Duşakabin ve Banyo"
-        desc: "Banyonuza özel ölçüde üretilen, kırılmaz temperli cam duşakabinler ve şık banyo dolabı uygulamaları."
-        icon: fas fa-bath
-
+    # Hizmet kartlari artik _hizmetler/ klasorundeki dosyalardan uretiliyor.
+    # Yeni hizmet eklemek icin oraya bir .md dosyasi ac (bkz. YENI-IS-EKLEME.md).
 
   portfolio:
     title: "PROJELERİMİZ"
