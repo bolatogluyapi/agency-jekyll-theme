@@ -48,7 +48,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
    ======================================================= */
 
 /* 1. PORTFÖY KUTUSU (ÇERÇEVE) AYARI */
-#portfolio .portfolio-item {
+#projelerimiz .portfolio-item,
+.portfolio-grid .portfolio-item {
     max-width: none !important;    /* Kutunun daralmasını engeller */
     width: 100% !important;        /* Sütuna tam yayılır */
     margin-bottom: 30px !important; /* Kutular arası boşluk */
@@ -57,13 +58,15 @@ $contact-image: "{{ site.data.style.contact-image }}";
 }
 
 /* 2. PORTFÖY RESMİ AYARI (KESİN ÇÖZÜM) */
-#portfolio .portfolio-item .portfolio-link {
+#projelerimiz .portfolio-item .portfolio-link,
+.portfolio-grid .portfolio-item .portfolio-link {
     display: block !important;     /* Linki blok yapar */
     position: relative !important;
     margin: 0 auto !important;
 }
 
-#portfolio .portfolio-item .portfolio-link img {
+#projelerimiz .portfolio-item .portfolio-link img,
+.portfolio-grid .portfolio-item .portfolio-link img {
     width: 100% !important;        /* Genişlik %100 olacak */
     height: 260px !important;      /* Yükseklik SABİT 260px */
     object-fit: cover !important;  /* Resmi bozmadan keserek oturt */
@@ -74,7 +77,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 /* 3. PORTFÖY YAZI ALANI (CAPTION) AYARI */
 /* Bu kısım, resmin altındaki yazı kutusunu eşitler */
-#portfolio .portfolio-item .portfolio-caption {
+#projelerimiz .portfolio-item .portfolio-caption,
+.portfolio-grid .portfolio-item .portfolio-caption {
     width: 100% !important;
     margin: 0 auto !important;
     padding: 25px !important;
@@ -133,7 +137,7 @@ header.masthead .intro-text .intro-lead-in {
 /* -------------------------------------------------------
    İLETİŞİM KISMI YAZI DÜZELTMESİ
    ------------------------------------------------------- */
-section#contact .section-subheading {
+section#iletisim .section-subheading {
     color: #ffffff !important;       /* Yazıyı bembeyaz yap */
     opacity: 1 !important;           /* Saydamlığı kaldır, tam net olsun */
     font-weight: 500 !important;     /* Yazıyı biraz kalınlaştır */

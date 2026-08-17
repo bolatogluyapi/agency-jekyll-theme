@@ -1,0 +1,33 @@
+---
+caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
+  title: Katlanır Cam Balkon
+  subtitle: Erbaa / Tepeşehir
+  thumbnail: https://i.pinimg.com/736x/31/45/31/3145315aeb64b5dfc23aa89306b852ac.jpg
+
+#proje sayfasinda gorunen bilgiler
+title: Tepeşehir Katlanır Cam Balkon
+subtitle: Erbaa / Tepeşehir
+location: "Tokat / Erbaa - Tepeşehir"
+date: 2024-10-25
+category: "Cam Balkon Sistemleri"
+image: https://i.pinimg.com/736x/31/45/31/3145315aeb64b5dfc23aa89306b852ac.jpg
+alt: Tepeşehir Katlanır Cam Balkon - Tokat / Erbaa - Tepeşehir
+description: "Bolatoğlu Yapı olarak, 4 mevsim kullanılabilir yaşam alanı için füme renkli katlanır cam balkon uygulamamız."
+---
+
+## Proje Hakkında
+
+Erbaa Tepeşehir bölgesindeki müşterimiz, balkonunu kış aylarında da kullanabilmek ve tozdan korunmak istiyordu. Ancak manzaranın kapanmaması en büyük önceliğiydi.
+
+Bu ihtiyaca yönelik olarak **Katlanır Cam Balkon** sistemi uyguladık. Güneş ışığını kırması ve mahremiyet sağlaması için "Füme" (koyu) renk cam tercih edildi.
+
+### Teknik Detaylar
+
+* **8mm Temperli Cam:** Darbelere karşı 5 kat daha dayanıklı ve güvenli cam kullanıldı.
+* **Alüminyum Fitil:** Zamanla sararan ve kırılan plastik fitiller yerine, ömürlük alüminyum fitiller kullanılarak tam sızdırmazlık sağlandı.
+* **Paslanmaz Tekerlek Sistemi:** Uzun yıllar rahat açılıp kapanmayı sağlayan kaliteli rulman sistemi tercih edildi.
+* Güvenlik için çocuk emniyet kilidi uygulaması yapıldı.
+
+### Sonuç
+
+Balkon, evin bir odası gibi kullanışlı hale getirildi. Yağmur, kar ve rüzgar gibi dış etkenlerden tam koruma sağlandı. Müşterimiz artık Erbaa manzarasının tadını kışın da konforla çıkarabiliyor.

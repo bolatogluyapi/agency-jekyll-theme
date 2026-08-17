@@ -6,15 +6,13 @@
 en: &DEFAULT_EN
   nav:
     - title: "HİZMETLERİMİZ"
-      section: services
-    - title: "PROJELERİMİZ"
-      section: portfolio
+      section: hizmetlerimiz
+    - title: "İŞLERİMİZ"
+      url: "/islerim/"
     - title: "HAKKIMIZDA"
-      section: about
+      section: hakkimizda
     - title: "İLETİŞİM"
-      section: contact
-    - title: "Detaylı Portföy"
-      url: "https://erbaapimapen.bolatogluyapi.com/"
+      section: iletisim
 
 # İngilizce varyasyonları
 en-US:

@@ -14,12 +14,12 @@ en: &DEFAULT_EN
     title: "SAĞLAM TEMELLER, KALİTELİ YAŞAM"
     text: "EVİNİZİN Konforunu ve DEĞERİNİ Artırıyoruz"
     button: "PROJELERİMİZİ GÖRÜN"
-    buttonlink: "#portfolio"
+    buttonlink: "#projelerimiz"
 
   services:
     title: "HİZMETLERİMİZ"
     text: "Kaliteli malzeme, usta işçilik ve garantili hizmet anlayışıyla sunduğumuz çözümler."
-    section: services
+    section: hizmetlerimiz
     list:
       - title: "PVC Kapı ve Pencere"
         desc: "Isı ve ses yalıtımı sağlayan, uzun ömürlü ve estetik PVC doğrama sistemleri ile evinizin konforunu artırıyoruz."
@@ -49,7 +49,7 @@ en: &DEFAULT_EN
   portfolio:
     title: "PROJELERİMİZ"
     text: "Siz hayal ettiniz, biz gerçeğe dönüştürdük. İşte mutlu müşterilerimizin evlerinden kareler."
-    section: portfolio
+    section: projelerimiz
     closebutton: "Projeyi Kapat"
 
   timeline:
@@ -90,7 +90,7 @@ en: &DEFAULT_EN
       
       # Buradaki metin hikayeyi Google'a anlatıyor:
       body: "2005 yılında sektörde **Erbaa Pimapen** adıyla başladığımız yolculuğumuza, değişen vizyonumuz ve büyüyen hedeflerimizle artık **Bolatoğlu Yapı** olarak devam ediyoruz.<br><br>Erbaa ve çevresinde yıllarca 'Erbaa Pimapen' kalitesiyle sunduğumuz PVC pencere, cam balkon ve tadilat hizmetlerini, şimdi daha kurumsal bir kimlikle tüm Tokat bölgesine taşıdık. İsim değiştirdik, ancak ustalığımız ve güvenilirliğimiz aynı kaldı."
-      section: about
+      section: hakkimizda
 
   clients:
     section: clients
@@ -150,7 +150,7 @@ en: &DEFAULT_EN
   contact:
     title: "İLETİŞİM"
     text: "Sorularınız ve teklif almak için aşağıdaki formu doldurabilir veya doğrudan WhatsApp'tan yazabilirsiniz: <br><br> <a href='https://wa.me/905302945495' target='_blank' style='background-color:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold;'><i class='fab fa-whatsapp'></i> WhatsApp ile Hızlı İletişim</a>"    # Aşağıdaki numarayı kendininkiyle değiştirmeyi unutma!
-    section: contact
+    section: iletisim
     name: "Adınız Soyadınız *"
     name-validation: "Lütfen adınızı giriniz."
     email: "E-posta Adresiniz *"

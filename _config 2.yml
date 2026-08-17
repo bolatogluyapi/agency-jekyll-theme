@@ -34,15 +34,6 @@ analytics:
 
 collections:
   portfolio:
-    output: true
-    permalink: /islerim/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: project
 
 markdown: kramdown
 

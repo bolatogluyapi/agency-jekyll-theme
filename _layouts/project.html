@@ -1,0 +1,127 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section class="page-section portfolio-grid" id="proje" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/islerim/' | relative_url }}">İşlerimiz</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.caption.title | default: page.title }}</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.title }}</h1>
+        <p class="section-subheading text-muted">{{ page.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy" style="width: 100%; max-height: 520px; object-fit: cover;">
+
+        <ul class="project-meta">
+          {% if page.location %}<li><span class="project-meta-label">Konum</span>{{ page.location }}</li>{% endif %}
+          {% if page.date_text %}<li><span class="project-meta-label">Tarih</span>{{ page.date_text }}</li>{% elsif page.date %}<li><span class="project-meta-label">Tarih</span>{{ page.date | date: "%d.%m.%Y" }}</li>{% endif %}
+          {% if page.client %}<li><span class="project-meta-label">Müşteri</span>{{ page.client }}</li>{% endif %}
+          {% if page.category %}<li><span class="project-meta-label">Kategori</span>{{ page.category }}</li>{% endif %}
+        </ul>
+
+        <div class="project-body">
+          {{ content }}
+        </div>
+
+        <div class="text-center" style="margin-top: 40px;">
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/#iletisim' | relative_url }}">BENZER BİR İŞ İÇİN TEKLİF ALIN</a>
+        </div>
+      </div>
+    </div>
+
+    {% assign others = site.portfolio | where_exp: "p", "p.url != page.url" | sort: "date" | reverse %}
+    {% if others.size > 0 %}
+    <div class="row" style="margin-top: 70px;">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">DİĞER İŞLERİMİZ</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for project in others limit: 3 %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="{{ project.url | relative_url }}">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="{{ site.data.style.portfolio-icon | default: 'fas fa-plus fa-3x' }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="{{ project.caption.title }}" loading="lazy">
+        </a>
+        <div class="portfolio-caption">
+          <h4><a href="{{ project.url | relative_url }}" style="color: inherit;">{{ project.caption.title }}</a></h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center" style="margin-top: 20px;">
+        <a href="{{ '/islerim/' | relative_url }}">Tüm işlerimizi görün &rarr;</a>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button type="button" class="lightbox-kapat" aria-label="Kapat">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script>
+  (function () {
+    var kutu = document.getElementById("lightbox");
+    if (!kutu) return;
+    var buyuk = kutu.querySelector("img");
+
+    // ana gorsel + govde icindeki tum gorseller (galeri dahil)
+    var hedefler = document.querySelectorAll(".zoomable, .project-body img");
+    Array.prototype.forEach.call(hedefler, function (im) {
+      im.classList.add("zoomable");
+      im.addEventListener("click", function () {
+        buyuk.src = im.currentSrc || im.src;
+        buyuk.alt = im.alt || "";
+        kutu.classList.add("acik");
+        kutu.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      });
+    });
+
+    function kapat() {
+      kutu.classList.remove("acik");
+      kutu.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+      buyuk.removeAttribute("src");
+    }
+    kutu.addEventListener("click", kapat);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" || e.keyCode === 27) kapat();
+    });
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "{{ '/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 2, "name": "İşlerimiz", "item": "{{ '/islerim/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}" }
+  ]
+}
+</script>
