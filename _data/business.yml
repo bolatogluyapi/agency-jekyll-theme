@@ -1,0 +1,70 @@
+# -----------------------------------------------------------------------
+# Isletme bilgileri
+#
+# Bu dosya schema.org "LocalBusiness" yapisal verisini besler. Google bu
+# bilgileri adres, telefon ve hizmet bolgesi olarak okur; yerel aramalarda
+# ve harita sonuclarinda kullanir.
+#
+# Degistirmek istedigin bir sey olursa SADECE bu dosyayi duzenle.
+# _includes/schema_localbusiness.html dosyasina dokunman gerekmez.
+# -----------------------------------------------------------------------
+
+# schema.org tipi. Insaat / tadilat isleri icin dogru olan bu.
+type: HomeAndConstructionBusiness
+
+name: "Bolatoğlu Yapı"
+alternate_name: "Erbaa Pimapen"   # eski ticari isim, bu isimle arayanlar icin
+founded: 2005
+
+phone: "+905302945495"
+email: "bolatogluyapi@gmail.com"
+
+address:
+  street: "Yıldırım Beyazıt Mah. Mine Çiçeği Sok. No: 3A"
+  locality: "Erbaa"
+  region: "Tokat"
+  country: "TR"
+
+# Google Haritalar gomulu haritasindaki koordinatlar
+geo:
+  lat: 40.6786167
+  lng: 36.5347970
+
+# Isletme gorseli ve logosu (site kokune gore yol)
+logo: "/assets/img/logo.png"
+image: "/assets/img/header.png"
+
+# Sosyal medya hesaplari. Google bunlari isletmeyle eslestirir.
+same_as:
+  - "https://www.instagram.com/bolatogluyapi/"
+  - "https://www.tiktok.com/@bolatogluyapi"
+
+# Hizmet verilen ilceler (proje sayfalarindaki gercek konumlardan)
+areas:
+  - { name: "Erbaa", region: "Tokat" }
+  - { name: "Niksar", region: "Tokat" }
+  - { name: "Turhal", region: "Tokat" }
+  - { name: "Tokat", region: "Tokat" }
+  - { name: "Taşova", region: "Amasya" }
+  - { name: "Suluova", region: "Amasya" }
+
+# -----------------------------------------------------------------------
+# CALISMA SAATLERI
+#
+# Su an bos. Doldurursan Google arama sonucunda "Simdi acik / 18:30'da
+# kapaniyor" bilgisini gosterebilir. Bos birakirsan yapisal veriye hic
+# eklenmez - yanlis saat yazmaktansa hic yazmamak daha iyidir.
+#
+# Gun adlari Ingilizce olmali (schema.org boyle istiyor):
+# Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+#
+# Ornek:
+# hours:
+#   - days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+#     opens: "08:30"
+#     closes: "18:30"
+#   - days: ["Saturday"]
+#     opens: "09:00"
+#     closes: "16:00"
+# -----------------------------------------------------------------------
+hours: []
