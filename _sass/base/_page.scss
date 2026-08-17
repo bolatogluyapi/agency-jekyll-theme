@@ -188,8 +188,12 @@ img::-moz-selection {
 }
 
 // Hizmet kartlari
+// Kartlar dikey flex; boylece baslik bir veya iki satir olsa da
+// aciklama ve rozet ayni hizada kalir.
 .hizmet-kart {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
   a {
     display: block;
     color: inherit;
@@ -208,14 +212,28 @@ img::-moz-selection {
   .fa-stack {
     transition: transform 0.2s ease;
   }
-  h3 {
+  // iki satirlik basliklar icin yer ayrilir, tek satirliklar da ayni yeri kaplar
+  h3,
+  h4.service-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.6em;
     margin: 15px 0;
     font-size: 20px;
+    line-height: 1.3;
     transition: color 0.2s ease;
+  }
+  // aciklama esnek: kisa olan bosluğu doldurur, rozet hep en altta hizalanir
+  p,
+  .text-muted {
+    flex-grow: 1;
+    margin-bottom: 15px;
   }
 }
 
 .hizmet-adet {
+  align-self: center;
   display: inline-block;
   padding: 3px 12px;
   border-radius: 12px;
