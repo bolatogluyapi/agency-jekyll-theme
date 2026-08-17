@@ -30,7 +30,11 @@
         letter-spacing: 1px;
         color: white;
         @include heading-font;
+        // .active  -> scrollspy ekler (ana sayfada hangi bolumdeyiz)
+        // .sayfa-aktif -> Jekyll ekler (hangi alt sayfadayiz).
+        // Ayri sinif sart: scrollspy her kaydirmada .active sinifini temizliyor.
         &.active,
+        &.sayfa-aktif,
         &:hover {
           color: $primary;
         }

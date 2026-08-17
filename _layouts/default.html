@@ -57,5 +57,21 @@
 	    })();
 	  </script>
 
+	  <!-- Scrollspy, menude hangi bolumun sari olacagini belirler.
+	       Temanin varsayilan degeri 56; bu deger temanin kendi -54'luk yumusak
+	       kaydirmasiyla uyumlu ama bizim scroll-margin-top: 80px degerimizle
+	       degil. Aradaki 24px fark yuzunden bir bolume inildiginde scrollspy
+	       hala onceki bolumde sanip yanlis menuyu isaretliyordu.
+	       90 her iki kaydirma bicimiyle de dogru calisiyor. -->
+	  <script>
+	    (function () {
+	      if (!window.jQuery) return;
+	      var govde = window.jQuery("body");
+	      if (!govde.data("bs.scrollspy")) return;
+	      govde.scrollspy("dispose");
+	      govde.scrollspy({ target: "#mainNav", offset: 90 });
+	    })();
+	  </script>
+
   </body>
 </html>

@@ -27,7 +27,11 @@
         {%- for link in site.data.navigation[site.locale].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
+          {%- assign sayfa_aktif = "" -%}
+          {%- if link.url contains "/" and link.url != "/" and page.url contains link.url -%}
+            {%- assign sayfa_aktif = " sayfa-aktif" -%}
+          {%- endif -%}
+          <a class="nav-link{{ sayfa_aktif }}" href="{{ link.url }}"
             >{{ link.title }}</a
           >
           {%- elsif link.section -%}
@@ -45,7 +49,11 @@
         {%- for link in site.data.navigation.nav -%}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
+          {%- assign sayfa_aktif = "" -%}
+          {%- if link.url contains "/" and link.url != "/" and page.url contains link.url -%}
+            {%- assign sayfa_aktif = " sayfa-aktif" -%}
+          {%- endif -%}
+          <a class="nav-link{{ sayfa_aktif }}" href="{{ link.url }}"
             >{{ link.title }}</a
           >
           {%- elsif link.section -%}
