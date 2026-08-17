@@ -16,10 +16,13 @@ theme: jekyll-agency
 url    : "https://bolatogluyapi.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : BOLATOGLU YAPI
+title      : Bolatoğlu Yapı
 email      : bolatogluyapi@gmail.com #this is also the email contact forms will go to
+# tagline: arama sonucunda basligin ikinci yarisini olusturur, kisa tutulmali.
+# tanimli degilse jekyll-seo-tag description'i basliga koyar ve baslik cok uzar.
+tagline    : "Erbaa PVC Pencere, Cam Balkon ve Tadilat"
 description: "Yılların Erbaa Pimapen tecrübesi, şimdi Bolatoğlu Yapı güvencesiyle. PVC pencere, cam balkon, duşakabin ve tadilat işlerinizde estetik ve sağlam çözümler."
-author     : BOLATOGLU YAPI
+author     : Bolatoğlu Yapı
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
