@@ -4,7 +4,7 @@
   degistirmek istersen orayi duzenle, burayi degil.
 {%- endcomment -%}
 {%- assign wa_numara = site.data.business.phone | remove: "+" | remove: " " -%}
-{%- assign wa_mesaj = "Hizmetleriniz hakkında bilgi almak istiyorum" | url_encode | replace: "+", "%20" -%}
+{%- assign wa_mesaj = "Hizmetleriniz hakkında bilgi almak istiyorum." | url_encode | replace: "+", "%20" -%}
 <a
   class="whatsapp-buton"
   href="https://wa.me/{{ wa_numara }}?text={{ wa_mesaj }}"
