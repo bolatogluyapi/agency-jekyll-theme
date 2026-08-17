@@ -6,7 +6,7 @@
 en: &DEFAULT_EN
   nav:
     - title: "HİZMETLERİMİZ"
-      section: "/hizmetler/"
+      section: hizmetlerimiz
     - title: "İŞLERİMİZ"
       url: "/islerim/"
     - title: "HAKKIMIZDA"
