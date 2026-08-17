@@ -5,4 +5,5 @@
 _site
 Gemfile.lock
 unused
-bootstrap-reference.html
+bootstrap-reference.htmlvendor/
+.DS_Store
