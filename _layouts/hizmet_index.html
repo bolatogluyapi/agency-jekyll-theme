@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section class="bg-light page-section" id="hizmetler" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Hizmetlerimiz</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        <p class="section-subheading text-muted">{{ page.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {% assign hizmetler = site.hizmetler | sort: "order" %}
+      {% for h in hizmetler %}
+      {% assign adet = 0 %}
+      {% for kat in h.categories %}
+        {% assign bulunan = site.portfolio | where: "category", kat %}
+        {% assign adet = adet | plus: bulunan.size %}
+      {% endfor %}
+      <div class="col-md-4 col-sm-6 hizmet-kart">
+        <a href="{{ h.url | relative_url }}">
+          <span class="fa-stack fa-3x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ h.icon | default: 'fas fa-tools' }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>{{ h.heading | default: h.title }}</h3>
+        </a>
+        <p class="text-muted">{{ h.subtitle }}</p>
+        {% if adet > 0 %}<span class="hizmet-adet">{{ adet }} tamamlanmış iş</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

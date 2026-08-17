@@ -13,16 +13,25 @@
       </div>
 	  
       <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+      {% assign hizmetler = site.hizmetler | sort: "order" %}
+      {% for service in hizmetler %}
+        <div class="col-md-4 hizmet-kart">
+          <a href="{{ service.url | relative_url }}">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
+          </a>
+          <div class="text-muted">{{ service.subtitle }}</div>
         </div>
-	  {% endfor %}
+      {% endfor %}
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center" style="margin-top: 30px;">
+          <a href="{{ '/hizmetler/' | relative_url }}">Tüm hizmetlerimizi inceleyin &rarr;</a>
+        </div>
       </div>
 	  
     </div>
@@ -40,18 +49,27 @@
       </div>
     </div>
   
-    <div class="row text-center">
-  {% for service in site.data.sitetext.services.list %}
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+      <div class="row text-center">
+      {% assign hizmetler = site.hizmetler | sort: "order" %}
+      {% for service in hizmetler %}
+        <div class="col-md-4 hizmet-kart">
+          <a href="{{ service.url | relative_url }}">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-tools" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ service.heading | default: service.title }}</h4>
+          </a>
+          <div class="text-muted">{{ service.subtitle }}</div>
+        </div>
+      {% endfor %}
       </div>
-  {% endfor %}
-    </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center" style="margin-top: 30px;">
+          <a href="{{ '/hizmetler/' | relative_url }}">Tüm hizmetlerimizi inceleyin &rarr;</a>
+        </div>
+      </div>
   
   </div>
 </section>
