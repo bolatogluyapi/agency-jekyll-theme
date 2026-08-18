@@ -4,7 +4,11 @@
 #black: "#000"
 
 #Image Customization
-header-image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop"
+# Kapak gorseli. w= genislik, fm=webp modern format, q= kalite.
+# 1600px yerine 1280px + WebP: gorsel ~275 KB'dan ~90 KB'a iniyor.
+# NOT: Bu bir stok fotograf. Kendi islerinden birinin fotografini koyman
+# hem daha inandirici olur hem de bu dis baglantiyi ortadan kaldirir.
+header-image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1280&q=70&fm=webp&auto=format&fit=crop"
 contact-image: "../img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
@@ -13,7 +17,9 @@ contact-image: "../img/contact.png"
 # Dort yazi tipi tek istekte cekiliyor (| ayraci) ve display=swap sayesinde
 # font inene kadar metin gorunmez kalmiyor. Ayri ayri istemek 4 kat gecikme demekti.
 fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:100,300,400,700&display=swap"
+    # Roboto Slab cikarildi: body-font mixin'inde yorum satirinda, hic kullanilmiyor.
+    # Droid Serif yalnizca normal ve italik olarak kullaniliyor, kalin varyantlari cikarildi.
+    - "https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,400italic&display=swap"
 
 # Set custom fonts
 fonts:

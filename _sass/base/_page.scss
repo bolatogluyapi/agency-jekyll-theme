@@ -328,8 +328,56 @@ img::-moz-selection {
   }
 }
 
-// Footer'daki TikTok ikonu gomulu SVG (yerel Font Awesome surumunde yok).
-// Boyutu yanindaki font ikonlariyla ayni hizada duracak sekilde ayarlandi.
+// -----------------------------------------------------------------------
+// Gomulu SVG ikon sistemi (Font Awesome yerine)
+// Ikonlar _includes/ikon.html icinde; renkleri currentColor ile miras alir.
+// -----------------------------------------------------------------------
+.ikon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.ikon-kucuk {
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 6px;
+}
+
+.ikon-buyuk {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.ikon-sag {
+  margin-right: 10px;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.ikon-sari {
+  color: $primary;
+}
+
+// Hizmet kartlarindaki daire icinde ikon (eski fa-stack yapisinin karsiligi)
+.ikon-daire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: $primary;
+  .ikon {
+    width: 44px;
+    height: 44px;
+    color: #fff;
+  }
+}
+
+// Footer sosyal ikonlari
 .sosyal-svg {
   width: 20px;
   height: 20px;
@@ -337,10 +385,16 @@ img::-moz-selection {
   margin-top: -4px;
 }
 
-// Sosyal butonlar uzerine gelindiginde zemin sariya donuyordu; beyaz ikon
+// Sosyal butonlar uzerine gelindiginde zemin sariya donuyor; beyaz ikon
 // o zeminde okunmuyor (kontrast 1.46). Ikon rengi de koyulasiyor.
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   color: $gray-900;
+}
+
+// Bootstrap'in .text-muted rengi (#6c757d) acik gri zeminde 4.45 kontrast
+// veriyor; WCAG AA esigi 4.5. Bir tik koyulastirinca 6.2'ye cikiyor.
+.text-muted {
+  color: #5a6268 !important;
 }

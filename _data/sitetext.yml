@@ -44,7 +44,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "İLETİŞİM"
-    text: "Sorularınız ve teklif almak için aşağıdaki formu doldurabilir veya doğrudan WhatsApp'tan yazabilirsiniz: <br><br> <a href='https://wa.me/905302945495' target='_blank' style='background-color:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold;'><i class='fab fa-whatsapp'></i> WhatsApp ile Hızlı İletişim</a>"    # Aşağıdaki numarayı kendininkiyle değiştirmeyi unutma!
+    text: "Sorularınız ve teklif almak için aşağıdaki formu doldurabilir veya doğrudan WhatsApp'tan yazabilirsiniz: <br><br> <a href='https://wa.me/905302945495' target='_blank' style='background-color:#0f7d70; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold;'>WhatsApp ile Hızlı İletişim</a>"    # Aşağıdaki numarayı kendininkiyle değiştirmeyi unutma!
     section: iletisim
     name: "Adınız Soyadınız *"
     name-validation: "Lütfen adınızı giriniz."
@@ -69,10 +69,10 @@ en: &DEFAULT_EN
  #     - url: https://github.com/raviriley/agency-jekyll-theme
  #       icon: "fab fa-github"
       - url: https://www.instagram.com/bolatogluyapi/
-        icon: "fab fa-instagram"
+        svg: "instagram"
         title: "Instagram"
       - url: https://wa.me/905302945495
-        icon: "fab fa-whatsapp"
+        svg: "whatsapp"
         title: "WhatsApp"
       # tiktok ikonu yerel Font Awesome surumunde yok; SVG olarak gomulu
       # (bkz. _includes/footer.html). Boylece cdnjs'ten ikinci bir Font

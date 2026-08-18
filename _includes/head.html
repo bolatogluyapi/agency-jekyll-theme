@@ -42,14 +42,20 @@
   {% endif %}
   <!-- Bootstrap core CSS -->
   <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
-  <!-- Custom fonts for this template -->
-  <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
+  <!-- Font Awesome kaldirildi: ikonlar _includes/ikon.html icinde gomulu SVG.
+       Eskiden 56 KB CSS + 150 KB yazi tipi indiriliyordu. -->
   {% if site.data.style.fonts_urls %}
     {% for font_url in site.data.style.fonts_urls %}
-      <link href="{{font_url}}" rel="stylesheet" type="text/css">
+      {%- comment -%}
+        Yazi tipi stil dosyasi render'i engellemesin: once print olarak yuklenir,
+        indigi anda all'a cevrilir. display=swap sayesinde metin zaten yedek
+        yazi tipiyle hemen gorunuyor, bu yuzden gorsel bir kayip yok.
+      {%- endcomment -%}
+      <link rel="preload" as="style" href="{{font_url}}">
+      <link rel="stylesheet" href="{{font_url}}" media="print" onload="this.media='all'">
+      <noscript><link rel="stylesheet" href="{{font_url}}"></noscript>
     {% endfor %}
   {% else %}
-    <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
