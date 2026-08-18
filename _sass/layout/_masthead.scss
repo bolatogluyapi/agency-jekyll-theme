@@ -2,7 +2,11 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("#{$header-image}");
+  // Mobilde kucuk gorsel; 768px ustunde tam boyut.
+  background-image: url("#{$header-image-mobil}");
+  @media (min-width: 768px) {
+    background-image: url("#{$header-image}");
+  }
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

@@ -8,7 +8,12 @@
 # 1600px yerine 1280px + WebP: gorsel ~275 KB'dan ~90 KB'a iniyor.
 # NOT: Bu bir stok fotograf. Kendi islerinden birinin fotografini koyman
 # hem daha inandirici olur hem de bu dis baglantiyi ortadan kaldirir.
-header-image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1280&q=70&fm=webp&auto=format&fit=crop"
+# Kapak gorseli iki boyutta: mobilde kucuk olan iniyor.
+# Mobilde 187 KB'lik 1280px gorseli 360px'lik ekrana indirmek gereksizdi.
+# NOT: Bu bir stok fotograf. Kendi islerinden birinin fotografini koyman
+# hem daha inandirici olur hem de bu dis baglantiyi ortadan kaldirir.
+header-image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=72&fm=webp&auto=format&fit=crop"
+header-image-mobil: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=760&q=60&fm=webp&auto=format&fit=crop"
 contact-image: "../img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
