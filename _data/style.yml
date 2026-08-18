@@ -10,11 +10,10 @@ contact-image: "../img/contact.png"
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 
 # Add custom fonts
+# Dort yazi tipi tek istekte cekiliyor (| ayraci) ve display=swap sayesinde
+# font inene kadar metin gorunmez kalmiyor. Ayri ayri istemek 4 kat gecikme demekti.
 fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-    - "https://fonts.googleapis.com/css?family=Kaushan+Script"
-    - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-    - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+    - "https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:100,300,400,700&display=swap"
 
 # Set custom fonts
 fonts:

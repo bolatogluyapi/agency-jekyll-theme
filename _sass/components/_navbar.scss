@@ -6,7 +6,8 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    // sari zeminde beyaz yazi okunmuyordu (kontrast 1.46), koyu yazi 10.57
+    color: $gray-900;
     border: 0;
     background-color: $primary;
     @include heading-font;

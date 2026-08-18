@@ -49,7 +49,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/header.png
+      image: /assets/img/og-image.jpg
   - scope:
       path: ""
       type: portfolio

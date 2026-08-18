@@ -32,7 +32,7 @@ geo:
 
 # Isletme gorseli ve logosu (site kokune gore yol)
 logo: "/assets/img/logo.png"
-image: "/assets/img/header.png"
+image: "/assets/img/og-image.jpg"
 
 # Sosyal medya hesaplari. Google bunlari isletmeyle eslestirir.
 same_as:

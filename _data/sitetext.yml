@@ -70,10 +70,16 @@ en: &DEFAULT_EN
  #       icon: "fab fa-github"
       - url: https://www.instagram.com/bolatogluyapi/
         icon: "fab fa-instagram"
+        title: "Instagram"
       - url: https://wa.me/905302945495
         icon: "fab fa-whatsapp"
+        title: "WhatsApp"
+      # tiktok ikonu yerel Font Awesome surumunde yok; SVG olarak gomulu
+      # (bkz. _includes/footer.html). Boylece cdnjs'ten ikinci bir Font
+      # Awesome indirmemize gerek kalmiyor.
       - url: https://www.tiktok.com/@bolatogluyapi
-        icon: "fab fa-tiktok" 
+        svg: "tiktok"
+        title: "TikTok"
 
 en-001: #English (World)
   <<: *DEFAULT_EN

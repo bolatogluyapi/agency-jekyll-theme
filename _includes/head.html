@@ -1,4 +1,12 @@
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Dis kaynaklara baglantiyi erkenden kur: ilk istekte el sikisma suresi kazanilir -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+
   {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
@@ -14,8 +22,6 @@
   <!-- End Google Analytics -->
   {% endif %}
   {% seo %}
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {% comment %}
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
@@ -24,9 +30,18 @@
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% endcomment %}
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+
+  {%- comment -%}
+    Ana sayfadaki kapak gorseli CSS arka plani oldugu icin tarayici onu ancak
+    CSS'i indirip ayristirdiktan sonra fark ediyor. LCP suresini asagi cekmek
+    icin burada onceden haber veriyoruz.
+  {%- endcomment -%}
+  {% if page.layout == "home" and site.data.style.header-image %}
+  <link rel="preload" as="image" href="{{ site.data.style.header-image }}" fetchpriority="high">
+  {% endif %}
   <!-- Bootstrap core CSS -->
   <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <!-- Custom fonts for this template -->
   <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
   {% if site.data.style.fonts_urls %}

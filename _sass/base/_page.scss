@@ -8,10 +8,15 @@ p {
   line-height: 1.75;
 }
 
+// Acik zeminde marka sarisi link olarak okunmuyor (kontrast 1.46).
+// Metin linkleri icin ayni ailenin koyu tonu kullaniliyor: 4.92 -> AA gecer.
+// Butonlar, basliklar ve koyu zeminlerdeki ogeler marka sarisini korur.
+$link-color: #8a6d00 !default;
+
 a {
-  color: $primary;
+  color: $link-color;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken($link-color, 10%);
   }
 }
 
@@ -284,7 +289,7 @@ img::-moz-selection {
   height: 58px;
   padding: 0 22px;
   border-radius: 29px;
-  background: #25d366;
+  background: #0f7d70;
   color: #fff;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -321,4 +326,21 @@ img::-moz-selection {
       display: none;
     }
   }
+}
+
+// Footer'daki TikTok ikonu gomulu SVG (yerel Font Awesome surumunde yok).
+// Boyutu yanindaki font ikonlariyla ayni hizada duracak sekilde ayarlandi.
+.sosyal-svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+// Sosyal butonlar uzerine gelindiginde zemin sariya donuyordu; beyaz ikon
+// o zeminde okunmuyor (kontrast 1.46). Ikon rengi de koyulasiyor.
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  color: $gray-900;
 }
