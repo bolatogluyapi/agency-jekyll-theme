@@ -25,6 +25,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Cumhuriyet Mah. Katlanır Cam Balkon
 subtitle: Erbaa / Cumhuriyet
 location: "Tokat / Erbaa - Cumhuriyet Mah."
+ilce: "Erbaa"
 date: 2026-08-15
 category: "Cam Balkon Sistemleri"
 image: /assets/img/portfolio/ornek.jpg
@@ -54,7 +55,9 @@ Bir paragraf: ortaya ne çıktı.
 | `caption.subtitle` | Kartta başlığın altı. Genelde ilçe/mahalle. |
 | `caption.thumbnail` | Karttaki küçük görsel. |
 | `title` | Proje sayfasının `h1`'i ve arama sonucu başlığı. |
+| `subtitle` | Proje sayfasında başlığın altındaki tek satır. |
 | `location` | Meta şeridindeki "Konum". |
+| `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı: Erbaa, Tokat, Turhal, Niksar, Taşova, Suluova, Kadıköy. |
 | `date` | **Sıralamayı bu belirler.** Yeni tarih en üste çıkar. `YYYY-AA-GG`. |
 | `category` | **Hangi hizmet sayfasında görüneceğini belirler.** Aşağıya bak. |
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
@@ -94,12 +97,17 @@ Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 bundle _2.7.2_ exec jekyll build
 ```
 
-Uyarı çıkmamalı. Sonra `bundle _2.7.2_ exec jekyll serve` ile:
+`Error` veya `Conflict` satırı çıkmamalı. **Sass deprecation uyarıları
+normaldir** — temadan geliyor, işin bozulduğu anlamına gelmez.
+
+Sonra `bundle _2.7.2_ exec jekyll serve` ile üçünü de kontrol et:
 
 - `/islerim/` — yeni proje en üstte mi (tarih en yeniyse)
 - `/hizmetler/<ilgili-sayfa>/` — proje sayısı bir artmış mı
+- `/<ilce>/` — bölge sayfasındaki sayı bir artmış mı
 
-İkincisi artmadıysa `category` yazımı tutmuyordur.
+İkincisi artmadıysa `category`, üçüncüsü artmadıysa `ilce` yazımı tutmuyordur.
+Build hata vermez, sessizce eşleşmez.
 
 ## 6. Yayınla
 
@@ -123,7 +131,7 @@ title: "Erbaa ... Sistemleri"     # arama sonucu basligi, ~40 karakter
 heading: "... Sistemleri"          # sayfadaki h1 ve kart basligi
 subtitle: "Tek cumlelik ozet"      # kartin altindaki aciklama
 description: "140-160 karakter."
-icon: fas fa-tools                 # fontawesome.com/icons
+icon: tools                        # asagidaki listeden bir ad
 order: 10                          # kartlarin sirasi
 categories:
   - "İlgili Kategori"
@@ -132,8 +140,26 @@ categories:
 Hizmet metni buraya.
 ```
 
-Ana sayfadaki hizmet kartları ve `/hizmetler/` sayfası bu klasörden
-otomatik beslenir, ayrıca bir yere eklemen gerekmez.
+Ana sayfadaki hizmet kartları, `/hizmetler/` sayfası, bütün bölge
+sayfalarındaki hizmet listesi ve yapısal veri bu klasörden otomatik beslenir.
+Ayrıca bir yere eklemen gerekmez.
+
+### Kullanılabilir ikon adları
+
+Font Awesome'ı siteden kaldırdık (18 ikon için 162 KB yazı tipi indiriliyordu).
+İkonlar artık `_includes/ikon.html` içinde gömülü SVG olarak duruyor. `icon:`
+alanına **yalnızca** şunlardan birini yazabilirsin:
+
+    bars          bath          border-all    clock         columns
+    door-closed   envelope      home          layer-group   map-marker-alt
+    phone         plus          shield-alt    tools         window-maximize
+
+`fas fa-tools` gibi eski yazım da çalışır, sondaki adı alır. Ama listede
+olmayan bir ad yazarsan (örneğin `fa-fire-extinguisher`) sayfa bozulmaz,
+**sade bir daire** çıkar.
+
+Yeni ikon gerekiyorsa: fontawesome.com/icons adresinden SVG'yi indir,
+`_includes/ikon.html` dosyasına örnektekiler gibi bir `when` satırı ekle.
 
 ---
 
