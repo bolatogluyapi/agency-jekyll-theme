@@ -23,7 +23,7 @@ layout: default
 
     <div class="row">
       <div class="col-lg-9 mx-auto">
-        <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.caption.thumbnail }}" alt="{{ page.alt | default: page.title }}" loading="lazy" style="width: 100%; max-height: 520px; object-fit: cover;">
+        <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy" style="width: 100%; max-height: 520px; object-fit: cover;">
 
         <ul class="project-meta">
           {% if page.location %}<li><span class="project-meta-label">Konum</span>{{ page.location }}</li>{% endif %}

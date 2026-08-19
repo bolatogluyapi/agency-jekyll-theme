@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Ziya Gökalp Mah."
 ilce: "Erbaa"
 date: 2026-04-09
 category: "Banyo Sistemleri"
+image: https://i.pinimg.com/1200x/cd/92/38/cd9238f45a843e64d2368bc381f4cb27.jpg
 alt: Erbaa İki Duvar Arası Makaralı Cam Duşakabin - Tokat / Erbaa - Ziya Gökalp Mah.
 description: "Bolatoğlu Yapı farkıyla, banyonuzdaki niş alanları lüks bir duş alanına çeviren, iki duvar arası üstten askılı cam duşakabin projemiz."
 ---

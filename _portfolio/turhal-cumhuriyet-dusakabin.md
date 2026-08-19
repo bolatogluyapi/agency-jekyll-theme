@@ -11,6 +11,7 @@ location: "Tokat / Turhal - Cumhuriyet Mah."
 ilce: "Turhal"
 date: 2026-03-17
 category: "Banyo Sistemleri"
+image: https://i.pinimg.com/736x/21/45/01/214501e96f77f5098d113070b35dacb0.jpg
 alt: Turhal Ahşap Zeminli Modern Cam Duşakabin - Tokat / Turhal - Cumhuriyet Mah.
 description: "Bolatoğlu Yapı olarak, Turhal'da ahşap zemin dokusuyla bütünleşen, üstten askılı şeffaf cam duşakabin montajımız."
 ---

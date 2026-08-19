@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Fevzi Paşa Mah."
 ilce: "Erbaa"
 date: 2026-08-12
 category: "PVC Kapı Pencere"
+image: https://i.pinimg.com/originals/f1/64/f5/f164f57d5bb5279b8e937fe1d9ead963.jpg
 alt: Erbaa Beyaz PVC Pencere ve Kapı Yenileme - Tokat / Erbaa - Fevzi Paşa Mah.
 description: "Bolatoğlu Yapı uzmanlığıyla, tadilat sürecindeki mekanlar için gerçekleştirdiğimiz yüksek yalıtımlı beyaz PVC pencere ve kapı montajı projemiz."
 ---

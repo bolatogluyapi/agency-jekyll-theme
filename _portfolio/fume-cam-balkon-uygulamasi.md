@@ -11,6 +11,7 @@ location: "Tokat / Erbaa"
 ilce: "Erbaa"
 date: 2026-01-08
 category: "Cam Balkon Sistemleri"
+image: https://i.pinimg.com/1200x/98/ed/0f/98ed0f386363629a84ba61553e306362.jpg
 alt: Lüks Füme Cam Balkon ve Korkuluk Entegrasyonu - Tokat / Erbaa
 description: "Bolatoğlu Yapı olarak, Estetik füme cam balkon sistemi ile gold detaylı korkulukların mükemmel uyumu."
 ---

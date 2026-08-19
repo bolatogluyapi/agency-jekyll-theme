@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Cumhuriyet Mah."
 ilce: "Erbaa"
 date: 2024-11-10
 category: "PVC Kapı Pencere"
+image: https://i.pinimg.com/1200x/83/3f/53/833f53f525bc7f51fd26173caa9d4336.jpg
 alt: Erbaa Cumhuriyet Mah. PVC Yenileme - Tokat / Erbaa - Cumhuriyet Mah.
 description: "Bolatoğlu Yapı olarak, Eski ahşap doğramaların sökülerek, yüksek ısı yalıtımlı antrasit gri PVC sistemleri ile yenilenmesi."
 ---

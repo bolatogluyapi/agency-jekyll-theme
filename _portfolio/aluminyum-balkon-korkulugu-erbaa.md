@@ -13,6 +13,7 @@ date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Apartman Yönetimi"
 category: "Korkuluk Sistemleri"
+image: https://i.pinimg.com/1200x/52/6a/f6/526af65da51c4c8ba12fb90001bf100a.jpg
 alt: Erbaa Cumhuriyet Mahallesi paslanmaz kare alüminyum balkon korkuluğu montajı
 description: "Erbaa Cumhuriyet Mahallesi'nde paslanmaz kare sistem alüminyum balkon korkuluğu ve küpeşte montajı. Eloksal kaplama, boya gerektirmeyen uzun ömürlü çözüm."
 ---

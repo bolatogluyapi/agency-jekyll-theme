@@ -11,6 +11,7 @@ location: "Tokat / Erbaa"
 ilce: "Erbaa"
 date: 2025-12-19
 category: "Alüminyum Doğrama"
+image: https://i.pinimg.com/736x/18/9f/41/189f41b6b86e7736bae0b86840e7ad50.jpg
 alt: Modern Ofis Cam Bölme Sistemleri - Tokat / Erbaa
 description: "Bolatoğlu Yapı olarak, Ofis çalışma alanlarını daha ferah ve modern hale getiren tam temperli cam bölme sistemleri uygulamamız."
 ---

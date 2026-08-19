@@ -13,6 +13,7 @@ date: 2025-08-01
 date_text: "Ağustos 2025"
 client: "Mustafa Bey"
 category: "PVC Kapı Pencere"
+image: https://i.pinimg.com/1200x/57/30/83/573083a6e603fbae615276651c0bd71b.jpg
 alt: Niksar Çamiçi Yaylası ahşap görünümlü altınmeşe renkli PVC pencere ve sineklik uygulaması
 description: "Niksar Çamiçi Yaylası'nda ahşap görünümlü altınmeşe renkli PVC pencere ve sineklik uygulaması. Sinerji cam ile %50 daha az ısı kaybı."
 ---

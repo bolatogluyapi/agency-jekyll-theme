@@ -13,6 +13,7 @@ date: 2025-10-01
 date_text: "Ekim 2025"
 client: "Kemal Bey"
 category: "PVC Sistemleri"
+image: https://i.pinimg.com/1200x/53/24/0b/53240bd86a7cb18f5695497180d30284.jpg
 alt: Turhal müstakil ev sandviç panel çatılı ısıcamlı PVC teras kapatma ve kış bahçesi uygulaması
 description: "Turhal'da müstakil evin terasını sandviç panel çatı ve 80'lik seri PVC doğrama ile kapatarak ısıcamlı kış bahçesine dönüştürdüğümüz proje."
 ---

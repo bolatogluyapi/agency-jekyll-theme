@@ -60,6 +60,7 @@ Bir paragraf: ortaya ne çıktı.
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
 | `description` | Arama sonucundaki açıklama. 140-160 karakter ideal. |
 | `alt` | Görsel açıklaması. Görsel aramada işe yarar, boş bırakma. |
+| `image` | **Link paylaşıldığında çıkan önizleme görseli.** Proje sayfalarında o işin fotoğrafı, diğer tüm sayfalarda logo kullanılır. Değeri `caption.thumbnail` ile aynı olmalı. |
 
 `order` diye bir alan yok, sıralama tamamen `date` ile.
 
@@ -167,7 +168,6 @@ title: "Zile PVC Pencere ve Cam Balkon"    # arama sonucu basligi, ~40 karakter
 heading: "Zile"                            # sayfadaki h1
 subtitle: "Zile'de tamamladığımız işler."  # h1 altindaki tek satir
 description: "140-160 karakter, arama sonucu aciklamasi."
-image: /assets/img/og-image.jpg
 ---
 
 Buraya o ilçeye özgü metin yaz. En az 100 kelime olsun.

@@ -13,6 +13,7 @@ date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Esra Hanım"
 category: "Sineklik Sistemleri"
+image: https://i.pinimg.com/1200x/b3/63/67/b36367c329cb20018914c626602d357a.jpg
 alt: Tokat Yeşilırmak Evleri kapı ve pencere için pileli akordiyon sineklik montajı
 description: "Tokat Yeşilırmak Evleri'nde kapı ve pencerelere pileli (akordiyon) sineklik montajı. Fiberglass tül, alüminyum kasa ve mıknatıslı kilit sistemi."
 ---

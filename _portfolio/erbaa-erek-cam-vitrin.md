@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Erek Cad."
 ilce: "Erbaa"
 date: 2026-03-24
 category: "Alüminyum Doğrama"
+image: https://i.pinimg.com/736x/13/ab/0c/13ab0c8e8d6976a9727baae22b7b329e.jpg
 alt: Erbaa Çerçevesiz Cam Vitrin ve Dükkan Cephesi - Tokat / Erbaa - Erek Cad.
 description: "Bolatoğlu Yapı farkıyla iş yerlerinize değer katan, siyah aksesuarlı modern ve şeffaf dükkan cam vitrin cephe projemiz."
 ---

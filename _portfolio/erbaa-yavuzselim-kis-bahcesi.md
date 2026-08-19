@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Yavuz Sultan Selim Mah."
 ilce: "Erbaa"
 date: 2026-04-01
 category: "PVC Sistemleri"
+image: https://i.pinimg.com/1200x/18/73/79/18737977ffa29506f0bda775e0bbd501.jpg
 alt: Erbaa PVC Balkon Kapatma ve Kış Bahçesi - Tokat / Erbaa - Yavuz Sultan Selim Mah.
 description: "Bolatoğlu Yapı uzmanlığıyla, balkonlarınızı dört mevsim yaşanabilir, yüksek ısı yalıtımlı şık kış bahçelerine dönüştürüyoruz."
 ---

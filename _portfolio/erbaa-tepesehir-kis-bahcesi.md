@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Tepeşehir Mah."
 ilce: "Erbaa"
 date: 2026-06-05
 category: "PVC Sistemleri"
+image: https://i.pinimg.com/736x/b5/28/38/b52838a7f349728d7486d221af8806a7.jpg
 alt: Erbaa Tuğla Kolonlu Modern Kış Bahçesi - Tokat / Erbaa - Tepeşehir Mah.
 description: "Bolatoğlu Yapı tecrübesiyle, doğal tuğla dokusunu koruyarak açık alanlarınızı dört mevsim yaşanabilir şık bir kış bahçesine dönüştürüyoruz."
 ---

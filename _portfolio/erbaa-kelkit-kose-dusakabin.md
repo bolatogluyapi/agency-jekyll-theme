@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Kelkit Mah."
 ilce: "Erbaa"
 date: 2026-04-09
 category: "Banyo Sistemleri"
+image: https://i.pinimg.com/736x/8c/8f/41/8c8f41a89e8959e823382e8b6d275038.jpg
 alt: Erbaa Şeffaf Cam Köşe Duşakabin (Menteşeli) - Tokat / Erbaa - Kelkit Mah.
 description: "Bolatoğlu Yapı farkıyla, banyonuzun mermer dokusunu öne çıkaran üstten gergili ve menteşeli şeffaf cam köşe duşakabin montajımız."
 ---

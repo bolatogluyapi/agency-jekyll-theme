@@ -11,6 +11,7 @@ location: "Amasya / Suluova"
 ilce: "Suluova"
 date: 2026-08-11
 category: "PVC Kapı Pencere"
+image: https://i.pinimg.com/originals/51/5d/3a/515d3a931dea7e495769b6ee878a7789.jpg
 alt: Suluova Yeni İnşaat Beyaz PVC Fransız Pencere - Amasya / Suluova
 description: "İnşaat aşamasındaki projeler için gerçekleştirdiğimiz, odaya maksimum gün ışığı sağlayan yüksek yalıtımlı beyaz PVC Fransız pencere montajımız."
 ---

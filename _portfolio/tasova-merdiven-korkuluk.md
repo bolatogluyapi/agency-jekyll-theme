@@ -11,6 +11,7 @@ location: "Amasya / Taşova"
 ilce: "Taşova"
 date: 2026-08-04
 category: "Korkuluk Sistemleri"
+image: https://i.pinimg.com/736x/ef/d9/98/efd9985332e368c9cdf2c44370cecdf6.jpg
 alt: Taşova Füme Camlı Paslanmaz Merdiven Korkuluğu - Amasya / Taşova
 description: "Bolatoğlu Yapı güvencesiyle, Taşova'da tamamladığımız modern tasarımlı, kare profilli ve füme camlı paslanmaz merdiven korkuluğu projemiz."
 ---

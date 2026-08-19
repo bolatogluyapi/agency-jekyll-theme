@@ -11,6 +11,7 @@ location: "Tokat / Erbaa - Fevzi Çakmak Mah."
 ilce: "Erbaa"
 date: 2025-02-15
 category: "Korkuluk Sistemleri"
+image: https://i.pinimg.com/736x/e6/05/00/e6050029a1c1dfa076bc37233d3644bb.jpg
 alt: Erbaa Paslanmaz (Krom) Balkon Korkuluğu - Tokat / Erbaa - Fevzi Çakmak Mah.
 description: "Bolatoğlu Yapı güvencesiyle, paslanmaya karşı ömür boyu garantili, şık ve dayanıklı 3 şeritli paslanmaz çelik balkon korkuluk uygulamamız."
 ---
