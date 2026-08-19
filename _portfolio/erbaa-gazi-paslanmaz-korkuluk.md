@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Paslanmaz Camlı Merdiven Korkuluğu
 subtitle: Erbaa / Gazi Osman Paşa
 location: "Tokat / Erbaa - Gazi Osman Paşa Mah."
+ilce: "Erbaa"
 date: 2025-02-02
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/5c/77/5f/5c775fd8112e2ca81c6ec3d70eb8bcda.jpg

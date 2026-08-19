@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: PVC Teras Kapatma ve Kış Bahçesi
 subtitle: Turhal
 location: "Tokat / Turhal"
+ilce: "Turhal"
 date: 2025-10-01
 date_text: "Ekim 2025"
 client: "Kemal Bey"

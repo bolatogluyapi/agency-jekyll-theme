@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Pileli (Akordiyon) Sineklik Montajı
 subtitle: Tokat / Yeşilırmak Evleri
 location: "Tokat / Yeşilırmak Evleri"
+ilce: "Tokat"
 date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Esra Hanım"

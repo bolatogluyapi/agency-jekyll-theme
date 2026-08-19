@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Suluova Yeni İnşaat Beyaz PVC Fransız Pencere
 subtitle: Suluova / Amasya
 location: "Amasya / Suluova"
+ilce: "Suluova"
 date: 2026-08-11
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/originals/51/5d/3a/515d3a931dea7e495769b6ee878a7789.jpg

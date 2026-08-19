@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Spigot Ayaklı Cam Teras Korkuluğu
 subtitle: Erbaa / Alpaslan
 location: "Tokat / Erbaa - Alpaslan Mah."
+ilce: "Erbaa"
 date: 2026-07-11
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/ff/e5/80/ffe580f8ff9c93b5cb28a604db499709.jpg

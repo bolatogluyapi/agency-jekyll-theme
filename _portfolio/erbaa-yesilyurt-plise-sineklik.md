@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Ahşap Desenli Sürme Plise Sineklik
 subtitle: Erbaa / Yeşilyurt
 location: "Tokat / Erbaa - Yeşilyurt Mah."
+ilce: "Erbaa"
 date: 2026-04-15
 category: "Sineklik Sistemleri"
 image: https://i.pinimg.com/1200x/43/ab/b0/43abb07605df3f853fce632815c87fc1.jpg

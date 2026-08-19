@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Cam Ofis Bölme Sistemleri
 subtitle: Erbaa OSB
 location: "Tokat / Erbaa - Organize Sanayi Bölgesi"
+ilce: "Erbaa"
 date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Kılıç Tekstil"

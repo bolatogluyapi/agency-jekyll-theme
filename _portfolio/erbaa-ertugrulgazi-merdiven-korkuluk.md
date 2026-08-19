@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Kare Profil Camlı Merdiven Korkuluğu
 subtitle: Erbaa / Ertuğrul Gazi
 location: "Tokat / Erbaa - Ertuğrul Gazi Mah."
+ilce: "Erbaa"
 date: 2026-04-28
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/1200x/6f/6a/13/6f6a13a9d642f6a94455c402a4bb492d.jpg

@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Turhal Ahşap Zeminli Modern Cam Duşakabin
 subtitle: Turhal / Cumhuriyet
 location: "Tokat / Turhal - Cumhuriyet Mah."
+ilce: "Turhal"
 date: 2026-03-17
 category: "Banyo Sistemleri"
 image: https://i.pinimg.com/736x/21/45/01/214501e96f77f5098d113070b35dacb0.jpg

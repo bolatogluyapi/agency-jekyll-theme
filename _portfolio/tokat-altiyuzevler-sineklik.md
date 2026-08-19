@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Tokat Altıyüzevler Sürgülü Sineklik
 subtitle: Tokat / Altıyüzevler
 location: "Tokat / Merkez - Altıyüzevler Mah."
+ilce: "Tokat"
 date: 2025-01-25
 category: "Sineklik Sistemleri"
 image: https://i.pinimg.com/736x/0f/5c/cc/0f5cccda1db505fc8d538910e3de11cc.jpg

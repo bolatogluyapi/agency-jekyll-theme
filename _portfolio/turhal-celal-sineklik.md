@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Turhal Celal Mah. Pileli Sineklik
 subtitle: Turhal / Celal
 location: "Tokat / Turhal - Celal Mah."
+ilce: "Turhal"
 date: 2024-12-21
 category: "Sineklik Sistemleri"
 image: https://i.pinimg.com/736x/26/d4/22/26d42217fb88553ffcabb945428d2a67.jpg

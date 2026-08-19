@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Tokat Karşıyaka Beyaz Pileli Sineklik
 subtitle: Tokat / Karşıyaka
 location: "Tokat / Merkez - Karşıyaka Mah."
+ilce: "Tokat"
 date: 2025-01-05
 category: "Sineklik Sistemleri"
 image: https://i.pinimg.com/1200x/6a/78/56/6a785684c1547bad89bfc8240102d869.jpg

@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Niksar Bağlar Mah. Katlanır Cam Balkon
 subtitle: Niksar / Bağlar
 location: "Tokat / Niksar - Bağlar Mah."
+ilce: "Niksar"
 date: 2024-12-20
 category: "Cam Balkon Sistemleri"
 image: https://i.pinimg.com/1200x/ed/cd/a8/edcda89e635139064a800d68ad4a354d.jpg

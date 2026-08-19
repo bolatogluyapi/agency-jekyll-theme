@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Antrasit Katlanır Cam Balkon
 subtitle: Erbaa / Karayaka
 location: "Tokat / Erbaa - Karayaka Beldesi"
+ilce: "Erbaa"
 date: 2026-05-11
 category: "Cam Balkon Sistemleri"
 image: https://i.pinimg.com/736x/c4/08/7d/c4087db294d5dc4b0fdc23053d2611ae.jpg

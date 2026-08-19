@@ -1,0 +1,54 @@
+---
+layout: default
+---
+{%- comment -%}
+  Genel icerik sayfasi layout'u (ornek: /erbaa-pimapen/).
+  Front matter alanlari:
+    title    -> arama sonucu basligi
+    heading  -> sayfadaki h1 (yoksa title kullanilir)
+    subtitle -> h1 altindaki tek satir
+{%- endcomment -%}
+{% include nav.html %}
+
+<section class="page-section" id="sayfa" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.heading | default: page.title }}</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        {% if page.subtitle %}<p class="section-subheading text-muted">{{ page.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <div class="project-body">
+          {{ content }}
+        </div>
+
+        <div class="text-center" style="margin-top: 40px;">
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/#iletisim' | relative_url }}">ÜCRETSİZ KEŞİF VE TEKLİF</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": {{ '/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": {{ page.heading | default: page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>

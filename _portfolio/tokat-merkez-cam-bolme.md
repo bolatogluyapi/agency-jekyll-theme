@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Tokat Merkez Ofis Cam Bölme
 subtitle: Tokat / Esentepe
 location: "Tokat / Merkez - Esentepe Mah."
+ilce: "Tokat"
 date: 2025-01-10
 category: "Alüminyum Doğrama"
 image: https://i.pinimg.com/736x/35/01/17/3501170eb4814bb64aed66f2b16252dc.jpg

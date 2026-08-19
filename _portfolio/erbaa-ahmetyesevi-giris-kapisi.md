@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Bronz Renk Camlı Bina Giriş Kapısı
 subtitle: Erbaa / Ahmet Yesevi
 location: "Tokat / Erbaa - Ahmet Yesevi Mah."
+ilce: "Erbaa"
 date: 2026-08-06
 category: "Alüminyum Doğrama"
 image: https://i.pinimg.com/736x/50/04/fb/5004fb39dc54c02a49ce20d536a7fab7.jpg

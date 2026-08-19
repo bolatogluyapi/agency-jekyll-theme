@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Beyaz PVC Sürme Balkon Kapısı
 subtitle: Erbaa / Yeni Mahalle
 location: "Tokat / Erbaa - Yeni Mah."
+ilce: "Erbaa"
 date: 2026-08-13
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/1200x/c8/39/4e/c8394e32cec3146379c10b88645c9e51.jpg

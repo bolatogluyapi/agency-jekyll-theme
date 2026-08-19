@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Komple Bina Antrasit PVC Doğrama
 subtitle: Erbaa / Mevlana
 location: "Tokat / Erbaa - Mevlana Mah."
+ilce: "Erbaa"
 date: 2026-06-29
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/736x/3f/11/9a/3f119a280f5a7e8b68e3da1ccd1d9510.jpg

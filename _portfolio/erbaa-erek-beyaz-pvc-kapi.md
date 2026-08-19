@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Beyaz PVC Teras ve Balkon Kapısı
 subtitle: Erbaa / Erek
 location: "Tokat / Erbaa - Erek Mah."
+ilce: "Erbaa"
 date: 2026-08-05
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/1200x/0f/4c/c9/0f4cc9e3ec6c3c4928a42ac41424f996.jpg

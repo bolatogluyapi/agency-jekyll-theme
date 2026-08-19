@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Paslanmaz (Krom) Balkon Korkuluğu
 subtitle: Erbaa / Fevzi Çakmak
 location: "Tokat / Erbaa - Fevzi Çakmak Mah."
+ilce: "Erbaa"
 date: 2025-02-15
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/e6/05/00/e6050029a1c1dfa076bc37233d3644bb.jpg

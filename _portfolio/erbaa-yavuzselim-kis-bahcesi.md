@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa PVC Balkon Kapatma ve Kış Bahçesi
 subtitle: Erbaa / Yavuz Sultan Selim
 location: "Tokat / Erbaa - Yavuz Sultan Selim Mah."
+ilce: "Erbaa"
 date: 2026-04-01
 category: "PVC Sistemleri"
 image: https://i.pinimg.com/1200x/18/73/79/18737977ffa29506f0bda775e0bbd501.jpg

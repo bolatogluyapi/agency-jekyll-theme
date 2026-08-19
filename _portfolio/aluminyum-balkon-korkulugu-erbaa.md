@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Paslanmaz Alüminyum (Kare) Küpeşte
 subtitle: Erbaa / Cumhuriyet Mahallesi
 location: "Tokat / Erbaa - Cumhuriyet Mahallesi"
+ilce: "Erbaa"
 date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Apartman Yönetimi"

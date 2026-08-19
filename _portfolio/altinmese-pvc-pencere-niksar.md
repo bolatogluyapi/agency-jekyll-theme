@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Altınmeşe Renkli PVC Pencere
 subtitle: Niksar / Çamiçi Yaylası
 location: "Tokat / Niksar - Çamiçi Yaylası"
+ilce: "Niksar"
 date: 2025-08-01
 date_text: "Ağustos 2025"
 client: "Mustafa Bey"

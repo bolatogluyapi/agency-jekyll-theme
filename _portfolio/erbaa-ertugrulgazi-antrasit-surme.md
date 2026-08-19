@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Antrasit Gri PVC Sürme Balkon Kapısı
 subtitle: Erbaa / Tokat
 location: "Tokat / Erbaa - Ertuğrul Gazi Mah."
+ilce: "Erbaa"
 date: 2026-08-18
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/1200x/0c/c3/ae/0cc3ae57fce7eba58cf6ab8754dcccce.jpg

@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: PVC Pencere Bakımı ve Fitil Değişimi
 subtitle: Turhal
 location: "Tokat / Turhal"
+ilce: "Turhal"
 date: 2025-12-01
 date_text: "Aralık 2025"
 client: "Ali Bey"

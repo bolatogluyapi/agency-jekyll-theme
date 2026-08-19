@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Siyah Kareli (Karolajlı) Duşakabin
 subtitle: Kadıköy / Göztepe Mahallesi
 location: "İstanbul / Kadıköy - Göztepe Mahallesi"
+ilce: "Kadıköy"
 date: 2025-11-01
 date_text: "Kasım 2025"
 client: "Fatma Hanım"

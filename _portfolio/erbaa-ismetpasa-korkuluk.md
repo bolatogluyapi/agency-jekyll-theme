@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa 4 Şeritli Alüminyum Balkon Korkuluğu
 subtitle: Erbaa / İsmet Paşa
 location: "Tokat / Erbaa - İsmet Paşa Mah."
+ilce: "Erbaa"
 date: 2025-02-20
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/1200x/ad/5c/5b/ad5c5bbe8178144a6b9bb5b307b0783f.jpg

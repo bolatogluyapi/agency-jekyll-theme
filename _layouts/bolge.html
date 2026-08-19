@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- comment -%}
+  Bolge (ilce) sayfasi. Projeler _portfolio icindeki "ilce" alanina gore
+  otomatik listelenir; yeni proje eklendiginde ilgili bolge sayfasinda
+  kendiliginden gorunur.
+{%- endcomment -%}
+{% include nav.html %}
+
+{%- assign projeler = site.portfolio | where: "ilce", page.ilce | sort: "date" | reverse -%}
+{%- assign hizmetler = site.hizmetler | sort: "order" -%}
+
+<section class="page-section portfolio-grid" id="bolge" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/islerim/' | relative_url }}">İşlerimiz</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.heading | default: page.title }}</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        {% if page.subtitle %}<p class="section-subheading text-muted">{{ page.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <div class="project-body">{{ content }}</div>
+      </div>
+    </div>
+
+    {% if projeler.size > 0 %}
+    <div class="row" style="margin-top: 60px;">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ page.ilce | upcase }}'DA YAPTIĞIMIZ İŞLER</h2>
+        <p class="section-subheading text-muted">Bu ilçede tamamladığımız {{ projeler.size }} iş.</p>
+      </div>
+    </div>
+    <div class="row">
+      {% for project in projeler %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="{{ project.url | relative_url }}">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">{% include ikon.html ad="plus" sinif="ikon-buyuk" %}</div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="{{ project.caption.title }}" loading="lazy">
+        </a>
+        <div class="portfolio-caption">
+          <h4><a href="{{ project.url | relative_url }}" style="color: inherit;">{{ project.caption.title }}</a></h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2 class="section-heading text-uppercase">{{ page.ilce | upcase }}'DA VERDİĞİMİZ HİZMETLER</h2>
+        <p class="hizmet-linkleri">
+          {%- for h in hizmetler %}
+          <a href="{{ h.url | relative_url }}">{{ h.heading | default: h.title }}</a>{% unless forloop.last %} <span>·</span> {% endunless %}
+          {%- endfor %}
+        </p>
+        <div style="margin-top: 30px;">
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/#iletisim' | relative_url }}">ÜCRETSİZ KEŞİF VE TEKLİF</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": {{ '/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": "İşlerimiz", "item": {{ '/islerim/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 3, "name": {{ page.heading | default: page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>

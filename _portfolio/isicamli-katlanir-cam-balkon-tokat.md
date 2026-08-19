@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Isıcamlı Katlanır Cam Balkon
 subtitle: Karşıyaka Mahallesi / Tokat
 location: "Tokat / Karşıyaka Mahallesi"
+ilce: "Tokat"
 date: 2025-11-01
 date_text: "Kasım 2025"
 client: "Ahmet Bey"

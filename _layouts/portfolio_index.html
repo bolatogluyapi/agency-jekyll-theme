@@ -42,5 +42,18 @@ layout: default
 
     {{ content }}
 
+    {%- comment -%} Bolge sayfalarina ic link: hem ziyaretci hem arama motoru icin {%- endcomment -%}
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2 class="section-heading text-uppercase">BÖLGELERE GÖRE</h2>
+        <p class="hizmet-linkleri">
+          <a href="{{ '/erbaa/' | relative_url }}">Erbaa</a> <span>·</span>
+          <a href="{{ '/tokat/' | relative_url }}">Tokat Merkez</a> <span>·</span>
+          <a href="{{ '/turhal/' | relative_url }}">Turhal</a> <span>·</span>
+          <a href="{{ '/niksar/' | relative_url }}">Niksar</a>
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>

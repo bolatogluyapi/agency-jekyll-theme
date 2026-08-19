@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Çerçevesiz Menteşeli Cam Duşakabin
 subtitle: Erbaa / Yıldırım Beyazıt
 location: "Tokat / Erbaa - Yıldırım Beyazıt Mah."
+ilce: "Erbaa"
 date: 2026-06-09
 category: "Banyo Sistemleri"
 image: https://i.pinimg.com/736x/38/01/a2/3801a2bf94bca8cc7c18d1af39afbdfa.jpg

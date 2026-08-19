@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Taşova Füme Camlı Paslanmaz Merdiven Korkuluğu
 subtitle: Taşova / Amasya
 location: "Amasya / Taşova"
+ilce: "Taşova"
 date: 2026-08-04
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/ef/d9/98/efd9985332e368c9cdf2c44370cecdf6.jpg

@@ -8,6 +8,7 @@ caption: #ana sayfa ve /islerim/ grid'inde gorunen bilgiler
 title: Erbaa Tuğla Kolonlu Modern Kış Bahçesi
 subtitle: Erbaa / Tepeşehir
 location: "Tokat / Erbaa - Tepeşehir Mah."
+ilce: "Erbaa"
 date: 2026-06-05
 category: "PVC Sistemleri"
 image: https://i.pinimg.com/736x/b5/28/38/b52838a7f349728d7486d221af8806a7.jpg
