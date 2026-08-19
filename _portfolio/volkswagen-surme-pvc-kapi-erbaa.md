@@ -13,7 +13,6 @@ date: 2025-08-01
 date_text: "Ağustos 2025"
 client: "Mehmet Bey"
 category: "PVC Kapı Pencere"
-image: https://i.pinimg.com/736x/6d/ec/c2/6decc2c1a0f6326102a6711d6db8a12a.jpg
 alt: Erbaa bahçe çıkışı için tam yalıtımlı devirmeli volkswagen sürme PVC kapı montajı
 description: "Erbaa'da bahçe çıkışına monte ettiğimiz devirmeli (Volkswagen) sürme PVC kapı. Çok noktalı kilit ve tam sızdırmazlık sağlayan conta sistemi."
 ---

@@ -11,7 +11,6 @@ location: "Tokat / Merkez - Esentepe Mah."
 ilce: "Tokat"
 date: 2025-01-10
 category: "Alüminyum Doğrama"
-image: https://i.pinimg.com/736x/35/01/17/3501170eb4814bb64aed66f2b16252dc.jpg
 alt: Tokat Merkez Ofis Cam Bölme - Tokat / Merkez - Esentepe Mah.
 description: "Bolatoğlu Yapı olarak, Ofis içi alan yönetiminde şıklık ve ferahlığı bir arada sunan, paslanmaz sürgü sistemli cam bölme uygulaması."
 ---

@@ -11,7 +11,6 @@ location: "Tokat / Merkez - Altıyüzevler Mah."
 ilce: "Tokat"
 date: 2025-01-25
 category: "Sineklik Sistemleri"
-image: https://i.pinimg.com/736x/0f/5c/cc/0f5cccda1db505fc8d538910e3de11cc.jpg
 alt: Tokat Altıyüzevler Sürgülü Sineklik - Tokat / Merkez - Altıyüzevler Mah.
 description: "Bolatoğlu Yapı olarak, Geniş sürme kapılar için özel olarak üretilen, ray üzerinde hareket eden pratik ve dayanıklı antrasit gri sineklik uygulaması."
 ---

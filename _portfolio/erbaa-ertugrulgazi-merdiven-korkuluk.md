@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Ertuğrul Gazi Mah."
 ilce: "Erbaa"
 date: 2026-04-28
 category: "Korkuluk Sistemleri"
-image: https://i.pinimg.com/1200x/6f/6a/13/6f6a13a9d642f6a94455c402a4bb492d.jpg
 alt: Erbaa Kare Profil Camlı Merdiven Korkuluğu - Tokat / Erbaa - Ertuğrul Gazi Mah.
 description: "Bolatoğlu Yapı kalitesiyle, dubleks dairelerinize estetik katan kare paslanmaz profilli ve ahşap küpeşteli şeffaf cam korkuluk projemiz."
 ---

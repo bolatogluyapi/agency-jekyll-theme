@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Yeni Mah."
 ilce: "Erbaa"
 date: 2025-02-25
 category: "Banyo Sistemleri"
-image: https://i.pinimg.com/1200x/25/e2/91/25e2911029754eea45a44d99bfd27393.jpg
 alt: Erbaa Şeffaf Cam Sürgülü Duşakabin Uygulaması - Tokat / Erbaa - Yeni Mah.
 description: "Bolatoğlu Yapı olarak, banyolarınıza modern bir dokunuş ve ferahlık katan, üstten askılı şeffaf cam duşakabin (duş bölmesi) montajımız."
 ---

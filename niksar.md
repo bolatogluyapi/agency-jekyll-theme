@@ -7,7 +7,6 @@ title: "Niksar PVC Pencere ve Cam Balkon"
 heading: "Niksar"
 subtitle: "Niksar ve yayla evlerinde tamamladığımız işler."
 description: "Niksar'da PVC pencere, cam balkon ve doğrama işleri. Çamiçi Yaylası gibi rakımı yüksek yerlerde ısı yalıtımına özel çözümler."
-image: /assets/img/og-image.jpg
 ---
 
 Niksar'da hem şehir merkezinde hem yayla evlerinde iş yaptık. İkisinin

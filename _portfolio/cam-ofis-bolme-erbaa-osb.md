@@ -13,7 +13,6 @@ date: 2025-09-01
 date_text: "Eylül 2025"
 client: "Kılıç Tekstil"
 category: "Alüminyum Doğrama"
-image: https://i.pinimg.com/1200x/4a/bb/3a/4abb3a075f7830a349874030ae110e72.jpg
 alt: Erbaa Organize Sanayi Bölgesi (OSB) siyah profilli cam ofis bölme ve alüminyum doğrama sistemleri
 description: "Erbaa Organize Sanayi Bölgesi'nde siyah profilli, 10mm temperli camlı alüminyum ofis bölme uygulaması. Ses yalıtımlı, ince kesitli modern cam bölme sistemi."
 ---

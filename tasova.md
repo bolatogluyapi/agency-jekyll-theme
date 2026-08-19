@@ -7,7 +7,6 @@ title: "Taşova Korkuluk, PVC Pencere ve Cam Balkon"
 heading: "Taşova"
 subtitle: "Amasya'nın Taşova ilçesinde yaptığımız işler."
 description: "Taşova'da paslanmaz korkuluk, PVC pencere, cam balkon ve doğrama işleri. Erbaa'ya komşu ilçe olduğumuz için aynı gün keşif mümkün."
-image: /assets/img/og-image.jpg
 ---
 
 Taşova, Amasya'ya bağlı olsa da bize Tokat'ın bazı ilçelerinden daha yakın.

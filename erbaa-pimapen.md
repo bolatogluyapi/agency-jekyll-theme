@@ -6,7 +6,6 @@ title: "Erbaa Pimapen: PVC Pencere ve Kapı İşleri"
 heading: "Erbaa Pimapen"
 subtitle: "Halk arasında pimapen denen işin tamamı: PVC pencere, kapı ve doğrama."
 description: "Erbaa'da PVC pencere ve kapı işleri. Profil serisi, ısıcam ve donanım seçiminde nelere dikkat edilmeli, fiyatı ne belirler. Ücretsiz keşif ve ölçü."
-image: /assets/img/og-image.jpg
 ---
 
 "Pimapen" Türkiye'de PVC pencerenin genel adı gibi kullanılıyor — aslında bir

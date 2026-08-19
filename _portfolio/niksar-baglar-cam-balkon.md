@@ -11,7 +11,6 @@ location: "Tokat / Niksar - Bağlar Mah."
 ilce: "Niksar"
 date: 2024-12-20
 category: "Cam Balkon Sistemleri"
-image: https://i.pinimg.com/1200x/ed/cd/a8/edcda89e635139064a800d68ad4a354d.jpg
 alt: Niksar Bağlar Mah. Katlanır Cam Balkon - Tokat / Niksar - Bağlar Mah.
 description: "Bolatoğlu Yapı olarak, L tipi balkona uygulanan şeffaf katlanır cam balkon sistemi ile manzaradan ödün vermeden dört mevsim kullanım imkanı."
 ---

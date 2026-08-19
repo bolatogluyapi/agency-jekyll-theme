@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Gazi Osman Paşa Mah."
 ilce: "Erbaa"
 date: 2026-07-28
 category: "Cam Balkon Sistemleri"
-image: https://i.pinimg.com/736x/ec/58/44/ec5844a2128ff8d8b50f5c4214ff8820.jpg
 alt: Erbaa Siyah Profilli L Köşe Cam Balkon - Tokat / Erbaa - Gazi Osman Paşa Mah.
 description: "Bolatoğlu Yapı uzmanlığıyla, L köşe balkonunuzu dört mevsim kullanabileceğiniz şık ve yalıtımlı bir yaşam alanına dönüştürüyoruz."
 ---

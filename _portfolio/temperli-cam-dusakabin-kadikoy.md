@@ -13,7 +13,6 @@ date: 2025-11-01
 date_text: "Kasım 2025"
 client: "Fatma Hanım"
 category: "Banyo Sistemleri"
-image: https://i.pinimg.com/1200x/86/06/93/860693bbca8c7b75cf6c0b304072b97a.jpg
 alt: İstanbul Kadıköy Göztepe Mahallesi özel ölçü siyah karolajlı temperli cam duşakabin montajı
 description: "İstanbul Kadıköy Göztepe'de dar banyoya özel ölçü üretilen siyah karolajlı duşakabin. 6mm temperli cam, paslanmaz rulman ve anti-bakteriyel silikon."
 ---

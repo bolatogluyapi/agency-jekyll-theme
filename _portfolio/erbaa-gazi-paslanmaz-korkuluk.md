@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Gazi Osman Paşa Mah."
 ilce: "Erbaa"
 date: 2025-02-02
 category: "Korkuluk Sistemleri"
-image: https://i.pinimg.com/736x/5c/77/5f/5c775fd8112e2ca81c6ec3d70eb8bcda.jpg
 alt: Erbaa Paslanmaz Camlı Merdiven Korkuluğu - Tokat / Erbaa - Gazi Osman Paşa Mah.
 description: "Bolatoğlu Yapı işçiliğiyle, iç mekanlara modern bir hava katan, paslanmaz çelik dikmeli ve kumlu camlı merdiven korkuluk projemiz."
 ---

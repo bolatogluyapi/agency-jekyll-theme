@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Erek Mah."
 ilce: "Erbaa"
 date: 2025-01-15
 category: "PVC Kapı Pencere"
-image: https://i.pinimg.com/1200x/61/ce/f6/61cef6cb5efbcbe79524b5a33ff1b956.jpg
 alt: Erbaa Erek Mah. Hebeschiebe Sürme Sistem - Tokat / Erbaa - Erek Mah.
 description: "Bolatoğlu Yapı olarak, Bahçe ile salonu bütünleştiren, yüksek ısı yalıtımlı ve panoramik manzaralı Antrasit Gri Hebeschiebe (Kaldır-Sür) sistemi."
 ---

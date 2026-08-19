@@ -7,7 +7,6 @@ title: "Tokat Merkez PVC Pencere ve Cam Balkon"
 heading: "Tokat Merkez"
 subtitle: "Tokat merkezde tamamladığımız işler ve hizmet verdiğimiz alanlar."
 description: "Tokat merkezde sineklik, cam balkon, ofis cam bölme ve PVC doğrama işleri. Erbaa'daki atölyemizden Tokat merkeze ölçü ve montaj hizmeti."
-image: /assets/img/og-image.jpg
 ---
 
 Tokat merkeze Erbaa'daki atölyemizden gidiyoruz. Mesafe yaklaşık bir saat, bu

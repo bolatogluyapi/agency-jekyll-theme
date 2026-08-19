@@ -7,7 +7,6 @@ title: "Turhal PVC Pencere, Duşakabin ve Tadilat"
 heading: "Turhal"
 subtitle: "Turhal'da tamamladığımız işler ve verdiğimiz hizmetler."
 description: "Turhal'da PVC pencere bakımı, fitil değişimi, duşakabin, sineklik ve teras kapatma. Pencere değiştirmeden yalıtım tamiri de yapıyoruz."
-image: /assets/img/og-image.jpg
 ---
 
 Turhal'da yaptığımız işlerin bir kısmı yenileme ve tamir ağırlıklı. Özellikle

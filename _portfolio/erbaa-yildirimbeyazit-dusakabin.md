@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Yıldırım Beyazıt Mah."
 ilce: "Erbaa"
 date: 2026-06-09
 category: "Banyo Sistemleri"
-image: https://i.pinimg.com/736x/38/01/a2/3801a2bf94bca8cc7c18d1af39afbdfa.jpg
 alt: Erbaa Çerçevesiz Menteşeli Cam Duşakabin - Tokat / Erbaa - Yıldırım Beyazıt Mah.
 description: "Bolatoğlu Yapı kalitesiyle, banyonuza derinlik katan ve temizliği son derece kolay olan çerçevesiz (frameless) menteşeli cam duşakabin projemiz."
 ---

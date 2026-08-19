@@ -11,7 +11,6 @@ location: "Tokat / Erbaa - Mevlana Mah."
 ilce: "Erbaa"
 date: 2026-06-29
 category: "PVC Kapı Pencere"
-image: https://i.pinimg.com/736x/3f/11/9a/3f119a280f5a7e8b68e3da1ccd1d9510.jpg
 alt: Erbaa Komple Bina Antrasit PVC Doğrama - Tokat / Erbaa - Mevlana Mah.
 description: "Bolatoğlu Yapı kalitesiyle, yeni nesil binaların modern mimarisine tam uyum sağlayan antrasit gri renkli komple bina PVC pencere ve kapı sistemleri."
 ---

@@ -13,7 +13,6 @@ date: 2025-11-01
 date_text: "Kasım 2025"
 client: "Ahmet Bey"
 category: "Cam Balkon Sistemleri"
-image: https://i.pinimg.com/736x/74/66/2d/74662dc690ffbeadae4867abb4cc37b9.jpg
 alt: Tokat Karşıyaka Mahallesi ısıcamlı (çift cam) katlanır cam balkon sistemi uygulaması
 description: "Tokat Karşıyaka'da uyguladığımız 4+12+4 ısıcamlı katlanır cam balkon sistemi. Füme reflekte cam ve mıknatıslı fitil ile kışın da kullanılabilen balkon."
 ---

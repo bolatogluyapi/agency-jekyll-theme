@@ -7,7 +7,6 @@ title: "Suluova PVC Pencere ve Doğrama İşleri"
 heading: "Suluova"
 subtitle: "Amasya Suluova'da yeni inşaat ve konut doğrama işleri."
 description: "Suluova'da PVC pencere, kapı ve doğrama. Yeni inşaatlarda kaba inşaat aşamasında doğrama montajı ve toplu iş planlaması."
-image: /assets/img/og-image.jpg
 ---
 
 Suluova'da yaptığımız iş yeni inşaat üzerineydi ve bu tür işlerin kendine özgü

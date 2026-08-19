@@ -11,7 +11,6 @@ location: "Tokat / Merkez - Karşıyaka Mah."
 ilce: "Tokat"
 date: 2025-01-05
 category: "Sineklik Sistemleri"
-image: https://i.pinimg.com/1200x/6a/78/56/6a785684c1547bad89bfc8240102d869.jpg
 alt: Tokat Karşıyaka Beyaz Pileli Sineklik - Tokat / Merkez - Karşıyaka Mah.
 description: "Bolatoğlu Yapı olarak, Beyaz PVC balkon kapısına tam uyumlu, kullanımı kolay ve şık tasarımlı beyaz pileli sineklik uygulaması."
 ---

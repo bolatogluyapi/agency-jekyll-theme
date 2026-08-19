@@ -7,7 +7,6 @@ title: "İstanbul Kadıköy Duşakabin Uygulamamız"
 heading: "İstanbul / Kadıköy"
 subtitle: "Şehir dışından gelen özel talepler üzerine yaptığımız işler."
 description: "İstanbul Kadıköy'de ölçüye özel temperli cam duşakabin uygulamamız. Merkezimiz Erbaa; şehir dışı işleri özel talep üzerine değerlendiriyoruz."
-image: /assets/img/og-image.jpg
 ---
 
 Merkezimiz Erbaa'da ve düzenli hizmet alanımız Tokat ile çevre iller. Ama
