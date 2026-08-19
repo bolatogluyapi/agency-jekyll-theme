@@ -1,6 +1,7 @@
 ---
 layout: bolge
 permalink: /erbaa/
+order: 1
 ilce: "Erbaa"
 title: "Erbaa PVC Pencere, Cam Balkon ve Tadilat"
 heading: "Erbaa"

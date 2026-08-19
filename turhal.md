@@ -1,6 +1,7 @@
 ---
 layout: bolge
 permalink: /turhal/
+order: 3
 ilce: "Turhal"
 title: "Turhal PVC Pencere, Duşakabin ve Tadilat"
 heading: "Turhal"

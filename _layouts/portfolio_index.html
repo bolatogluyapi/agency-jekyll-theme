@@ -46,11 +46,16 @@ layout: default
     <div class="row" style="margin-top: 50px;">
       <div class="col-lg-10 mx-auto text-center">
         <h2 class="section-heading text-uppercase">BÖLGELERE GÖRE</h2>
+        {%- comment -%}
+          Liste otomatik: layout'u "bolge" olan her sayfa burada gorunur.
+          Yeni bolge eklemek icin sadece yeni bir .md dosyasi acmak yeterli,
+          bu satirlari duzenlemeye gerek yok. Sira "order" alaniyla belirlenir.
+        {%- endcomment -%}
+        {%- assign bolgeler = site.pages | where: "layout", "bolge" | sort: "order" -%}
         <p class="hizmet-linkleri">
-          <a href="{{ '/erbaa/' | relative_url }}">Erbaa</a> <span>·</span>
-          <a href="{{ '/tokat/' | relative_url }}">Tokat Merkez</a> <span>·</span>
-          <a href="{{ '/turhal/' | relative_url }}">Turhal</a> <span>·</span>
-          <a href="{{ '/niksar/' | relative_url }}">Niksar</a>
+          {%- for b in bolgeler %}
+          <a href="{{ b.url | relative_url }}">{{ b.heading | default: b.ilce }}</a>{% unless forloop.last %} <span>·</span> {% endunless %}
+          {%- endfor %}
         </p>
       </div>
     </div>

@@ -133,3 +133,76 @@ Hizmet metni buraya.
 
 Ana sayfadaki hizmet kartları ve `/hizmetler/` sayfası bu klasörden
 otomatik beslenir, ayrıca bir yere eklemen gerekmez.
+
+---
+
+## Yeni bölge (ilçe) sayfası eklemek
+
+Bölge sayfaları `/erbaa/`, `/turhal/` gibi adreslerde yayınlanır ve o ilçede
+yaptığın işleri otomatik listeler. "niksar cam balkon", "turhal pencere tamiri"
+gibi aramalar için var.
+
+### 1. Projelere ilçe bilgisi ver
+
+Her proje dosyasında `ilce` alanı olmalı:
+
+```yaml
+location: "Tokat / Zile - Cumhuriyet Mah."
+ilce: "Zile"
+```
+
+`ilce` değeri bölge sayfasındaki değerle **harfi harfine aynı** olmalı.
+
+### 2. Kök dizine bölge dosyasını aç
+
+Örnek: `zile.md`
+
+```yaml
+---
+layout: bolge
+permalink: /zile/
+order: 8                 # link sirasindaki yeri
+ilce: "Zile"             # projelerdeki ilce degeriyle ayni
+title: "Zile PVC Pencere ve Cam Balkon"    # arama sonucu basligi, ~40 karakter
+heading: "Zile"                            # sayfadaki h1
+subtitle: "Zile'de tamamladığımız işler."  # h1 altindaki tek satir
+description: "140-160 karakter, arama sonucu aciklamasi."
+image: /assets/img/og-image.jpg
+---
+
+Buraya o ilçeye özgü metin yaz. En az 100 kelime olsun.
+```
+
+### 3. ÖNEMLİ: metin gerçekten farklı olmalı
+
+Aynı metni ilçe adını değiştirerek çoğaltma. Google buna "kapı sayfası" diyor ve
+cezalandırıyor — tek bir kopyala-yapıştır sayfa bütün bölge sayfalarının değerini
+düşürebilir.
+
+Her sayfada o ilçeye **özgü** bir şey anlat. Örnekler:
+
+- mesafe ve keşif düzeni (Tokat merkez sayfasında var)
+- o ilçede öne çıkan iş tipi (Turhal'da fitil değişimi, Taşova'da korkuluk)
+- coğrafi/iklim özelliği (Niksar'da yayla evleri ve ısı yalıtımı)
+- yapı stoku (Suluova'da yeni inşaat)
+
+Anlatacak özgün bir şey yoksa o ilçe için sayfa açma; projeler zaten
+`/islerim/` içinde ve kendi sayfalarında görünüyor.
+
+### 4. Başka bir şey yapmana gerek yok
+
+`/islerim/` sayfasının altındaki bölge listesi `layout: bolge` olan tüm
+sayfalardan otomatik üretilir. Sıralama `order` alanına göre. Sitemap'e de
+kendiliğinden girer.
+
+### 5. Kontrol
+
+```bash
+bundle _2.7.2_ exec jekyll build
+```
+
+Sonra `/zile/` sayfasını aç: proje sayısı doğru mu, `/islerim/` altındaki bölge
+listesinde görünüyor mu. Proje çıkmıyorsa `ilce` yazımı tutmuyordur.
+
+Yayınladıktan sonra Google Search Console'da **URL Denetimi → Dizine eklenmesini
+iste** demeyi unutma; yeni sayfanın taranması aksi halde haftalar sürer.

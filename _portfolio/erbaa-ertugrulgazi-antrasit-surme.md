@@ -26,7 +26,7 @@ Duvar boyası ve zemin seramikleriyle mükemmel bir renk uyumu yakalayan antrasi
 
 * **Yerden Tasarruf Sağlayan Tasarım:** İçeri veya dışarı açılan standart kapıların aksine, kanatların ray üzerinde yana kaymasıyla çalıştığı için iç mekanda ve balkonda hiçbir alan kaybı yaşanmaz.
 * **Antrasit Gri Kaplama:** Uzun yıllar güneşe, yağmura ve dış etkenlere karşı dayanıklı, zamanla solma veya dökülme yapmayan özel renkli profiller tercih edildi.
-* **Üstün Yalıtım:** Geniş yüzeyli camlarda enerji kaybını önlemek amacıyla nitelikli Isıcam kullanılarak **ERBAA PİMAPEN.** standartlarında üst düzey ısı ve ses yalıtımı elde edildi.
+* **Üstün Yalıtım:** Geniş yüzeyli camlarda enerji kaybını önlemek amacıyla nitelikli Isıcam kullanılarak **Bolatoğlu Yapı** standartlarında üst düzey ısı ve ses yalıtımı elde edildi.
 * **Sıfıra Yakın Eşik Detayı:** Zemin mermeriyle uyumlu ve geçişi zorlaştırmayan özel alt ray sistemi sayesinde, tekerlekli eşyaların geçişi kolaylaştırıldı ve adeta kesintisiz bir bütünlük oluşturuldu.
 
 ### Sonuç

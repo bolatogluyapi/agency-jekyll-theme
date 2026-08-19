@@ -1,6 +1,7 @@
 ---
 layout: bolge
 permalink: /niksar/
+order: 4
 ilce: "Niksar"
 title: "Niksar PVC Pencere ve Cam Balkon"
 heading: "Niksar"

@@ -13,14 +13,14 @@ date: 2026-07-11
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/ff/e5/80/ffe580f8ff9c93b5cb28a604db499709.jpg
 alt: Erbaa Spigot Ayaklı Cam Teras Korkuluğu - Tokat / Erbaa - Alpaslan Mah.
-description: "ERBAA PİMAPEN. güvencesiyle, doğa manzaranızı kesmeyen, lüks ve maksimum güvenlikli spigot ayaklı şeffaf cam teras korkuluğu projemiz."
+description: "Bolatoğlu Yapı güvencesiyle, doğa manzaranızı kesmeyen, lüks ve maksimum güvenlikli spigot ayaklı şeffaf cam teras korkuluğu projemiz."
 ---
 
 ## Proje Hakkında
 
 Erbaa Alpaslan Mahallesi'nde harika bir doğa manzarasına bakan bu geniş teras projesinde, manzaranın önündeki engelleri tamamen kaldırmak için **Spigot Ayaklı Şeffaf Cam Korkuluk** sistemini başarıyla uyguladık. 
 
-Klasik dikey profilli alüminyum korkulukların aksine, bu sistemde camlar doğrudan zemine monte edilen özel paslanmaz ayaklar (spigot) ile taşınmaktadır. **ERBAA PİMAPEN.** olarak, yapılarınıza hem modern bir mimari dokunuş hem de ferah bir kullanım alanı kazandırıyoruz.
+Klasik dikey profilli alüminyum korkulukların aksine, bu sistemde camlar doğrudan zemine monte edilen özel paslanmaz ayaklar (spigot) ile taşınmaktadır. **Bolatoğlu Yapı** olarak, yapılarınıza hem modern bir mimari dokunuş hem de ferah bir kullanım alanı kazandırıyoruz.
 
 ### Teknik Detaylar
 
@@ -31,4 +31,4 @@ Klasik dikey profilli alüminyum korkulukların aksine, bu sistemde camlar doğr
 
 ### Sonuç
 
-Teras, kalın ve manzarayı bölen demir veya alüminyum yığınlarından kurtarılarak; şık, temizlemesi kolay ve son derece güvenli yeni nesil bir korkuluk sistemine kavuştu. **ERBAA PİMAPEN.** standartlarıyla tamamlanan bu proje, ev sahiplerine uzun yıllar sorunsuz hizmet edecektir.
+Teras, kalın ve manzarayı bölen demir veya alüminyum yığınlarından kurtarılarak; şık, temizlemesi kolay ve son derece güvenli yeni nesil bir korkuluk sistemine kavuştu. **Bolatoğlu Yapı** standartlarıyla tamamlanan bu proje, ev sahiplerine uzun yıllar sorunsuz hizmet edecektir.

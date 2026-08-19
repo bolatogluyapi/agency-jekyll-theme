@@ -13,14 +13,14 @@ date: 2026-08-06
 category: "Alüminyum Doğrama"
 image: https://i.pinimg.com/736x/50/04/fb/5004fb39dc54c02a49ce20d536a7fab7.jpg
 alt: Erbaa Bronz Renk Camlı Bina Giriş Kapısı - Tokat / Erbaa - Ahmet Yesevi Mah.
-description: "ERBAA PİMAPEN. uzmanlığıyla, binalarınıza prestij katan bronz renkli, şık ve yalıtımlı cam giriş kapısı projemiz."
+description: "Bolatoğlu Yapı uzmanlığıyla, binalarınıza prestij katan bronz renkli, şık ve yalıtımlı cam giriş kapısı projemiz."
 ---
 
 ## Proje Hakkında
 
 Erbaa Ahmet Yesevi Mahallesi'nde tamamladığımız bu projede, bina girişine hem şıklık hem de güvenlik katan **Bronz Renk Camlı Giriş Kapısı** sistemini başarıyla uyguladık.
 
-Klasik beyaz profillerin dışına çıkmak isteyen müşterimiz için, mekanın mimarisine ve zemin mermerlerine harika bir uyum yakalayan özel bronz (şampanya) renk profiller tercih edildi. **ERBAA PİMAPEN.** olarak, yapılarınızın ilk izlenimini oluşturan giriş kapılarına estetik ve dayanıklılık kazandırıyoruz.
+Klasik beyaz profillerin dışına çıkmak isteyen müşterimiz için, mekanın mimarisine ve zemin mermerlerine harika bir uyum yakalayan özel bronz (şampanya) renk profiller tercih edildi. **Bolatoğlu Yapı** olarak, yapılarınızın ilk izlenimini oluşturan giriş kapılarına estetik ve dayanıklılık kazandırıyoruz.
 
 ### Teknik Detaylar
 
@@ -31,4 +31,4 @@ Klasik beyaz profillerin dışına çıkmak isteyen müşterimiz için, mekanın
 
 ### Sonuç
 
-Bina girişi, sıradanlıktan kurtularak son derece lüks ve davetkar bir görünüme kavuştu. Toz, rüzgar ve soğuk geçişini engelleyen yüksek yalıtım değerlerine sahip bu kapı, ev sahiplerine uzun yıllar güvenle hizmet edecektir. **ERBAA PİMAPEN.** kalitesiyle binalarınıza değer katmaya devam ediyoruz.
+Bina girişi, sıradanlıktan kurtularak son derece lüks ve davetkar bir görünüme kavuştu. Toz, rüzgar ve soğuk geçişini engelleyen yüksek yalıtım değerlerine sahip bu kapı, ev sahiplerine uzun yıllar güvenle hizmet edecektir. **Bolatoğlu Yapı** kalitesiyle binalarınıza değer katmaya devam ediyoruz.

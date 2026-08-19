@@ -20,7 +20,7 @@ description: "İnşaat aşamasındaki projeler için gerçekleştirdiğimiz, oda
 
 Amasya'nın Suluova ilçesinde yapımı devam eden bu yeni inşaat projesinde, odanın aydınlık ve ferah yapısını desteklemek amacıyla zeminden tavana kadar uzanan **Beyaz PVC Fransız Pencere** sisteminin montajını tamamladık.
 
-**ERBAA PİMAPEN.** kalitesiyle ürettiğimiz bu doğramalar, ince işçilik (şap, sıva, boya) öncesinde milimetrik teraziyle kaba inşaata yerleştirilerek sonraki aşamalar için kusursuz ve sağlam bir altyapı hazırlandı.
+**Bolatoğlu Yapı** kalitesiyle ürettiğimiz bu doğramalar, ince işçilik (şap, sıva, boya) öncesinde milimetrik teraziyle kaba inşaata yerleştirilerek sonraki aşamalar için kusursuz ve sağlam bir altyapı hazırlandı.
 
 ### Teknik Detaylar
 

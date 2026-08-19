@@ -13,14 +13,14 @@ date: 2026-08-04
 category: "Korkuluk Sistemleri"
 image: https://i.pinimg.com/736x/ef/d9/98/efd9985332e368c9cdf2c44370cecdf6.jpg
 alt: Taşova Füme Camlı Paslanmaz Merdiven Korkuluğu - Amasya / Taşova
-description: "ERBAA PİMAPEN. güvencesiyle, Taşova'da tamamladığımız modern tasarımlı, kare profilli ve füme camlı paslanmaz merdiven korkuluğu projemiz."
+description: "Bolatoğlu Yapı güvencesiyle, Taşova'da tamamladığımız modern tasarımlı, kare profilli ve füme camlı paslanmaz merdiven korkuluğu projemiz."
 ---
 
 ## Proje Hakkında
 
 Amasya Taşova bölgesinde gerçekleştirdiğimiz bu projede, bina içi merdivenlere modern ve estetik bir hava katmak için **Füme Camlı Paslanmaz Korkuluk** sistemini başarıyla uyguladık.
 
-Klasik tasarımların ötesine geçerek, şık kare profiller ve koyu renkli füme camları bir araya getirdik. **ERBAA PİMAPEN.** olarak, komşu ilçemiz Taşova'da da yaşam alanlarınıza değer katmaya ve güvenliği estetikle buluşturmaya devam ediyoruz.
+Klasik tasarımların ötesine geçerek, şık kare profiller ve koyu renkli füme camları bir araya getirdik. **Bolatoğlu Yapı** olarak, komşu ilçemiz Taşova'da da yaşam alanlarınıza değer katmaya ve güvenliği estetikle buluşturmaya devam ediyoruz.
 
 ### Teknik Detaylar
 
@@ -31,4 +31,4 @@ Klasik tasarımların ötesine geçerek, şık kare profiller ve koyu renkli fü
 
 ### Sonuç
 
-Merdiven boşluğu, hem düşme riskine karşı maksimum güvenlik sağlayan hem de evin genel mimarisine lüks bir dokunuş yapan şık bir sisteme kavuştu. **ERBAA PİMAPEN.** kalite standartlarıyla teslim ettiğimiz bu korkuluk, paslanma yapmadan uzun yıllar boyunca ev sahiplerine hizmet edecektir.
+Merdiven boşluğu, hem düşme riskine karşı maksimum güvenlik sağlayan hem de evin genel mimarisine lüks bir dokunuş yapan şık bir sisteme kavuştu. **Bolatoğlu Yapı** kalite standartlarıyla teslim ettiğimiz bu korkuluk, paslanma yapmadan uzun yıllar boyunca ev sahiplerine hizmet edecektir.

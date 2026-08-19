@@ -13,7 +13,7 @@ date: 2026-08-13
 category: "PVC Kapı Pencere"
 image: https://i.pinimg.com/1200x/c8/39/4e/c8394e32cec3146379c10b88645c9e51.jpg
 alt: Erbaa Beyaz PVC Sürme Balkon Kapısı - Tokat / Erbaa - Yeni Mah.
-description: "ERBAA PİMAPEN. güvencesiyle, iç mekanlarda yer kaplamayan, odaya maksimum gün ışığı ve modern bir görünüm kazandıran beyaz PVC sürme kapı projemiz."
+description: "Bolatoğlu Yapı güvencesiyle, iç mekanlarda yer kaplamayan, odaya maksimum gün ışığı ve modern bir görünüm kazandıran beyaz PVC sürme kapı projemiz."
 ---
 
 ## Proje Hakkında

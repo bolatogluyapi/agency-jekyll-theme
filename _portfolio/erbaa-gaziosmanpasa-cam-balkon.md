@@ -13,14 +13,14 @@ date: 2026-07-28
 category: "Cam Balkon Sistemleri"
 image: https://i.pinimg.com/736x/ec/58/44/ec5844a2128ff8d8b50f5c4214ff8820.jpg
 alt: Erbaa Siyah Profilli L Köşe Cam Balkon - Tokat / Erbaa - Gazi Osman Paşa Mah.
-description: "ERBAA PİMAPEN. uzmanlığıyla, L köşe balkonunuzu dört mevsim kullanabileceğiniz şık ve yalıtımlı bir yaşam alanına dönüştürüyoruz."
+description: "Bolatoğlu Yapı uzmanlığıyla, L köşe balkonunuzu dört mevsim kullanabileceğiniz şık ve yalıtımlı bir yaşam alanına dönüştürüyoruz."
 ---
 
 ## Proje Hakkında
 
 Erbaa Gazi Osman Paşa Mahallesi'nde gerçekleştirdiğimiz bu projede, geniş ve manzaralı L tipi balkonunu yaz-kış kullanmak isteyen müşterimiz için **Siyah Profilli Katlanır Cam Balkon** sistemini başarıyla uyguladık. 
 
-Balkonun iç dekorasyonundaki modern çizgilere ve koyu renkli mobilyalara uyum sağlaması adına, standart alüminyum renkleri yerine mat siyah profiller tercih edildi. **ERBAA PİMAPEN.** olarak, balkonlarınızı sadece dış etkenlerden korumakla kalmıyor, aynı zamanda evinize prestijli yeni bir oda kazandırıyoruz.
+Balkonun iç dekorasyonundaki modern çizgilere ve koyu renkli mobilyalara uyum sağlaması adına, standart alüminyum renkleri yerine mat siyah profiller tercih edildi. **Bolatoğlu Yapı** olarak, balkonlarınızı sadece dış etkenlerden korumakla kalmıyor, aynı zamanda evinize prestijli yeni bir oda kazandırıyoruz.
 
 ### Teknik Detaylar
 
@@ -31,4 +31,4 @@ Balkonun iç dekorasyonundaki modern çizgilere ve koyu renkli mobilyalara uyum 
 
 ### Sonuç
 
-Rüzgar ve toz nedeniyle verimsiz kullanılan bu alan; manzarası kapanmadan, temizliği kolay ve tamamen açılıp kapanabilen modern bir sisteme kavuştu. **ERBAA PİMAPEN.** kalite standartlarıyla tamamlanan bu cam balkon, ev sahiplerine dört mevsim keyifle vakit geçirebilecekleri şık bir kış bahçesi deneyimi sunuyor.
+Rüzgar ve toz nedeniyle verimsiz kullanılan bu alan; manzarası kapanmadan, temizliği kolay ve tamamen açılıp kapanabilen modern bir sisteme kavuştu. **Bolatoğlu Yapı** kalite standartlarıyla tamamlanan bu cam balkon, ev sahiplerine dört mevsim keyifle vakit geçirebilecekleri şık bir kış bahçesi deneyimi sunuyor.
