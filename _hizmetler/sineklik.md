@@ -31,3 +31,33 @@ Sineklik basit bir ürün gibi görünür ama kullanım ömrünü belirleyen bir
 ## Renk ve Görünüm
 
 Kasa rengi doğramayla uyumlu seçilebilir. Beyaz PVC pencerede beyaz, antrasit doğramada antrasit, ahşap desenli profilde ahşap desenli kasa kullanıldığında sineklik cepheden fark edilmez. Bu ayrıntı, özellikle yeni yaptırılmış doğramanın görünümünü korumak açısından önemlidir.
+
+## Fiyatı ne belirler
+
+Sineklikte fiyat sistemle ve ölçüyle değişir:
+
+* **Sistem.** Sabit çerçeve en ekonomik, menteşeli orta, pileli (akordiyon) ve stor sistemler daha üst segmenttir. Pileli sistem kapılarda en pratik olduğu için en çok tercih edilendir.
+* **Kasa malzemesi.** Alüminyum kasa plastiğe göre pahalıdır ama güneşte esnemez; plastik kasada ray hattı bozulunca tül düzgün toplanmaz.
+* **Tül tipi.** Fiberglass tül standart plastik tülden pahalıdır, buna karşılık güneşte gevrekleşmez ve alev almaz. Kedi tırnağına dayanıklı özel tüller ayrı fiyatlanır.
+* **Renk.** Doğramayla uyumlu antrasit veya ahşap desenli kasa, beyaza göre farklı fiyatlanır.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### Hangi sineklik tipi hangi yere uygun?
+
+Kapılarda pileli sistem en pratiği: hiçbir yöne kanat açmaz, dar balkonda engel olmaz. Sürme pencerelerde sürgülü sineklik uyumlu çalışır. Nadiren açılan pencerelerde sabit çerçeve yeterli ve en ekonomik seçenek.
+
+### Kedi tırmalamasına dayanır mı?
+
+Standart tül dayanmaz. Kedi tırnağına dayanıklı, kalın örgülü özel tüller var; evinde kedi olan müşterilerimize onu öneriyoruz. Maliyeti biraz yüksek ama tülü her yıl değiştirmekten ucuz.
+
+### Kışın sökülmesi gerekir mi?
+
+Pileli ve stor sistemlerde gerekmez, kullanılmadığında yan profilde toplanır. Sabit çerçeveli sinekliklerde kışın söküp saklamak tülün ömrünü uzatır.
+
+### Temizliği nasıl yapılır?
+
+Islak bezle silmek yeterli. Pileli sistemlerde tülü zorlamamak ve rayda toz biriktirmemek önemli; ray tıkanınca tül düzgün toplanmaz.

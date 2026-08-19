@@ -38,3 +38,38 @@ Aradaki fark özellikle gece ve kışın hissedilir. Camın önünde otururken d
 ## Eski Pencereyi Değiştirmek Şart mı
 
 Her zaman değil. Profil ve cam sağlamsa, hava alma şikayetinin sebebi genellikle sertleşmiş fitiller ve bozulmuş kanat ayarlarıdır. Bunu yerinde kontrol ediyoruz; bakımla çözülecek bir işe pencere değişimi satmıyoruz.
+
+## Fiyatı ne belirler
+
+PVC pencerede aynı ölçü için gelen teklifler arasında iki kat fark görebilirsiniz. Farkın nereden geldiği şu dört kalemde toplanıyor:
+
+* **Profil serisi.** 60'lık seri standart konutta yeterli; geniş açıklıkta, rakımı yüksek yerde veya teras kapatmada 70-80'lik seri gerekir. Seri büyüdükçe malzeme maliyeti artar.
+* **Çelik takviye.** Profilin içine geçen galvanizli çeliğin kalınlığı fiyata yansır. Takviyeden kısmak en sık başvurulan ucuzlatma yöntemidir ve kanadın birkaç yıl içinde sarkmasına yol açar.
+* **Cam.** Standart ısıcam ile düşük yayınımlı (low-e) cam arasında belirgin fiyat farkı var. Fark özellikle kış gecelerinde hissedilir.
+* **Donanım.** Menteşe, ispanyolet ve kilit takımı. Profil iyi olup donanımı ucuz olan pencere birkaç yıl içinde ayar tutmaz.
+* **Montaj koşulları.** Yüksek kat, dar merdiven veya cephe iskelesi gerektiren işlerde işçilik kalemi değişir.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### PVC pencere kaç yıl dayanır?
+
+Profil ve cam doğru seçildiyse 25-30 yıl sorunsuz kullanılır. Bu süre içinde değişmesi gereken şey pencere değil, fitildir; conta ortalama 8-10 yılda esnekliğini kaybeder.
+
+### Pencereyi değiştirmek mi, bakım yaptırmak mı daha mantıklı?
+
+Profil ve cam sağlamsa çoğu zaman bakım yeterli oluyor. Rüzgar alma şikayetinin ana sebebi sertleşmiş fitil ve bozulmuş kanat ayarıdır. Yerinde bakıp hangisinin gerektiğini söylüyoruz.
+
+### Kışın montaj yapılır mı?
+
+Yapılır. Odalar tek tek çalışılır, sökülen pencere aynı gün takılır. Yine de mümkünse ilkbahar ve sonbahar tercih edilir; hem daha rahat hem montaj takvimi daha esnektir.
+
+### Eski pencere sökülünce duvar zarar görür mü?
+
+Sökümde sıva kenarlarında bir miktar dökülme normaldir. Biz kenar düzeltmesini montaja dahil ediyoruz; boya işi müşteriye kalıyor, bunu baştan söylüyoruz.
+
+### Ölçü ve keşif ücretli mi?
+
+Hayır. Erbaa ve çevre ilçelerde keşif ve ölçü ücretsizdir, teklif sonrası bir yükümlülüğünüz olmaz.

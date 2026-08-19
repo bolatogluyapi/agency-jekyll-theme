@@ -35,3 +35,38 @@ Cam balkonun asıl amacı balkonu rüzgardan, tozdan ve gürültüden korumaktı
 ## Ölçü Yerinde Alınır
 
 Balkonlar nadiren tam kare olur; duvarlar şakullü değildir, zeminde eğim vardır. Sistem yerinde ölçülüp ona göre üretilmezse köşelerde boşluk kalır ve o boşluk silikonla kapatılır — ilk kışta hava almaya başlar.
+
+## Fiyatı ne belirler
+
+Cam balkonda fiyatı belirleyen asıl şey metrekare değil, seçtiğiniz cam ve sistem:
+
+* **Cam tipi.** Tek cam ile ısıcam arasındaki fark en büyük kalem. Isıcam belirgin şekilde pahalıdır; buna karşılık balkonu kışın kullanılabilir hale getiren de odur.
+* **Sistem.** Katlanır ve sürgülü sistemler farklı fiyatlanır. Isıcamlı katlanırda cam ağırlığı arttığı için profil ve rulman kapasitesi de yükselir.
+* **Kanat sayısı ve açıklık.** Aynı metrekare, kanat sayısı arttıkça pahalanır; her kanat ayrı profil, fitil ve rulman demek.
+* **Profil rengi.** Antrasit, siyah ve ahşap desenli folyo kaplamalar beyaza göre farklı fiyatlanır.
+* **Mevcut korkuluk durumu.** Korkuluk yenilenecekse ya da cam balkonla uyumlu hale getirilecekse ayrı kalem olur.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### Cam balkon balkonu ısıtır mı?
+
+Tek camlı sistem ısıtmaz; rüzgarı, tozu ve gürültüyü keser, o kadar. Isıtma etkisi isteniyorsa ısıcamlı sistem gerekir — iki cam arasındaki hava boşluğu ısı geçişini keser.
+
+### Isıcamlı sistem gerçekten fark yaratıyor mu?
+
+Evet, ama beklentiyi doğru kurmak lazım: balkon oda sıcaklığına çıkmaz, dış ortamdan belirgin şekilde ılık kalır. Yan fayda şu: balkon kapatıldığında salonun dış duvarı soğukla doğrudan temas etmez, salon daha çabuk ısınır.
+
+### Cam balkon için izin gerekir mi?
+
+Apartmanlarda cephe görünümünü değiştirdiği için kat malikleri kararı istenebiliyor. Uygulamadan önce yönetimle görüşmenizi öneriyoruz; bu konuda karar merci biz değiliz ama işi ona göre planlarız.
+
+### Rüzgarda ses yapar mı?
+
+Fitil kalitesine bağlı. Mıknatıslı fitil kanatları birbirine çeker ve tam temas sağlar; klasik fırça fitilde rüzgar sesi ve toz girişi kaçınılmazdır.
+
+### Yazın tamamen açılabilir mi?
+
+Katlanır sistemde bütün kanatlar bir kenara toplanır, balkon tamamen açık kullanılır. Sürgülü sistemde kanatlar üst üste gelir, açıklık yarım kalır.

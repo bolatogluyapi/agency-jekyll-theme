@@ -31,3 +31,33 @@ Demir korkuluk maliyeti düşürür ama yılda bir zımparalanıp boyanması ger
 ## Balkon mu, Merdiven mi
 
 Merdiven küpeştesinde eğim nedeniyle her dikme farklı açıda kesilir; balkon korkuluğuna göre daha fazla işçilik ister. Apartman merdiven boşluğu ile balkonlarda aynı sistemi kullanmak bina genelinde görsel bütünlük sağlar — cephe yenilemesi yapılıyorsa ikisini birlikte planlamak mantıklı olur.
+
+## Fiyatı ne belirler
+
+Korkulukta fiyat metretül üzerinden hesaplanır ama belirleyici olan malzeme:
+
+* **Malzeme.** Paslanmaz çelik en pahalı, eloksallı alüminyum orta, demir en ucuz seçenek. Demirin yılda bir boya bakımı istediğini hesaba katın; beş yıllık toplam maliyette sıralama değişebiliyor.
+* **Cam kullanımı.** Camlı sistemler dikmeli sistemlere göre pahalıdır. Spigot ayaklı (dikmesiz) uygulama en üst segmenttir.
+* **Dikme sıklığı ve şerit sayısı.** Dikmeler sıklaştıkça, yatay şerit arttıkça malzeme ve işçilik artar.
+* **Montaj zemini.** Beton parapete kimyasal dübelle ankraj, mermer veya seramik üzerine montajdan farklı işçilik gerektirir.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### Paslanmaz mı, alüminyum mu?
+
+İkisi de paslanmaz ve boya istemez. Paslanmaz çelik daha ağır ve dayanıklı, alüminyum daha ekonomik ve hafif. Dış mekânda ikisi de uzun ömürlüdür; seçim genelde bütçe ve görünüm tercihine kalıyor.
+
+### Cam korkuluk güvenli mi?
+
+Temperli cam kullanıldığında evet. Isıl işlem görmüş cam yüksek darbe dayanımı sağlar ve kırılırsa keskin parça değil künt taneler bırakır. Cam kalınlığı ve bağlantı noktası sayısı yüksekliğe göre seçilir.
+
+### Boya bakımı gerekir mi?
+
+Paslanmaz ve eloksallı alüminyumda gerekmez. Eloksal, boya gibi yüzeye sürülen bir kaplama değil; elektrokimyasal yöntemle oluşturulan oksit tabakasıdır, kazınıp dökülmez.
+
+### Çocuk güvenliği için aralık ne olmalı?
+
+Dikmeler arası ve yatay şeritler arası açıklık, bir çocuğun geçemeyeceği ölçüde bırakılmalı. Yatay şeritli sistemlerde çocuğun tırmanma ihtimali de ayrıca değerlendirilmeli — bu durumda dikey çubuk veya cam daha güvenli olur.

@@ -36,3 +36,33 @@ Duvarlar da nadiren tam şakuldedir. Yerinde ölçü alındığında bu sapma he
 ## Banyo Yenilemesiyle Birlikte
 
 Duşakabin, fayans ve tesisat işleriyle aynı anda planlandığında sonuç çok daha temiz olur. Sifon yeri, eğim ve niş konumu kabine göre belirlenebilir. Sonradan eklenen kabinlerde bu esneklik kalmaz.
+
+## Fiyatı ne belirler
+
+Duşakabinde fiyat farkı çoğunlukla camdan ve ölçüden geliyor:
+
+* **Cam kalınlığı.** 6 mm ve 8 mm temperli cam arasında hem fiyat hem his farkı var. 8 mm daha ağır ve sağlam durur, menteşe ve profil de ona göre seçilir.
+* **Sistem.** Menteşeli, sürgülü (makaralı) ve çerçevesiz sistemler farklı fiyatlanır. Çerçevesiz en üst segmenttir.
+* **Ölçüye özel üretim.** Hazır kabin daha ucuzdur ama banyonuz standart ölçülere uymuyorsa boşluk silikonla doldurulur; o hat zamanla küflenir. Ölçüye özel üretim bu sorunu baştan kaldırır.
+* **Profil rengi ve donanım.** Siyah, altın ve mat kaplamalar krom standarda göre farklı fiyatlanır.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### Hazır kabin mi, ölçüye özel mi?
+
+Banyonuz standart ölçülerdeyse hazır kabin işinizi görür. Duvarlar şakullü değilse veya ölçü tutmuyorsa ölçüye özel üretim gerekir; aradaki fiyat farkı, sonradan çıkacak küf ve sızıntı sorunundan ucuzdur.
+
+### Temperli cam kırılır mı?
+
+Normal cama göre çok daha dayanıklıdır ama kırılmaz değildir. Kırıldığında keskin parça oluşturmaz, küçük ve künt tanelere ayrılır — bu yüzden banyoda zorunlu tercihtir.
+
+### Silikon neden kararıyor?
+
+Standart silikon nemli ortamda bir yıl içinde küflenir. Anti-bakteriyel silikon buna direnç gösterir. Ayrıca kabin ölçüye uygun değilse kalın silikon dolgusu gerekir ve kalın hat daha çabuk kararır.
+
+### Montaj ne kadar sürer?
+
+Ölçü alındıktan sonra üretim birkaç gün, montaj genelde yarım gün sürer. Fayans ve tesisat işiyle birlikte planlanıyorsa takvimi ona göre kuruyoruz.

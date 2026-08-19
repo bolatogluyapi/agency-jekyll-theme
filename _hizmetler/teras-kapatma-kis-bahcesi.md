@@ -36,3 +36,33 @@ Yaz aylarında yan kanatların açılabilir olması önemlidir — böylece kapa
 ## İzin Konusu
 
 Teras ve balkon kapatma bazı durumlarda ruhsata veya kat maliklerinin onayına tabidir. Apartmanlarda cephe görünümünü değiştiren uygulamalarda yönetimle önceden görüşmenizi öneriyoruz. Bu konuda karar merci biz değiliz, ancak uygulamayı buna göre planlarız.
+
+## Fiyatı ne belirler
+
+Teras kapatmada fiyatı belirleyen en büyük kalem çatıdır, yan camlar değil:
+
+* **Çatı tipi.** Tek kat saç en ucuz ama yazın kullanılamaz hale getirir. Sandviç panel yalıtım sağlar ve orta segmenttir. Cam çatı en pahalısıdır.
+* **Panel kalınlığı.** 4 cm ve 6 cm poliüretan dolgulu paneller farklı fiyatlanır; alanı gerçekten oda gibi kullanacaksanız kalın panel gerekir.
+* **Profil serisi ve çelik takviye.** Çatı yükünü taşıyacak profil 70-80'lik seri olmalı ve içine galvanizli çelik geçmelidir. Bu kalemden kısmak yapının zamanla eğilmesine yol açar.
+* **Alan ve açıklık.** Kolonsuz geçilecek açıklık büyüdükçe taşıyıcı sistem güçlenir, maliyet artar.
+
+Kesin fiyat ölçü alındıktan sonra netleşir. Erbaa ve çevre ilçelerde keşif ve
+ölçü ücretsizdir; teklif sonrası bir yükümlülüğünüz olmaz.
+
+## Sık sorulan sorular
+
+### Teras kapatma için izin gerekir mi?
+
+Bazı durumlarda ruhsata veya kat malikleri onayına tabidir. Apartmanlarda cephe görünümünü değiştiren uygulamalarda yönetimle önceden görüşmenizi öneriyoruz. Karar merci biz değiliz, ama uygulamayı ona göre planlarız.
+
+### Yazın çok sıcak olur mu?
+
+Çatı yalıtımsızsa olur — sera etkisi dayanılmaz sıcaklık yaratır. Sandviç panel çatı bunu büyük ölçüde önler. Yan kanatların açılabilir olması da yazın havalandırma için önemlidir.
+
+### Ayrıca ısıtma gerekir mi?
+
+Isıcamlı yan cepheler ve yalıtımlı çatı bir araya geldiğinde alan dış ortamdan belirgin şekilde ılık kalır. Oda sıcaklığı isteniyorsa ısıtma gerekir; kaloriferi buraya uzatmak her binada mümkün olmayabilir, önceden kontrol edilmeli.
+
+### Kar yükünü taşır mı?
+
+Taşıyıcı sistem bölgenin kar yüküne göre hesaplanır. Çatıya su ve kar birikmesini önleyecek eğim verilir, tahliye binanın mevcut yağmur iniş borusuna bağlanır.
