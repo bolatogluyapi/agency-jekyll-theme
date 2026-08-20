@@ -29,8 +29,15 @@
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% endcomment %}
-  <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
-  <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  {%- comment -%}
+    Favicon. Google arama sonuclarindaki ikon icin uc sey gerekiyor:
+    kare olmasi, 48'in kati bir boyut, ve /favicon.ico adresinin de
+    calismasi (Google once oraya bakiyor). Gorselde logonun tamami degil
+    amblemi var; yazi 16 piksele inince okunmaz hale geliyordu.
+  {%- endcomment -%}
+  <link rel="icon" type="image/png" sizes="144x144" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 
   {%- comment -%}
     Ana sayfadaki kapak gorseli CSS arka plani oldugu icin tarayici onu ancak
