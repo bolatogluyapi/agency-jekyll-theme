@@ -33,3 +33,37 @@ jobs:
         REMOTE_USER: ${{ secrets.SSH_USER }}
         TARGET: "/var/www/bolatogluyapi" # Sunucuda oluşturduğumuz klasör
         EXCLUDE: "/dist/, /node_modules/"
+
+    # Cloudflare eski dosyalari onbellekte tutuyor. Elle "Purge Everything"
+    # yapmayi unuttugumuzda tarayici yeni HTML ile eski CSS'i karistirip
+    # sayfayi bozuk gosterebiliyor. Bu adim her deploy sonrasi temizler.
+    #
+    # Gerekli GitHub secret'lari (Settings > Secrets and variables > Actions):
+    #   CLOUDFLARE_ZONE_ID   - Cloudflare panelinde alan adinin Overview
+    #                          sayfasinin sagindaki Zone ID
+    #   CLOUDFLARE_API_TOKEN - My Profile > API Tokens > Create Token
+    #                          Izin: Zone > Cache Purge > Purge
+    #                          Kaynak: yalnizca bolatogluyapi.com
+    #
+    # Secret tanimli degilse adim sessizce atlanir, deploy yine tamamlanir.
+    - name: Cloudflare Önbelleğini Temizle
+      env:
+        CF_ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      run: |
+        if [ -z "$CF_TOKEN" ] || [ -z "$CF_ZONE" ]; then
+          echo "Cloudflare secret'lari tanimli degil, onbellek temizleme atlandi."
+          exit 0
+        fi
+        yanit=$(curl -sS -X POST \
+          "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" \
+          -H "Authorization: Bearer $CF_TOKEN" \
+          -H "Content-Type: application/json" \
+          --data '{"purge_everything":true}')
+        echo "$yanit"
+        if echo "$yanit" | grep -q '"success":true'; then
+          echo "Onbellek temizlendi."
+        else
+          echo "Onbellek temizlenemedi."
+          exit 1
+        fi
