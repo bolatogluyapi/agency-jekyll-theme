@@ -1,7 +1,7 @@
 ---
 caption:
   title: Füme Cam Balkon
-  subtitle: Erbaa
+  subtitle: Erbaa / Tokat
   thumbnail: https://i.pinimg.com/1200x/dd/d7/a4/ddd7a4db7d5b75be9d70dc4a5451df68.jpg
 
 title: Erbaa Füme Renkli Katlanır Cam Balkon
