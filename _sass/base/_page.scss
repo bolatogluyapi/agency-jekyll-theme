@@ -398,3 +398,29 @@ ul.social-buttons li a:hover {
 .text-muted {
   color: #5a6268 !important;
 }
+
+// Iletisim formu geri bildirim kutusu.
+// Bootstrap'in alert bileseni ozel derlemeye dahil degil (yalnizca 47 sinif
+// icin derledik ve bu siniflar JavaScript ile eklendigi icin taramada
+// gorunmemisti). Kendi stilimizi kullaniyoruz.
+.form-mesaj {
+  max-width: 560px;
+  margin: 22px auto 0;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.5;
+  @include heading-font;
+}
+
+.form-mesaj-basarili {
+  border: 1px solid #0f7d70;
+  background-color: rgba(15, 125, 112, 0.12);
+  color: #d6f5ef;
+}
+
+.form-mesaj-hata {
+  border: 1px solid #b02a37;
+  background-color: rgba(176, 42, 55, 0.15);
+  color: #f8d7da;
+}

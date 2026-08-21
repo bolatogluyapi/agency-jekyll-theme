@@ -37,25 +37,23 @@ $(function() {
         cache: false,
 
 		success: function() {
-          // Success message
-          $('#success').html("<div class='alert alert-success'>");
-          $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-            .append("</button>");
-          $('#success > .alert-success')
-            .append("<strong>Mesajınız başarıyla gönderildi. </strong>");
-          $('#success > .alert-success')
-            .append('</div>');
+          // Basari mesaji. Bootstrap alert'i kullanmiyoruz; kapatma (x)
+          // butonu gereksizdi ve stilsiz kaliyordu.
+          $('#success')
+            .attr('role', 'status')
+            .html($('<div>').addClass('form-mesaj form-mesaj-basarili')
+              .text('Talebiniz bize ulaştı. En kısa sürede size dönüş yapacağız.'));
           //clear all fields
           $('#contactForm').trigger("reset");
         },
 
         error: function() {
           // Fail message
-          $('#success').html("<div class='alert alert-danger'>");
-          $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-            .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Üzgünüz " + firstName + ", mesaj sunucusu şu an yanıt vermiyor. Lütfen daha sonra tekrar deneyiniz!"));
-          $('#success > .alert-danger').append('</div>');
+          $('#success')
+            .attr('role', 'alert')
+            .html($('<div>').addClass('form-mesaj form-mesaj-hata')
+              .text('Üzgünüz ' + firstName + ', mesaj şu an gönderilemedi. '
+                  + 'Lütfen tekrar deneyin veya WhatsApp\'tan yazın.'));
           //clear all fields
           $('#contactForm').trigger("reset");
         },

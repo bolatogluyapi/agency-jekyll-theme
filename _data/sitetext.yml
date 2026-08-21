@@ -55,7 +55,7 @@ en: &DEFAULT_EN
     message: "Mesajınız / Talebiniz *"
     message-validation: "Lütfen mesajınızı yazınız."
     subject: "Web Sitesinden Yeni Mesaj Var"
-    submit: "MESAJI GÖNDER"
+    submit: "TALEBİ GÖNDER"
 
   footer:
     legal: "Privacy Policy"
