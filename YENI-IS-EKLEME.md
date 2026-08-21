@@ -188,7 +188,7 @@ ilce: "Zile"
 ---
 layout: bolge
 permalink: /zile/
-order: 8                 # link sirasindaki yeri
+order: 10                # link sirasindaki yeri (her bolgede farkli olmali)
 ilce: "Zile"             # projelerdeki ilce degeriyle ayni
 title: "Zile PVC Pencere ve Cam Balkon"    # arama sonucu basligi, ~40 karakter
 heading: "Zile"                            # sayfadaki h1
@@ -220,6 +220,11 @@ Anlatacak özgün bir şey yoksa o ilçe için sayfa açma; projeler zaten
 `/islerim/` sayfasının altındaki bölge listesi `layout: bolge` olan tüm
 sayfalardan otomatik üretilir. Sıralama `order` alanına göre. Sitemap'e de
 kendiliğinden girer.
+
+**`order` değeri her bölgede farklı olmalı.** İki bölgeye aynı sayıyı
+verirsen sıralama Jekyll'ın dosya okuma sırasına kalır, yani öngörülemez olur.
+Şu an kullanımdakiler: 1 Erbaa, 2 Tokat, 3 Turhal, 4 Niksar, 5 Amasya,
+6 Taşova, 7 Suluova, 8 Ünye, 9 Kadıköy.
 
 ### 5. Kontrol
 

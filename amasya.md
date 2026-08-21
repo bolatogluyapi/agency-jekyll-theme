@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /amasya/
-order: 9
+order: 5
 ilce: "Amasya"
 title: "Amasya Cam Balkon ve PVC Pencere Sistemleri"
 heading: "Amasya Merkez"

@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /kadikoy/
-order: 7
+order: 9
 ilce: "Kadıköy"
 title: "İstanbul Kadıköy Duşakabin Uygulamamız"
 heading: "İstanbul / Kadıköy"

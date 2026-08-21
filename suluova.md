@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /suluova/
-order: 6
+order: 7
 ilce: "Suluova"
 title: "Suluova PVC Pencere ve Doğrama İşleri"
 heading: "Suluova"
