@@ -5,7 +5,7 @@ caption:
   thumbnail: https://i.pinimg.com/1200x/dd/d7/a4/ddd7a4db7d5b75be9d70dc4a5451df68.jpg
 
 title: Erbaa Füme Renkli Katlanır Cam Balkon
-subtitle: Erbaa
+subtitle: Erbaa / Tokat
 location: "Tokat / Erbaa"
 ilce: "Erbaa"
 date: 2026-08-21
