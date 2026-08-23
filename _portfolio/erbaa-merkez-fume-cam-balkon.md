@@ -29,6 +29,24 @@ Bolatoğlu Yapı olarak bu projede, maksimum yalıtım ve kullanım kolaylığı
 * **Yalıtım:** Kanatlar arası şeffaf fitil ve özel silikon uygulaması ile ısı, ses ve toz yalıtımı sağlandı.
 * **Kullanım:** Tamamen katlanıp sağa/sola toplanabilme özelliği sayesinde yazın ferah, kışın tam korumalı kullanım imkanı.
 
+### Rulman ve ray: sistemin ömrünü belirleyen kısım
+
+Cam balkonda camlar nadiren sorun çıkarır; arızalar neredeyse her zaman hareket
+eden parçalardan gelir. Kanatları taşıyan rulmanlar ve üzerinde yürüdükleri ray,
+sistemin gerçek ömrünü belirler.
+
+Ucuz rulmanla yapılan bir balkon ilk yıl kusursuz çalışır. İkinci yıldan sonra
+açılırken zorlanmaya, sonra takılmaya başlar; en sonunda ray üzerinde iz açar ve
+o iz açıldıktan sonra rulman değiştirmek de çözmez, rayın da yenilenmesi
+gerekir. Bu yüzden paslanmaz rulman kullanıyoruz.
+
+Kullanıcı tarafında yapılacak tek bakım rayın temiz tutulması. Toz ve kum
+tanesi ray içinde birikince rulman onları ezerek ilerliyor ve aşınma hızlanıyor.
+Ayda bir süpürge veya nemli bezle ray hattını temizlemek sistemin ömrünü
+belirgin şekilde uzatıyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Uygulama sonrasında balkon, sadece sıcak havalarda değil, dört mevsim boyunca keyifle kullanılabilecek, dış etkenlerden tamamen izole edilmiş, evin değerini artıran ekstra bir odaya dönüştü.

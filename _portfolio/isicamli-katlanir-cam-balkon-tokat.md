@@ -31,6 +31,27 @@ Standart cam balkon bu sorunu tam çözmez. Tek cam, dışarıdaki soğuğu içe
 * **Katlanır Kanat:** Yaz aylarında tüm kanatlar bir kenara toplanıp balkon tamamen açık kullanılabilir. Sistem sabit değil, mevsime göre değişir.
 * **Alt Ray Tahliyesi:** Alt profile açılan tahliye delikleri sayesinde yağmur suyu ray içinde birikmez, kışın donma yapmaz.
 
+### Isıcam ile tek cam arasındaki gerçek fark
+
+Isıcam, arasında kuru hava veya argon gazı bulunan iki cam katmanından oluşur.
+Bu boşluk ısı geçişini keser. Tek camda böyle bir bariyer yok; cam dış hava
+sıcaklığına yakın kalır.
+
+Beklentiyi doğru kurmak gerekiyor. Isıcamlı balkon oda sıcaklığına çıkmaz;
+ısıtılmayan bir alan olarak kalır ama dış ortamdan belirgin şekilde ılık olur.
+Tokat'ın kışında bu, balkonun kullanılabilir olmasıyla olmaması arasındaki fark
+anlamına geliyor.
+
+Asıl kazanç çoğu zaman fark edilmiyor: balkon kapatıldığında salonun dış duvarı
+ve balkon kapısı artık soğukla doğrudan temas etmiyor. Salon daha çabuk ısınıyor
+ve ısısını daha uzun koruyor. Kombi faturasında hissedilen kısım genelde burası.
+
+Bir de yoğuşma konusu var. Isıcamlı sistemde iç yüzeyde terleme azalır ama
+sıfırlanmaz; balkonda çamaşır kurutuluyorsa nem artacağı için ara sıra
+havalandırmak gerekiyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Tokat merkez sayfamıza](/tokat/) bakabilirsiniz.
+
 ### Sonuç
 
 Balkon artık kış aylarında da oturulabilen bir alan. Ev sahibi kaloriferi açtığında ısının balkonda tutulduğunu, salonun da eskisine göre daha çabuk ısındığını iletti — balkon kapatıldığında salonun dış duvarı artık soğukla doğrudan temas etmiyor.

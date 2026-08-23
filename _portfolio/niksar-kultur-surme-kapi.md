@@ -30,6 +30,28 @@ Müşterimiz, hem estetik görünen hem de kışın ısı kaybını önleyen bir
 * **Hırsız Emniyeti:** Sürme kapılarda güvenliği artırmak adına, dışarıdan müdahaleye karşı güçlendirilmiş ispanyolet kilit sistemi monte edildi.
 * **Sızdırmazlık:** Ray aralarına ve kanat bitimlerine yerleştirilen kıl fitiller sayesinde rüzgar ve toz girişi engellendi.
 
+### Sürme kapıda eşik meselesi
+
+Sürme kapılarda en çok sorulan şey eşik yüksekliği. Alt ray, kanadın üzerinde
+yürüdüğü hat; sıfır eşik teknik olarak mümkün değil ama yükseklik seçilebiliyor.
+
+**Standart eşik** en iyi sızdırmazlığı veriyor. Alt profil yükseldiği için su
+ve rüzgar içeri giremiyor. Bedeli: geçerken adım atmak gerekiyor, tekerlekli
+sandalye veya bebek arabası için engel.
+
+**Alçak eşik** geçişi rahatlatıyor ama sızdırmazlık düşüyor; yağmurun doğrudan
+vurduğu cephelerde önermiyoruz.
+
+**Gömme eşik** rayın zemine gömülmesiyle yapılıyor ve neredeyse düz bir geçiş
+veriyor. En konforlusu ama inşaat aşamasında planlanması gerekiyor; sonradan
+zemin kırmak gerekir.
+
+Kültür Mahallesi'ndeki bu uygulamada standart eşik tercih edildi. Kapı balkona
+açılıyordu ve yağış alan bir cephedeydi; sızdırmazlık geçiş konforunun önüne
+geçti.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Niksar sayfamıza](/niksar/) bakabilirsiniz.
+
 ### Sonuç
 
 Montaj sonrası yapılan testlerde kapının tek parmakla bile rahatça açılıp kapandığı görüldü. İnşaat tamamlandığında ev sahiplerine bahçe manzarasının keyfini sürecekleri, yalıtımlı ve güvenli bir yaşam alanı bırakıldı.

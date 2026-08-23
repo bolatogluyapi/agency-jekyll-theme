@@ -31,6 +31,27 @@ Demir korkuluk yılda bir zımparalanıp boyanmadığında paslanır; pas ilerle
 * **Kimyasal Dübelli Ankraj:** Dikmeler beton parapete kimyasal dübelle sabitlendi. Çakmalı dübel zamanla betonu çatlatıp gevşer; kimyasal dübel yükü daha geniş yüzeye dağıtır.
 * **Merdiven Boşluğu Uyumu:** Aynı sistem apartman merdiven boşluğuna da uygulanarak bina genelinde görsel bütünlük sağlandı.
 
+### Eloksal ile boya arasındaki fark
+
+Alüminyum korkulukta yüzey işlemi iki şekilde yapılıyor ve isimleri karışıyor.
+
+**Elektrostatik toz boya** yüzeye uygulanan bir kaplama. Toz halindeki boya
+elektrik yüküyle yapıştırılıp fırında pişiriliyor. Renk seçeneği geniş, mat ve
+parlak dahil her ton mümkün. Sonuçta bir katman olduğu için sert bir darbede
+çizilebiliyor ve çizik yerinden nem alabiliyor.
+
+**Eloksal** kaplama değil, dönüşüm. Alüminyum elektrokimyasal işlemle kendi
+yüzeyinde kalın bir oksit tabakası oluşturuyor. Bu tabaka metalin parçası
+olduğu için kazınıp dökülmüyor. Renk seçeneği daha sınırlı — çoğunlukla
+metalik tonlar.
+
+Dış mekânda ikisi de uzun ömürlü. Eloksal darbeye ve çizilmeye karşı daha
+avantajlı, boya renk özgürlüğü veriyor. Kare kesitli küpeşte gibi elle sık
+temas edilen yerlerde eloksalı tercih ediyoruz; kolun sürtündüğü hatta boya
+zamanla parlaklığını kaybediyor.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Bina, cephe yenilemesini tamamlayan bakım gerektirmeyen bir korkuluk sistemine kavuştu. Apartman yönetimi açısından yıllık boya ve pas bakım gideri tamamen ortadan kalktı.

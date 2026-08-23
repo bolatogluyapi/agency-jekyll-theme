@@ -29,6 +29,28 @@ Klasik beyaz profillerin dışına çıkmak isteyen müşterimiz için, mekanın
 * **Geniş Aydınlık Alan:** Kapı kanadının yanına ve üstüne eklenen sabit cam bölmeler (transom) sayesinde bina girişinin maksimum seviyede gün ışığı alması ve ferahlaması sağlandı.
 * **Güvenli Kilit ve Donanım:** Kapının günlük yoğun kullanımına sorunsuz dayanacak estetik siyah kapı kolu, gizli menteşeler ve güvenliği artırılmış kilit mekanizması entegre edildi.
 
+### Bina girişinde kapı kapatıcı
+
+Apartman giriş kapısı, evdeki kapılardan farklı çalışıyor: günde onlarca kez
+açılıp kapanıyor ve çoğu zaman arkasından itilerek bırakılıyor.
+
+Bu yüzden **kapı kapatıcı** (hidrolik kollu mekanizma) neredeyse zorunlu. Görevi
+kapıyı kontrollü hızda kapatmak. Olmadığında iki sorun çıkıyor: kapı çarparak
+kapanıyor ve zamanla menteşe ile kilit karşılığı zorlanıyor; ya da tam
+kapanmıyor ve bina güvenliği açık kalıyor.
+
+Kapatıcıda ayarlanması gereken iki hız var. Kapanma hızı ana hareket; son
+kapanma hızı ise kapının kilide oturduğu son birkaç santimlik bölüm. Son hız
+yavaş ayarlanırsa kapı kilide tam oturmuyor, hızlı ayarlanırsa çarpıyor.
+Montajda bunu yerinde ayarlıyoruz.
+
+Bir de mevsim etkisi var: hidrolik yağın viskozitesi soğukta artıyor, kapı kışın
+daha yavaş kapanıyor. Kaliteli kapatıcılarda bu fark küçük.
+
+Ahmet Yesevi'deki bu uygulamada kapatıcı bina trafiğine göre ayarlandı.
+
+Benzer işlerimiz ve seçenekler için [alüminyum doğrama sayfamıza](/hizmetler/aluminyum-dograma/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Bina girişi, sıradanlıktan kurtularak son derece lüks ve davetkar bir görünüme kavuştu. Toz, rüzgar ve soğuk geçişini engelleyen yüksek yalıtım değerlerine sahip bu kapı, ev sahiplerine uzun yıllar güvenle hizmet edecektir. **Bolatoğlu Yapı** kalitesiyle binalarınıza değer katmaya devam ediyoruz.

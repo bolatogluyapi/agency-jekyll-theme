@@ -29,6 +29,31 @@ Klasik dikey profilli alüminyum korkulukların aksine, bu sistemde camlar doğr
 * **Paslanmaz Üst Küpeşte:** Camların üst kısmına, hem elinizi güvenle yaslayabilmeniz hem de cam panellerin birbirine kilitlenerek ekstra esnemezlik kazanması için 304 kalite paslanmaz çelik profil geçildi.
 * **Manzara Odaklı Tasarım:** Dikey dikmelerin olmaması sayesinde kesintisiz bir panorama sağlandı ve terasın çok daha geniş algılanması mümkün kılındı.
 
+### Spigot sistemde yük nereye biner
+
+Spigot ayaklı korkulukta dikme yok; cam paneller zemine sabitlenmiş kısa
+ayaklarla tutuluyor. Görsel olarak en yalın çözüm, cam yüzeyi kesintisiz
+kalıyor.
+
+Bunun teknik karşılığı şu: dikmeli sistemde yükü dikmeler taşırken, spigot
+sistemde yükün tamamı camın kendisine ve ayak noktalarına biniyor. Dolayısıyla
+üç şey kritik hale geliyor.
+
+**Cam kalınlığı** dikmeli sisteme göre artıyor. Yükseklik ve panel genişliğine
+göre hesaplanıyor, standart bir ölçü verilemiyor.
+
+**Ayak sayısı ve konumu** panel genişliğine göre belirleniyor. Az ayak, camın
+kendi ağırlığından bükülmesine yol açıyor.
+
+**Zemin dayanımı** en çok atlanan kısım. Spigot ayaklar noktasal yük aktarıyor;
+zeminin o noktada sağlam beton olması gerekiyor. Şap üzerine yapılan montaj
+zamanla gevşiyor.
+
+Alpaslan'daki bu uygulamada ayak noktaları betona ulaşacak şekilde
+konumlandırıldı.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Teras, kalın ve manzarayı bölen demir veya alüminyum yığınlarından kurtarılarak; şık, temizlemesi kolay ve son derece güvenli yeni nesil bir korkuluk sistemine kavuştu. **Bolatoğlu Yapı** standartlarıyla tamamlanan bu proje, ev sahiplerine uzun yıllar sorunsuz hizmet edecektir.

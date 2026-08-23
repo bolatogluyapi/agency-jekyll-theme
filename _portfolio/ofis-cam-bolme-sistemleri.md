@@ -40,3 +40,28 @@ Bu projede kullanılan siyah statik boyalı ince profiller, ofis dekorasyonu ile
 ## Sonuç
 
 Ofis ortamı, gün ışığını engellemeden parçalara ayrıldı. Bu sayede çalışanlar arasındaki görsel iletişim kopmazken, toplantı odalarında gerekli olan gizlilik ve ses yalıtımı sağlandı. Proje, teslim süresinden önce tamamlanarak kullanıma hazır hale getirildi.
+
+### Modüler bölme ve sökülebilirlik
+
+Ofis cam bölmenin duvara göre en büyük avantajı, kalıcı olmaması. Şirket
+büyüdüğünde ya da ekip yerleşimi değiştiğinde bölme sökülüp yeniden
+kurulabiliyor.
+
+Ama bu, her cam bölmenin sökülebileceği anlamına gelmiyor. Sökülebilirlik
+montaj yöntemine bağlı.
+
+**Modüler sistem** panel panel kuruluyor; her panel bağımsız sökülebiliyor.
+Profiller vidalı birleşimlerle bağlanıyor, silikon sadece sızdırmazlık için
+kullanılıyor. Sökülen paneller başka bir konfigürasyonda tekrar kullanılabiliyor.
+
+**Yerinde birleşim** yapılan sistemlerde camlar birbirine yapısal silikonla
+bağlanıyor. Görsel olarak daha temiz sonuç veriyor ama sökmek pratikte camı
+feda etmek anlamına geliyor.
+
+Hangisinin doğru olduğu kullanım süresine bağlı. Kiralık ofiste ya da
+yerleşiminin değişeceği bilinen alanlarda modüler sistem öneriyoruz; kendi
+binasında kalıcı düzen kuran işletmelerde yerinde birleşim daha iyi görünüyor.
+
+Bunu keşifte soruyoruz, çünkü karar sonradan değiştirilemiyor.
+
+Benzer işlerimiz ve seçenekler için [alüminyum doğrama sayfamıza](/hizmetler/aluminyum-dograma/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.

@@ -29,6 +29,28 @@ Klasik tasarımların ötesine geçerek, şık kare profiller ve koyu renkli fü
 * **Yuvarlak Paslanmaz Küpeşte:** Merdiven inip çıkarken ergonomik ve rahat bir tutuş sağlamak amacıyla, en üst kısımda yuvarlak formda 304 kalite paslanmaz çelik tutamaklar monte edildi.
 * **Özel Ankraj (Yandan ve Üstten):** Merdiven yapısının gereksinimlerine uygun olarak, hem basamakların üstünden hem de dönüşlerde yanak kısımlarından sağlam çelik dübellerle ankraj yapılarak sallanma tamamen engellendi.
 
+### Dış mekânda füme cam tercihi
+
+Füme cam korkulukta çift işlev görüyor: hem güvenlik bariyeri hem güneş kırıcı.
+
+Şeffaf cam manzarayı tam açık bırakıyor ama iki dezavantajı var. Güneşi hiç
+kesmiyor, güney cepheli bir merdiven boşluğunda öğle saatlerinde ısı ve parlama
+rahatsız edici olabiliyor. Bir de kirlenmeyi çok gösteriyor; parmak izi ve su
+lekesi şeffaf camda anında belli oluyor.
+
+Füme cam ikisini de yumuşatıyor. Işığın bir bölümünü tutuyor, lekeleri daha az
+gösteriyor. Karşılığında ortam biraz daha loş oluyor — merdiven boşluğu zaten
+karanlıksa iyi bir tercih olmayabiliyor.
+
+Dış mekânda üçüncü bir konu daha var: yağmur lekesi. Cam yüzeyinde kuruyan su
+damlaları kireç izi bırakıyor ve bu iz füme yüzeyde daha az dikkat çekiyor.
+
+Taşova'daki bu uygulamada merdiven güney cepheliydi. Füme cam hem parlamayı
+kesti hem bakım yükünü azalttı; temizlik sıklığı şeffaf cama göre belirgin
+şekilde düşük.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Taşova sayfamıza](/tasova/) bakabilirsiniz.
+
 ### Sonuç
 
 Merdiven boşluğu, hem düşme riskine karşı maksimum güvenlik sağlayan hem de evin genel mimarisine lüks bir dokunuş yapan şık bir sisteme kavuştu. **Bolatoğlu Yapı** kalite standartlarıyla teslim ettiğimiz bu korkuluk, paslanma yapmadan uzun yıllar boyunca ev sahiplerine hizmet edecektir.

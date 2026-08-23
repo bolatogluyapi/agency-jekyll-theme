@@ -29,6 +29,27 @@ Standart yuvarlak borulu sistemlerin aksine, kare (köşeli) paslanmaz dikmeler 
 * **Ahşap Küpeşte (Tutamak):** Merdivenin soğuk metal görünümünü kırmak ve evin zemin/kapı detaylarıyla uyum sağlamak için üst tutamak kısmında doğal ahşap (veya ahşap görünümlü) küpeşte kullanıldı.
 * **Paslanmaz Cam Tutucular:** Cam panelleri dikmelere bağlayan klemp (tutucu) aksesuarlar, ana iskeletle aynı kare formda ve paslanmaz malzemeden seçildi.
 
+### Merdivende camın kesimi
+
+Merdiven korkuluğu, balkon korkuluğundan teknik olarak daha zor. Sebep basit:
+düz bir hat değil, eğimli bir hat üzerinde çalışıyorsunuz.
+
+Camlı merdiven korkuluğunda her panelin alt ve üst kenarı merdiven eğimine göre
+açılı kesiliyor. Bu açı basamak yüksekliği ile basamak genişliğinin oranından
+çıkıyor ve her merdivende farklı. Standart bir panel alıp yerinde kesmek mümkün
+değil — temperli cam ısıl işlemden sonra kesilemiyor, delinemiyor. Bütün
+ölçüler ve delik yerleri üretimden önce kesinleşmiş olmalı.
+
+Bu yüzden merdiven korkuluğunda ölçü aşaması balkondakinden uzun sürüyor. Her
+basamağı ayrı ölçüyoruz, çünkü inşaatta basamak yükseklikleri milimetrik olarak
+farklı çıkabiliyor.
+
+Sahanlıkta eğim değişiyor ve orada ayrı bir panel gerekiyor. Ertuğrul Gazi'deki
+bu uygulamada eğimli bölüm ile sahanlık bölümü ayrı hesaplandı, birleşim
+noktasında küpeşte kesintisiz devam ediyor.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Merdiven boşluğu, hantal duvarlar veya ahşap parmaklıklar yerine şeffaf camın ferahlığıyla buluştu. Kare profillerin modern çizgisi ve ahşap küpeştenin sıcaklığı bir araya gelerek, uzun yıllar güvenle kullanılacak şık bir merdiven korkuluğu ev sahiplerine teslim edildi.

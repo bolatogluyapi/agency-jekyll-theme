@@ -40,3 +40,23 @@ Dışarıdan bakıldığında şık ve koyu bir estetik sunan bu sistem, balkonu
 ## Sonuç
 
 Uygulama sonunda balkon, toz ve gürültüden arındırılmış, dış etkenlere karşı tam korumalı ferah bir odaya dönüştürüldü. Füme cam tercihi sayesinde güneş ışığının yakıcı etkisi kırılırken, mahremiyet seviyesi artırıldı. Proje 1 iş günü içerisinde titizlikle tamamlanarak teslim edildi.
+
+### Cam balkon ve korkuluğun birlikte tasarlanması
+
+Bu uygulamada cam balkon ile korkuluk birlikte planlandı. Çoğu balkonda bu iki
+sistem ayrı zamanlarda, çoğu zaman farklı ustalar tarafından yapılıyor ve sonuç
+dağınık görünüyor.
+
+Birlikte tasarlandığında üç şey kazanılıyor. Görsel olarak profil renkleri ve
+cam tonları uyumlu seçiliyor, iki sistem tek bir bütün gibi duruyor. Teknik
+olarak korkuluk ankrajları cam balkonun alt profiliyle çakışmayacak şekilde
+konumlandırılıyor; sonradan yapıldığında bu çakışma sık yaşanıyor ve delik
+yerleri değiştirilemediği için taviz vermek gerekiyor.
+
+Üçüncüsü maliyet: ölçü bir kez alınıyor, ekip bir kez geliyor, parapet üzerinde
+tek seferde çalışılıyor.
+
+Sıralama önemli: önce korkuluk, sonra cam balkon. Tersi yapıldığında korkuluk
+montajı için cam kanatların sökülmesi gerekiyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.

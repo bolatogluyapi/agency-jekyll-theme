@@ -29,6 +29,29 @@ Klasik içe veya dışa açılan kapıların aksine, sürme sistemler kanatları
 * **Yüksek Yalıtımlı Beyaz Profil:** Açık renk duvarlar ve gri zeminle kusursuz uyum sağlayan, standartların üzerinde yalıtım değerlerine sahip beyaz PVC profiller kullanıldı.
 * **Isıcam Teknolojisi:** Geniş cam yüzeylerde kışın ısı kaybını, yazın ise sıcaklık geçişini engellemek adına nitelikli çift cam (Isıcam) sistemi entegre edildi.
 
+### Sürme mi, açılır mı
+
+Balkon çıkışında sürme ve açılır kanat arasında seçim yaparken belirleyici olan
+şey estetik değil, iki taraftaki alan.
+
+**Sürme kanat** açılırken hiçbir yöne yer kaplamıyor. Dar balkonlarda ya da
+kapının önünde mobilya olan salonlarda tek mantıklı seçenek. Karşılığında
+sızdırmazlık açılır kanada göre bir tık geride kalıyor, çünkü kanat kasaya
+baskı yapmıyor, yanına kayıyor.
+
+**Açılır kanat** en iyi sızdırmazlığı veriyor; çevre boyunca contaya baskıyla
+oturuyor. Ama açıldığında iç veya dış tarafta kanat genişliği kadar yer
+kaplıyor.
+
+Ara çözüm kaldır-sür sistemler; sürmenin yer avantajını açılırın
+sızdırmazlığıyla birleştiriyor, karşılığı fiyat.
+
+Yeni Mahalle'deki bu uygulamada balkon dardı ve kapının hemen yanında oturma
+grubu vardı. Sürme sistem tercih edildi, sızdırmazlık farkı kaliteli fitille
+büyük ölçüde kapatıldı.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Daire, standart kapıların yaratacağı alan kaybından kurtarılarak, tek bir el hareketiyle sessizce açılabilen modern bir sürme kapıya kavuştu. Kullanım kolaylığı ve yüksek ışık geçirgenliği sunan bu sistem, mekanın ferahlık hissini iki katına çıkardı.

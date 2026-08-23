@@ -29,6 +29,29 @@ Sürgülü sistemler yerine, giriş alanını daha da genişleten **menteşeli k
 * **Üst Gergi (Destek) Barı:** Cam kabinin esnemesini ve sarsılmasını tamamen engellemek için, köşeden köşeye uzanan 304 kalite paslanmaz çelik destek kolu monte edildi.
 * **Profilsiz Sızdırmazlık:** Duvar birleşimlerinde ve zemin eşiğinde kalın alüminyum kasalar yerine, minimalist cam tutucular (klemp) ve şeffaf mıknatıslı fitiller kullanılarak su yalıtımı sağlandı.
 
+### Köşe kabinde ölçü neden zor
+
+Köşe duşakabin, iki duvarın birleştiği noktaya oturuyor ve buradaki zorluk
+duvarların birbirine dik olmaması.
+
+İnşaatta duvarlar nadiren tam 90 derece oluyor; bir iki derecelik sapma
+normal. Düz bir duvarda bu fark edilmiyor ama köşede iki duvarın sapması
+birleşerek büyüyor. Standart 90 derecelik köşe kabin böyle bir yere
+oturtulduğunda bir tarafta boşluk kalıyor.
+
+Bu yüzden köşe kabinde açı ölçümü yapıyoruz. Duvarlar arası açı gerçekte kaç
+derece, iki duvar da şakullü mü — bunlara bakıyoruz. Sapma küçükse ayar
+profilleriyle kapatılıyor; büyükse camın açılı kesilmesi gerekiyor ve bu ölçüye
+özel üretim demek.
+
+İkinci konu duvarların şakullü olmaması. Üstte ve altta farklı ölçü çıkıyorsa
+dar olana göre üretim yapılıyor.
+
+Kelkit'teki bu uygulamada duvar açısı 90 dereceden bir miktar sapıyordu; fark
+ayar profiliyle kapatıldı, silikon hattı ince kaldı.
+
+Benzer işlerimiz ve seçenekler için [duşakabin ve banyo sayfamıza](/hizmetler/dusakabin-banyo/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Banyodaki köşe alan, kalın profillerin boğucu etkisinden kurtarılarak modern, aydınlık ve lüks bir otel banyosu konseptine kavuşturuldu. Temizliği son derece kolay ve mekanik arıza riski sıfıra yakın bir sistem ev sahibine teslim edildi.

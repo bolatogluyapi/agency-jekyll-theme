@@ -29,6 +29,27 @@ Lavabo dolabı ile duş alanını ayıran cam panel ve duvardan duvara uzanan mi
 * **Minimalist Krom Aksesuarlar:** Sistemi tamamlayan küçük ve şık paslanmaz kapı kulpu ile camları birbirine ve duvara sabitleyen gizli klempler kullanılarak estetik bütünlük sağlandı.
 * **Profilsiz Sızdırmazlık:** Zeminde suyun dışarı çıkmasını engelleyen ince bir set ve cam birleşim noktalarında zamanla sararma yapmayan şeffaf fitiller kullanıldı.
 
+### Çerçevesiz sistemde menteşe yükü
+
+Çerçevesiz duşakabinde cam, çevresini saran profil olmadan duruyor. En yalın
+görünüm bu; banyo görsel olarak büyüyor.
+
+Teknik karşılığı şu: profilin taşıdığı yükü artık menteşeler taşıyor. 8 mm veya
+10 mm temperli cam ciddi bir ağırlık ve bu ağırlığın tamamı iki ya da üç
+noktadan aktarılıyor.
+
+Bunun üç sonucu var. Menteşe kalitesi belirleyici hale geliyor; ucuz menteşe
+birkaç ay içinde sarkma yapıyor ve kapı zemine sürtmeye başlıyor. Menteşenin
+tutturulduğu duvar sağlam olmalı — alçıpan bölmeye çerçevesiz kabin menteşesi
+takmak doğru değil, arkasında takviye gerekiyor. Cam kalınlığından taviz
+verilemiyor; çerçevesizde 6 mm cam yeterli değil.
+
+Yıldırım Beyazıt'taki bu uygulamada 8 mm temperli cam ve duvara gömme takviyeli
+menteşe kullanıldı. Kapı iki yöne de açılabiliyor, bu çerçevesiz sistemlerin
+pratik bir avantajı.
+
+Benzer işlerimiz ve seçenekler için [duşakabin ve banyo sayfamıza](/hizmetler/dusakabin-banyo/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Kalın, kireç tutan ve banyoyu boğan eski tip profilli sistemlerin aksine; sadece camın zarafetinin ön planda olduğu, temizliği son derece pratik ve modern bir duş alanı ev sahibine başarıyla teslim edildi.

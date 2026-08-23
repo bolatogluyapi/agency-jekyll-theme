@@ -29,6 +29,27 @@ Amasya'nın Suluova ilçesinde yapımı devam eden bu yeni inşaat projesinde, o
 * **İnşaat Aşaması İzolasyonu:** Doğrama ile duvar boşlukları arasına yüksek yoğunluklu poliüretan köpük sıkılarak rüzgar ve su sızdırmazlığı kaba inşaat aşamasında güvence altına alındı.
 * **Dayanıklı Donanım:** İnşaat süreci ve sonrasındaki yoğun kullanıma dayanıklı, paslanmaz kilit ve uzun ömürlü ispanyolet mekanizmaları entegre edildi.
 
+### Fransız balkonda güvenlik
+
+Fransız balkon, döşeme hizasından başlayan ve dışarı açılan bir pencere.
+Görsel olarak mekânı büyütüyor, ışığı artırıyor. Ama zeminden başladığı için
+düşme riski doğuruyor ve bu, seçenekli bir konu değil.
+
+İki çözüm var. Birincisi dış tarafa alçak korkuluk koymak; klasik yöntem,
+görünürde bir engel oluşturuyor ama güvenliği net. İkincisi camın alt bölümünde
+laminasyonlu cam kullanmak — iki cam katmanı arasına şeffaf bir film
+yerleştiriliyor, cam kırılsa bile parçalar filme yapışık kalıyor ve boşluk
+oluşmuyor.
+
+Laminasyonlu cam görünümü hiç bozmuyor, o yüzden Fransız balkonun amacına
+daha uygun. Maliyeti korkuluktan yüksek.
+
+Suluova'daki bu iş yeni inşaat aşamasındaydı ve bu, seçimi kolaylaştırdı: karar
+proje aşamasında verildiğinde ne ek maliyet ne de görsel taviz oluyor. Sonradan
+eklenen korkuluk ise her zaman sonradan eklenmiş gibi duruyor.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Suluova sayfamıza](/suluova/) bakabilirsiniz.
+
 ### Sonuç
 
 Henüz kaba inşaat halinde olan bu oda, dış etkenlere karşı tamamen izole edilerek güvenli bir yapıya kavuşturuldu. Sıva, boya ve zemin işlemlerinin ardından doğramalarımız, mekanın modern görünümünün en önemli parçası olacaktır.

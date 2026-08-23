@@ -29,6 +29,26 @@ Mekanın parke zeminleri ve sade duvarlarıyla kusursuz bir uyum yakalaması iç
 * **Uzun Ömürlü İspanyolet:** Kapının günlük yoğun kullanımına uygun, sarkma yapmayan, tam yalıtım sağlayan kilit ve çift açılım mekanizmaları entegre edildi.
 * **Kusursuz İzolasyon:** Doğrama ile duvar arasındaki boşluklar, dış hava şartlarına tam dayanıklı silikon ve poliüretan köpük ile profesyonelce izole edildi.
 
+### Teras kapılarında su tahliyesi
+
+Balkon ve teras kapılarında en sık görülen sorun, eşik hattından içeri su
+sızması. Sebebi çoğu zaman kapı değil, tahliyenin çalışmaması.
+
+PVC doğramada kasanın alt profilinde su tahliye kanalları bulunur. Yağmurda
+kanat ile kasa arasına giren su bu kanallardan dışarı atılır. Kanallar
+tıkanırsa su birikiyor ve bir süre sonra iç tarafa yürüyor.
+
+Tıkanmanın iki sebebi var. Birincisi montaj: kanalların önü silikonla
+kapatılırsa sistem baştan çalışmaz. Şaşırtıcı derecede sık yapılan bir hata,
+çünkü dışarıdan bakınca "kapatılması gereken bir boşluk" gibi duruyor.
+İkincisi bakımsızlık: toz, yaprak ve kum zamanla kanalı dolduruyor.
+
+Erek'teki bu uygulamada tahliye delikleri açık bırakıldı ve müşteriye yılda bir
+kontrol edilmesi gerektiği söylendi. Bir çubukla temizlemek yeterli; iki
+dakikalık bir iş ama yapılmadığında pahalı sonuçlar doğuruyor.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Oda, eski ve küçük pencerelerin karanlığından kurtarılarak, ağaçlık manzarayı tamamen içeri alan ferah bir atmosfere kavuştu. **Bolatoğlu Yapı** standartlarıyla üretilen bu sistem, ev sahiplerine hem kışın sıcacık hem de yazın kolayca havalandırılabilen konforlu bir kullanım sunmaktadır.

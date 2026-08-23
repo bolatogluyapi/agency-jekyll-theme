@@ -29,6 +29,27 @@ Mevcut kapı doğramalarının ahşap dokusuyla birebir eşleşmesi için özel 
 * **Akordeon (Katlanır) Mekanizma:** Sürme kapının çalışma prensibini bozmayan ve açıldığında kasa içinde toplanarak yer kaplamayan pileli sistem kuruldu.
 * **Kıl Fitil Yalıtımı:** Sineklik ile doğrama arasına yerleştirilen yüksek yoğunluklu kıl fitiller sayesinde en ufak haşerelerin bile geçişi tamamen engellendi.
 
+### Ahşap desenli kasa nasıl uygulanır
+
+Ahşap görünümlü doğrama kullanılan evlerde beyaz sineklik kasası görüntüyü
+bozuyor. Bu yüzden sineklik kasalarına da folyo kaplama uygulanıyor.
+
+Uygulamada dikkat edilmesi gereken şey desen uyumu. Doğramadaki folyo ile
+sinekliğinki aynı desen ve tonda olmalı; "ahşap görünümlü" tanımı çok geniş,
+altınmeşe ile ceviz yan yana geldiğinde uyumsuzluk hemen belli oluyor. Bu
+yüzden mevcut doğramanın folyo kodunu soruyoruz ya da numune alıyoruz.
+
+İkinci konu folyonun dayanıklılığı. Sineklik kasası, doğramaya göre daha ince
+profillerden oluşuyor ve köşe birleşimleri daha keskin. Folyonun bu köşelerde
+düzgün sonlandırılması gerekiyor, yoksa kenarlardan kalkmaya başlıyor.
+
+Üçüncüsü hareketli parçalar. Pileli sistemde tülün toplandığı yan profil sürekli
+temas görüyor; orada folyo aşınabiliyor. Kaliteli folyo bu sürtünmeye dayanıyor.
+
+Yeşilyurt'taki bu uygulamada kasa rengi mevcut doğramayla eşleştirildi.
+
+Benzer işlerimiz ve seçenekler için [sineklik sayfamıza](/hizmetler/sineklik/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Veranda kapısının ahşap şıklığı korunurken, içeriye sinek veya böcek girmesi derdi kalıcı olarak çözüldü. Ev sahiplerine, mekanizması takılmadan yağ gibi akan, dekoratif ve dayanıklı bir sineklik sistemi teslim edildi.

@@ -31,6 +31,31 @@ Teras kapatmada asıl belirleyici olan çatıdır. Sadece yanları camlayıp üs
 * **Isıcam Sinerji Seri:** Yan cephelerde düşük ısı geçirgenlikli cam kullanıldı. Kış bahçesi mekanik ısıtma olmadan da dış ortamdan belirgin şekilde ılık kalıyor.
 * **Eğimli Çatı ve Dere:** Çatıya su birikmesini önleyecek eğim verildi, tahliye evin mevcut yağmur iniş borusuna bağlandı.
 
+### Sandviç panel kalınlığı
+
+Sandviç panel, iki metal levha arasına poliüretan veya taş yünü dolgu konmuş
+çatı malzemesi. Teras kapatmada tek kat saça göre asıl farkı bu dolgu yaratıyor.
+
+Kalınlık seçimi kullanım amacına bağlı.
+
+**4 cm panel** yazın sıcağı büyük ölçüde kesiyor ve yağmur sesini azaltıyor.
+Terası korunaklı bir dış alan olarak kullanacaksanız yeterli.
+
+**6 cm ve üzeri** alanı gerçekten oda gibi kullanacaklar için. Kışın ısıtma
+düşünülüyorsa ince panelle ısı çatıdan kaçıyor ve ısıtma anlamsız hale geliyor.
+
+Panel kalınlığı taşıyıcı hesabını da etkiliyor; kalın panel daha ağır, profil
+kesiti ona göre seçiliyor.
+
+Bir de yoğuşma konusu var. Yalıtımsız çatının iç yüzeyinde kış aylarında su
+damlaları oluşuyor ve bu damlalar aşağı düşüyor. Sandviç panelde iç yüzey
+sıcaklığı iç ortama yakın kaldığı için yoğuşma büyük ölçüde önleniyor.
+
+Turhal'daki bu uygulamada alanın dört mevsim kullanılması hedeflendi, panel
+kalınlığı buna göre seçildi.
+
+Benzer işlerimiz ve seçenekler için [teras kapatma sayfamıza](/hizmetler/teras-kapatma-kis-bahcesi/), bu bölgede yaptığımız diğer işler için [Turhal sayfamıza](/turhal/) bakabilirsiniz.
+
 ### Sonuç
 
 Atıl duran teras, evin en çok vakit geçirilen odasına dönüştü. Ev sahibi kış aylarında burayı kahvaltı alanı olarak kullandığını, yaz aylarında ise yan kanatları açarak yarı açık teras düzenine geçebildiğini belirtti.

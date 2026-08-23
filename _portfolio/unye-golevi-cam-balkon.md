@@ -28,6 +28,25 @@ Müşterimizin talebi doğrultusunda, standart metalik renkler yerine binanın a
 * **Sistem Yapısı:** L formlu balkona özel köşe dönüş donanımı ve paslanmaz tekerlek mekanizması.
 * **Yalıtım:** Kanat aralarında şeffaf H fitiller ve kasa etrafında rüzgar/toz girişini kesen kıl fitil uygulaması.
 
+### Deniz havasında sistemin bakımı
+
+Sahil şeridinde cam balkonun bakımı iç bölgelerden farklı. Sebep tuz: havadaki
+tuz zerreleri metal yüzeylerde birikiyor ve nemle birlikte korozyonu
+hızlandırıyor.
+
+Bu yüzden Ünye gibi sahil ilçelerinde donanım seçimi daha kritik. Rulman ve
+vidalarda paslanmaz tercih ediyoruz; galvaniz kaplama burada iç bölgedekine
+göre belirgin şekilde kısa ömürlü oluyor.
+
+Kullanıcı tarafında iki basit alışkanlık işe yarıyor. Birincisi, camları tatlı
+suyla durulamak — deniz tarafından gelen tuz camda leke bırakıyor ve zamanla
+yüzeye işliyor. İkincisi, ray hattını fırtınalı günlerden sonra temizlemek;
+rüzgarla gelen kum ve tuz karışımı raya oturunca rulmanları hızla aşındırıyor.
+Yılda bir rulman noktalarına silikon bazlı sprey sıkmak da hareketi
+kolaylaştırıyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Ünye sayfamıza](/unye/) bakabilirsiniz.
+
 ### Sonuç
 
 Müşterimiz, dışarıdan bakıldığında binanın orijinal bir parçası gibi duran, içeriden ise manzarayı kesintisiz sunan şık ve yalıtımlı bir kış bahçesine kavuştu. Ünye'nin deniz esintilerine karşı korunaklı, temizliği kolay ve kullanımı son derece pratik bir yaşam alanı ortaya çıktı.

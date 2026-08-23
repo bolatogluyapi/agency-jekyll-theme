@@ -29,6 +29,28 @@ Bu talepler doğrultusunda, korkuluklarla renk bütünlüğü sağlayan özel br
 * **Köşe Birleşimi:** L balkon yapısına uygun, açılıp kapanmayı zorlaştırmayan ve su sızdırmazlığı sağlayan özel köşe dönüş donanımı.
 * **Yalıtım:** Kanatlar arası şeffaf alüminyum fitil ve zeminde yağmur suyunu dışarı atan tahliye kanalları.
 
+### Bronz profil ve şeffaf cam kombinasyonu
+
+Bu uygulamada bronz profil ile şeffaf cam birlikte kullanıldı. Tercih tesadüfi
+değil; ikisi birbirini dengeliyor.
+
+Şeffaf cam manzarayı hiç bozmuyor ve balkona giren ışığı kısmıyor — Amasya gibi
+yamaç yerleşimlerde manzara çoğu zaman evin en değerli özelliği oluyor. Ancak
+şeffaf camla beyaz profil bir araya geldiğinde sistem "cam bölme" gibi
+görünebiliyor. Bronz profil, cam yüzeyini çerçeveleyerek tasarıma karakter
+katıyor.
+
+Bronz aynı zamanda ara bir ton. Antrasit ve siyah kadar sert durmuyor, beyaz
+kadar da nötr kalmıyor; taş ve ahşap ağırlıklı cephelerle uyumlu çalışıyor.
+Amasya'nın tarihi dokusuna yakın bölgelerde bu, cephe uyumu açısından da
+avantaj sağlıyor.
+
+Renk seçerken profil numunesini binanın kendi cephesinin yanında, gün ışığında
+görmenizi öneriyoruz. Katalogdaki renk ile duvarın yanındaki renk farklı
+algılanıyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Amasya sayfamıza](/amasya/) bakabilirsiniz.
+
 ### Sonuç
 
 Mevcut korkuluklarla sanki binanın orijinalinde varmış gibi bütünleşen, manzara keyfini hiçbir şekilde bölmeyen ve balkonu dört mevsim temiz tutacak şık bir yaşam alanı ortaya çıktı.

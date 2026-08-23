@@ -31,6 +31,24 @@ Mevcut bina mimarisine uyum sağlaması açısından **Beyaz Alüminyum Profil**
 * Köşe birleşim noktasına özel alüminyum köşe fitili uygulanarak rüzgar girişi tamamen engellendi.
 * Su tahliye kanalları sayesinde yağmur suyunun içeri girmesi önlendi.
 
+### Balkon düz değilse ne yapılır
+
+Balkonlar kağıt üzerinde dikdörtgen görünür ama uygulamada nadiren öyledir.
+İki uç arasında birkaç santim genişlik farkı, parapette hafif eğim ya da tavanda
+sarkma sık karşılaşılan durumlar.
+
+Bu yüzden ölçüyü tek noktadan almıyoruz. Genişliği üstte, ortada ve altta;
+yüksekliği iki uçta ve ortada ölçüyoruz. En dar ölçüye göre üretim yapılıyor,
+kalan farklar profil ve fitille kapatılıyor. Bu ayrıntı atlanırsa sistem
+takılırken ya sıkışır ya bir uçta boşluk kalır.
+
+Bağlar Mahallesi'ndeki bu uygulamada parapet üst yüzeyinde eğim vardı. Alt
+profili teraziye alıp aradaki farkı taşıyıcı ile kapattık; kanatlar dik
+çalışıyor ve alt hatta su birikmesi olmuyor. Gözle fark edilmeyen bu tür
+düzeltmeler montaj kalitesinin asıl belirleyicisi.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Niksar sayfamıza](/niksar/) bakabilirsiniz.
+
 ### Sonuç
 
 Balkon, dış etkenlerden (toz, yağmur, yaprak vb.) tamamen izole edildi. Daire sahipleri artık kışın soğuk havalarda bile balkonlarını bir kış bahçesi tadında kullanabilecekler. Ayrıca uygulanan sistem, dairenin ısı yalıtımına tampon bölge oluşturarak katkı sağladı.

@@ -29,6 +29,30 @@ Alt kısımda kalın profillerin olmaması sayesinde banyodaki görsel bütünl�
 * **Paslanmaz Çelik Donanım:** Üst taşıyıcı ray, tekerlekler ve tutamaklarda neme ve suya karşı dayanıklı 304 kalite paslanmaz çelik malzeme tercih edildi.
 * **Eşiksiz Geçiş:** Alt kısımda su tutucu ince bir profil ve şeffaf fitiller kullanılarak suyun dışarı sızması engellendi, aynı zamanda temizlik kolaylaştırıldı.
 
+### Zemin eğimi ve su tahliyesi
+
+Duşakabinde en sık yaşanan sorun camdan değil zeminden kaynaklanıyor: su
+kabinin dışına çıkıyor.
+
+Sebep neredeyse her zaman zemin eğimi. Duş alanının gidere doğru hafif eğimli
+olması gerekiyor. Eğim yoksa ya da yanlış yöndeyse su kabin içinde birikiyor ve
+kapı açıldığında dışarı taşıyor. Bu, kabinle çözülebilecek bir sorun değil;
+zemin işi.
+
+Bu yüzden keşifte zemini kontrol ediyoruz. Su döküp akış yönüne bakmak yeterli
+oluyor. Eğim yanlışsa müşteriye açıkça söylüyoruz: kabin takılabilir ama sorun
+devam eder.
+
+Ahşap görünümlü zemin kaplamalarında ek bir konu var. Fayans yerine ahşap
+desenli seramik veya gerçek ahşap kullanıldığında derz aralıkları ve
+sızdırmazlık daha kritik hale geliyor. Su altına sızdığında kaplama şişiyor ve
+geri dönüşü olmuyor.
+
+Cumhuriyet Mahallesi'ndeki bu uygulamada zemin eğimi uygundu; kabin alt profili
+gider yönüne göre konumlandırıldı.
+
+Benzer işlerimiz ve seçenekler için [duşakabin ve banyo sayfamıza](/hizmetler/dusakabin-banyo/), bu bölgede yaptığımız diğer işler için [Turhal sayfamıza](/turhal/) bakabilirsiniz.
+
 ### Sonuç
 
 Banyo, klasik duşakabinlerin yarattığı daralma hissinden kurtarılarak geniş ve aydınlık bir görünüme kavuştu. Kullanıcıya, mekanik arıza riski düşük, temizliği son derece kolay ve banyonun şıklığını tamamlayan uzun ömürlü bir duş alanı teslim edildi.

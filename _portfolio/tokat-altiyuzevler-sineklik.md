@@ -30,6 +30,29 @@ Geniş açıklığa sahip sürme kapılarda pileli sistem yerine, daha rijit ve 
 * Sineklik kasasının kenarlarına kıl fitiller yerleştirilerek en ufak haşerelerin bile sızması engellendi.
 * Alüminyum çerçeve kullanılarak güneş ışınlarına ve korozyona karşı uzun ömürlü bir yapı elde edildi.
 
+### Sürgülü sineklik ve pencere uyumu
+
+Sürme pencerede sineklik seçerken kritik olan, sinekliğin pencerenin hareketiyle
+çakışmaması.
+
+Sürme pencerede kanat yana kayıyor ve açıkken pencere boşluğunun yarısını
+kaplıyor. Sineklik de aynı mantıkla çalışmalı: sürgülü sineklik kendi rayında
+kayıyor ve pencere hangi tarafa açılırsa sineklik ters tarafa çekilerek açıklık
+korunuyor.
+
+Buraya menteşeli veya pileli sistem takmak sorun çıkarıyor. Menteşeli sineklik
+açılmak için yer istiyor ve sürme pencerenin önünde bu yer yok. Pileli sistem
+teknik olarak takılabiliyor ama sürme pencerenin yarım açıklığıyla birlikte
+kullanıldığında sürekli açıp kapamak gerekiyor.
+
+Sürgülü sinekliğin ray sistemi de pencereninkinden bağımsız olmalı. Aynı raya
+binmeye çalışan sistemler birbirini engelliyor.
+
+Altıyüzevler'deki bu uygulamada sinekliğe ayrı ray takıldı. Pencere ve sineklik
+bağımsız hareket ediyor, ikisi de tam açıklık veriyor.
+
+Benzer işlerimiz ve seçenekler için [sineklik sayfamıza](/hizmetler/sineklik/), bu bölgede yaptığımız diğer işler için [Tokat merkez sayfamıza](/tokat/) bakabilirsiniz.
+
 ### Sonuç
 
 Kullanıcı, kapıyı tamamen açtığında sinekliğini tek bir el hareketiyle sürerek evi koruma altına alabilir hale geldi. Pileli sinekliklere göre daha sağlam bir yapıya sahip olan bu sistem sayesinde, özellikle evcil hayvanların tüle zarar verme riski de azaltıldı.

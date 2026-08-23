@@ -29,6 +29,26 @@ Binanın dış cephesiyle estetik bir bütünlük sağlaması için antrasit gri
 * **Mekanizma:** Rüzgarlı havalarda güvenli havalandırma sunan, birinci sınıf çift açılım pencere donanımı.
 * **İzolasyon:** Mermer ve duvar birleşimlerinde su sızıntısını tamamen engelleyen özel dış cephe silikon uygulaması.
 
+### PVC'de köşe birleşim
+
+Köşe dönen pencere gruplarında iki kasanın buluştuğu hat, sistemin en zayıf
+noktasıdır. PVC profil ısıyla genleşip büzülüyor; yaz ile kış arasında uzun bir
+kasada birkaç milimetrelik hareket normal.
+
+Bu hareket hesaba katılmazsa köşe hattı zorlanıyor. Doğru çözüm, genleşmeye izin
+veren bir köşe birleşim profili kullanmak. Profil iki kasayı mekanik olarak
+bağlıyor ama arada kontrollü bir hareket payı bırakıyor.
+
+İki kasayı sıkıca vidalayıp aradaki boşluğu silikonla kapatmak ilk bakışta
+sağlam görünüyor; birkaç yıl sonra silikon çatlıyor ve o hattan su geliyor.
+Pencere altındaki rutubet lekelerinin yaygın sebeplerinden biri budur.
+
+Amasya'daki bu uygulamada köşe profili kullanıldı ve dış tarafta ayrıca
+sızdırmaz bant çekildi. Antrasit folyo kaplama da köşe profiliyle aynı tonda
+seçildi, birleşim görsel olarak tek çizgi halinde kalıyor.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Amasya sayfamıza](/amasya/) bakabilirsiniz.
+
 ### Sonuç
 
 Uygulama sonucunda balkon; evin genel ısı kaybını azaltan, rüzgar ve soğuk almayan tam yalıtımlı ekstra bir yaşam alanına dönüştü. Hem içeriden hem de dış cepheden bakıldığında son derece modern ve şık bir görünüm elde edildi.

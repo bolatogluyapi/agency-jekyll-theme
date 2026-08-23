@@ -29,6 +29,26 @@ Müşterimizin özellikle çocuk güvenliği konusundaki hassasiyeti nedeniyle, 
 * **Paslanmaz Alüminyum Profil:** Dış hava şartlarına (yağmur, kar, güneş) tam dayanıklı, oksitlenme yapmayan ve parlaklığını yıllarca koruyan eloksallı alüminyum malzeme kullanıldı.
 * **Duvar Bağlantıları:** Sistemi ekstra rijit (sabit) hale getirmek için dış cephe duvarına özel flanşlarla gizli bağlantılar yapıldı.
 
+### Yatay şeritli korkuluk ve çocuk güvenliği
+
+Dört yatay şeritli tasarım son yıllarda çok tercih ediliyor; yalın duruyor ve
+manzarayı dikey çubuklardan daha az bölüyor. Ama küçük çocuğu olan evlerde
+konuşulması gereken bir yanı var.
+
+Yatay şeritler bir çocuk için merdiven basamağı işlevi görebiliyor. Dikey çubuklu
+korkulukta tırmanacak yer yok; yatay şeritte var. Yükseklik yeterli olsa bile
+tırmanma ihtimali riski değiştiriyor.
+
+Üç çözüm var. Şeritler arası açıklık çocuğun geçemeyeceği ve tutunamayacağı
+ölçüde daraltılabilir. Alt bölüme cam panel eklenebilir; hem tırmanma engeli
+olur hem rüzgar keser. Ya da tasarım dikey çubuğa çevrilebilir.
+
+İsmet Paşa'daki bu uygulamada evde küçük çocuk yoktu, dört şeritli tasarım
+tercih edildi. Bunu keşifte soruyoruz — daha sonra çocuk olacaksa alt panel
+eklemek mümkün, ama baştan planlamak hem daha ucuz hem daha düzgün duruyor.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Balkon, modern dış cephe mimarisiyle tam bir uyum yakaladı. Ev sahiplerine hiçbir bakım veya boya masrafı gerektirmeyen, çocukları için en üst düzey güvenliği sağlayan uzun ömürlü bir korkuluk sistemi teslim edildi.

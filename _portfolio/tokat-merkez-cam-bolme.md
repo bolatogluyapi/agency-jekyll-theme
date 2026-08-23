@@ -30,6 +30,31 @@ Klasik duvar veya alüminyum doğrama yerine, **Çerçevesiz (Frameless) Cam Tas
 * Cam yüzeyine uygun, şık ve kavranması kolay **Paslanmaz Çelik Boru Kollar** monte edildi.
 * Cam birleşim yerlerinde şeffaf silikon ve fitiller kullanılarak ses yalıtımına katkı sağlandı.
 
+### Ofis bölmede ses yalıtımı
+
+Cam bölmede en çok sorulan şey ses. Beklentiyi doğru kurmak gerekiyor: cam
+bölme bir duvar değil, tam sessizlik sağlamıyor. Ama konuşmaların anlaşılır
+şekilde geçmesini engelleyecek düzeye çıkarılabiliyor.
+
+Bunu belirleyen üç şey var.
+
+**Cam kalınlığı ve tipi.** Tek kat camda ses geçişi yüksek. Lamine cam — iki
+cam arasına akustik film konmuş yapı — belirgin fark yaratıyor. Çift cam
+kullanılıyorsa iki camın farklı kalınlıkta olması, aynı kalınlıkta olmasından
+daha iyi sonuç veriyor; farklı kalınlıklar farklı frekansları söndürüyor.
+
+**Conta detayı.** Sesin en çok kaçtığı yer cam değil, birleşim noktaları. Cam
+ile profil arasında, profil ile duvar arasında ve kapı çevresinde conta
+kesintisiz olmalı. Tek bir açık nokta yalıtımın büyük bölümünü boşa çıkarıyor.
+
+**Tavan ve zemin.** Bölme asma tavana kadar çıkıyorsa ses tavan boşluğundan
+dolaşıyor. Gerçek yalıtım isteniyorsa bölmenin döşemeye kadar devam etmesi
+gerekiyor.
+
+Esentepe'deki bu uygulamada lamine cam ve kesintisiz conta detayı kullanıldı.
+
+Benzer işlerimiz ve seçenekler için [alüminyum doğrama sayfamıza](/hizmetler/aluminyum-dograma/), bu bölgede yaptığımız diğer işler için [Tokat merkez sayfamıza](/tokat/) bakabilirsiniz.
+
 ### Sonuç
 
 Ofis içerisindeki toplantı odası ve yönetici odası birbirinden ayrılırken görsel bütünlük korundu. Dar koridor hissi oluşmadan, modern, aydınlık ve prestijli bir çalışma ortamı teslim edildi.

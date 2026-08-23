@@ -30,6 +30,29 @@ Müşterimiz, hem güvenli hem de bakım (boya/vernik) gerektirmeyen bir çözü
 * **Estetik Dönüşler:** Köşe dönüşlerinde kaynak izi belli etmeyen özel patentli dirsekler kullanılarak pürüzsüz bir görüntü elde edildi.
 * **Parlak Yüzey:** Satina (mat) yerine parlak yüzey tercih edilerek balkonun daha temiz ve modern görünmesi sağlandı.
 
+### Korkuluk neye tutturuluyor
+
+Korkuluğun sağlamlığı malzemesinden çok montajına bağlı. En kaliteli paslanmaz
+bile yanlış ankrajlandığında güvenli değil.
+
+Zemine göre yöntem değişiyor:
+
+**Beton parapet.** En sağlam durum. Kimyasal dübel kullanıyoruz; delik açılıp
+içine epoksi enjekte ediliyor, çubuk yerleştirildikten sonra kimyasal donarak
+betonla bütünleşiyor. Klasik çelik dübelden belirgin şekilde güçlü.
+
+**Mermer veya seramik kaplı parapet.** Kaplama taşıyıcı değil. Ankrajın kaplamayı
+geçip alttaki betona ulaşması gerekiyor. Sadece mermere tutturulan korkuluk ilk
+zorlamada kaplamayı kopararak çıkıyor.
+
+**Yandan montaj.** Parapet dar olduğunda flanş yan yüze bağlanıyor. Bu durumda
+kaldıraç etkisi devreye giriyor ve ankraj sayısı artırılıyor.
+
+Fevzi Çakmak'taki bu uygulamada beton parapete kimyasal dübelle ankraj yapıldı.
+Delik derinliği ve dübel çapı, korkuluk yüksekliğine göre hesaplandı.
+
+Benzer işlerimiz ve seçenekler için [korkuluk ve küpeşte sayfamıza](/hizmetler/korkuluk-kupeste/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Montaj işlemi, mevcut seramiklere zarar verilmeden titizlikle tamamlandı. Ev sahibi, yıllarca boya derdi olmadan kullanabileceği, sağlam ve evin değerini artıran bir balkon korkuluğuna kavuştu.

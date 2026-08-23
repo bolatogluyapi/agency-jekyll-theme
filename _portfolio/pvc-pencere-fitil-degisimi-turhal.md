@@ -31,6 +31,30 @@ Bu ayrım önemli: PVC pencerede ömrünü ilk tamamlayan parça profil değil, 
 * **Menteşe Baskı Kontrolü:** Menteşe tarafındaki baskı ayarı yapılarak kanadın kasaya her iki kenardan eşit basması sağlandı.
 * **Su Tahliye Deliği Temizliği:** Kasa altındaki tıkanmış tahliye kanalları açıldı; birikip pervaza sızan yoğuşma suyu sorunu giderildi.
 
+### Fitil tipi ve ölçüsü nasıl belirlenir
+
+Fitil değişiminde en kritik adım, doğru profildeki contayı bulmak. PVC
+doğramada fitil, kasa ve kanat üzerindeki kanala oturuyor ve bu kanalın kesiti
+markadan markaya farklı.
+
+Yanlış ölçüde fitil takıldığında iki sonuç oluyor. Dar fitil kanalda gevşek
+duruyor, kanat kapanınca yeterli baskı oluşmuyor ve sızdırma devam ediyor —
+müşteri "değiştirdik ama düzelmedi" diyor. Geniş fitil ise kanadın tam
+kapanmasını engelliyor, kilit zorlanıyor.
+
+Bu yüzden keşifte mevcut fitilden bir parça alıp ölçüsüne bakıyoruz.
+
+Malzeme seçimi de önemli. **TPE** contalar ucuz ve yaygın ama soğukta
+sertleşiyor; kışın tam da ihtiyaç duyulduğunda esnekliğini kaybediyor. **EPDM
+kauçuk** daha pahalı, buna karşılık düşük sıcaklıkta esnek kalıyor ve UV'ye
+dayanıklı. Turhal gibi kışı sert geçen yerlerde EPDM öneriyoruz.
+
+Değişim sırasında kanat ayarına da bakıyoruz; conta yenilense bile kanat kasaya
+tam oturmuyorsa sonuç alınmıyor. İkisi birlikte yapıldığında rüzgar sesi ve hava
+akımı tamamen kesiliyor.
+
+Benzer işlerimiz ve seçenekler için [tadilat ve bakım sayfamıza](/hizmetler/tadilat-bakim/), bu bölgede yaptığımız diğer işler için [Turhal sayfamıza](/turhal/) bakabilirsiniz.
+
 ### Sonuç
 
 Pencereler değiştirilmeden ilk günkü sızdırmazlığına döndü. Dairedeki rüzgar sesi kesildi, ev sahibi doğalgaz tüketiminde gözle görülür bir düşüş olduğunu iletti. Yapılan işin maliyeti komple pencere değişiminin çok altında kaldı.

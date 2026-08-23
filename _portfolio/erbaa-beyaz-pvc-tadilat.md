@@ -29,6 +29,27 @@ Mekanın yenilenme aşamasındaki en önemli adımlardan biri olan doğrama mont
 * **Isıcam Teknolojisi:** Pencere ve kapı camlarında, ısı kaybını engelleyen ve dışarıdaki gürültüyü minimize eden çift cam (Isıcam) sistemi tercih edildi.
 * **Kaba İnşaat İzolasyonu:** Doğramalar, duvarlardaki kaba boşluklara rağmen paslanmaz çelik ankrajlar ve yüksek yoğunluklu poliüretan köpük ile sabitlenerek kesin sızdırmazlık elde edildi.
 
+### Yenilemede hangi ölçü esas alınır
+
+Doğrama yenilemede en sık yapılan hata, ölçüyü mevcut pencerenin kanadından
+almak. Doğrusu duvar boşluğundan ölçmek.
+
+Aradaki fark önemli. Mevcut kasa zamanla oturmuş, eğilmiş ya da baştan yamuk
+takılmış olabilir. Onu referans alırsanız yeni doğrama da aynı hatayı miras
+alıyor.
+
+Bu yüzden ölçüyü şöyle alıyoruz: eski kasanın söküleceğini varsayıp duvar
+boşluğunun genişliğini üç noktadan (üst, orta, alt), yüksekliğini iki noktadan
+ölçüyoruz. En dar ölçüye göre üretim yapılıyor; kalan farklar montaj payı ve
+köpükle kapatılıyor.
+
+Fevzi Paşa'daki bu işte eski doğramanın alt hattı bir uçta yaklaşık bir santim
+düşüktü. Yeni kasa teraziye alınarak takıldı, fark alt tarafta kapatıldı.
+Pencere artık düzgün kapanıyor ve kanat kendi ağırlığıyla açılmıyor — eski
+sistemdeki şikayet buydu.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Tadilat halindeki bu oda, dış etkenlere karşı tam koruma sağlayan, yalıtımlı ve uzun ömürlü yeni doğramalarına kavuştu. İşlem sonrası yapılacak duvar, sıva ve boya rötuşlarıyla birlikte mekan tamamen yepyeni ve konforlu bir görünüme kavuşacaktır.

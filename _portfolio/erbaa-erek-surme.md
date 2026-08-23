@@ -30,6 +30,25 @@ Mevcut duvar açıklığını maksimum düzeyde değerlendirerek, içeriye giren
 * Çok noktalı kilitleme sistemi ile hırsızlığa karşı üst düzey güvenlik sağlandı.
 * Zemin ile hemzemin (eşiksiz) geçiş yapılarak takılma riski ortadan kaldırıldı.
 
+### Kaldır-sür sistem nasıl çalışır
+
+Hebeschiebe, Türkçede kaldır-sür olarak geçen bir mekanizma. Normal sürme
+sistemlerden farkı şu: kolu çevirdiğinizde kanat birkaç milimetre yukarı
+kalkıyor, contadan tamamen ayrılıyor ve öyle kayıyor. Kapatırken tekrar iniyor
+ve conta hattına oturuyor.
+
+Bunun iki sonucu var. Birincisi conta aşınmıyor — normal sürmede kanat her
+hareket ettiğinde contayı sürterek geçiyor, birkaç yıl sonra o hat yassılaşıp
+sızdırmaya başlıyor. İkincisi kapalıyken sızdırmazlık çok daha iyi; kanat
+contaya baskı yaparak oturuyor.
+
+Bedeli ağırlık ve fiyat. Mekanizma karmaşık, donanım pahalı. Buna karşılık
+yüzlerce kiloluk kanatları taşıyabiliyor, bu yüzden geniş açıklıklarda tek
+gerçekçi seçenek genelde bu oluyor. Erek'teki bu uygulamada açıklık normal
+sürme sistemin taşıyabileceğinin üzerindeydi.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Bahçe ve salon arasındaki görsel sınır kaldırılarak ev sahiplerine ferah bir yaşam alanı sunuldu. Ağır ve hantal kapılar yerine, modern, estetik ve sızdırmazlık garantili bir sürme sistem teslim edildi.

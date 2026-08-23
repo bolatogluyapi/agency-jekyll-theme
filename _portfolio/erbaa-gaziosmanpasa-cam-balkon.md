@@ -29,6 +29,25 @@ Balkonun iç dekorasyonundaki modern çizgilere ve koyu renkli mobilyalara uyum 
 * **Siyah Fırın Boyalı Profiller:** Zamanla güneşte solma veya kabarma yapmayan, yüksek kaliteli siyah elektrostatik fırın boyalı alüminyum taşıyıcı kasalar kullanıldı.
 * **Maksimum Sızdırmazlık:** Cam paneller arasına yerleştirilen UV dayanımlı şeffaf fitiller ve sistem etrafına çekilen profesyonel dış cephe silikonu ile yağmur, toz ve soğuk hava girişi engellendi.
 
+### L köşe balkonlarda birleşim detayı
+
+Köşe dönen balkonlarda kritik nokta iki cephenin buluştuğu hattır. Burada doğru
+çözüm, iki tarafı mekanik olarak kilitleyen bir köşe birleşim profili
+kullanmaktır.
+
+Sık yapılan hata iki ayrı sistemi yan yana getirip aradaki boşluğu silikonla
+doldurmak. Silikon esnek bir dolgu; hareketli bir birleşimde birkaç yıl içinde
+ayrılıyor ve o noktadan su ile rüzgar giriyor. Bir kez ayrıldığında üstüne
+silikon çekmek de kalıcı çözüm olmuyor.
+
+Köşe profili ayrıca kanatların iki cephede bağımsız hareket etmesini sağlıyor.
+Bir tarafı tamamen açıp diğerini kapalı tutabiliyorsunuz — L köşe balkonlarda
+en çok kullanılan senaryo bu. Siyah profille yapılan bu uygulamada köşe hattı
+tek bir dikey çizgi olarak görünüyor, iki ayrı sistemin yan yana durduğu
+izlenimi vermiyor.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Rüzgar ve toz nedeniyle verimsiz kullanılan bu alan; manzarası kapanmadan, temizliği kolay ve tamamen açılıp kapanabilen modern bir sisteme kavuştu. **Bolatoğlu Yapı** kalite standartlarıyla tamamlanan bu cam balkon, ev sahiplerine dört mevsim keyifle vakit geçirebilecekleri şık bir kış bahçesi deneyimi sunuyor.

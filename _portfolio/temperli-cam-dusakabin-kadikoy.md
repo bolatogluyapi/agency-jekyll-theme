@@ -31,6 +31,29 @@ Banyonun ölçüleri standart kabin kalıplarına uymuyordu. Hazır ürün zorla
 * **Anti-Bakteriyel Silikon:** İstanbul'un nemli havasında küflenmeye direnç gösteren, kararmayan silikon kullanıldı. Duşakabinde en çok şikayet edilen konu budur.
 * **Yerinde Ölçü Üretim:** Duvar şakullüğündeki sapmalar ölçüye dahil edildi, kabin ile duvar arasında boşluk kalmadı.
 
+### Ölçüye özel üretim ne zaman şart
+
+Hazır duşakabin standart ölçüler için üretiliyor ve çoğu banyoda işe yarıyor.
+Ölçüye özel üretim gereksiz maliyet olabilir; hangi durumda gerçekten
+gerektiğini ayırt etmek önemli.
+
+Şu dört durumda hazır kabin çözüm olmuyor: duvarlar arası mesafe iki uçta bir
+santimden fazla farklıysa, tavan eğimliyse, banyoda kolon veya çıkma varsa, ya
+da ölçü standart aralıkların dışındaysa.
+
+Bunların hiçbiri yoksa hazır kabin alın; aradaki farka gerek yok ve bunu
+müşterilerimize açıkça söylüyoruz.
+
+Zorlandığında ne oluyor: standart kabin uymayan bir yere takıldığında aradaki
+boşluk kalın silikonla dolduruluyor. O hat nemli ortamda bir yıl içinde
+küfleniyor ve zamanla su sızdırıyor. Silikonu yenilemek geçici çözüm, sorun
+tekrar ediyor.
+
+Göztepe'deki bu işte banyo ölçüleri standart kalıplara uymuyordu. Cam duvarın
+gerçek geometrisine göre kesildi, silikon hattı ince kaldı.
+
+Benzer işlerimiz ve seçenekler için [duşakabin ve banyo sayfamıza](/hizmetler/dusakabin-banyo/), bu bölgede yaptığımız diğer işler için [İstanbul sayfamıza](/kadikoy/) bakabilirsiniz.
+
 ### Sonuç
 
 Dar banyo, cam kabinin şeffaflığı sayesinde görsel olarak genişledi. Ölçüsüne göre üretildiği için kabin çevresinde dolgu silikon hattı oluşmadı — temizliği kolay, küf tutmayan bir yüzey elde edildi.

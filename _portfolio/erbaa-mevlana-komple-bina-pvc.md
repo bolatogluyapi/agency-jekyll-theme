@@ -29,6 +29,28 @@ Binanın dış cephesindeki gri ve kiremit rengi mantolama tasarımıyla kusursu
 * **Sağlam Ankraj ve Montaj:** Doğramalar, rüzgar yüküne ve esnemeye karşı paslanmaz çelik montaj vidaları (ankrajlar) ile betonarmeye milimetrik teraziyle sabitlendi.
 * **Uzun Ömürlü Mekanizma:** Tüm açılır kanatlarda ve balkon kapılarında sarkma yapmayan, paslanmaz özellikte çift açılım ve tek açılım ispanyolet mekanizmaları kullanıldı.
 
+### Komple bina işlerinde etap planı
+
+Bir apartmanın tüm doğramasını yenilemek, tek daire işinin katı değil; farklı
+bir iş. Zorluk montajda değil planlamada.
+
+Uyguladığımız yöntem şu: bina bir kerede değil, kat kat veya cephe cephe
+ilerliyor. Bir gün içinde başlanan daire aynı gün bitiyor; hiçbir daire
+penceresiz gecelemiyor. Bu, sakinlerin en çok endişelendiği konu ve baştan
+söylenmesi güven veriyor.
+
+Ölçü aşaması toplu yapılıyor. Aynı binada kat planları tekrar ettiği için
+üretim standartlaşıyor, hata payı düşüyor ve maliyet aşağı iniyor.
+
+Üç şeyi yazılı belirliyoruz: hangi daire hangi gün, ortak alanlarda çalışma
+saatleri, ödemenin nasıl bölüneceği. Apartman işlerinde anlaşmazlıkların büyük
+bölümü bu üç başlıktan çıkıyor.
+
+Mevlana'daki bu işte bina etap etap tamamlandı. Yönetimle haftalık program
+paylaşıldı, sakinler hangi gün evde olmaları gerektiğini önceden biliyordu.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 İnşaat süreci devam eden binanın en önemli aşamalarından biri olan doğrama montajı, sıva ve boya işlemlerinden önce eksiksiz olarak teslim edildi. Dışarıdan bakıldığında binaya prestij katan, içeriden ise yüksek konfor ve yalıtım sunan uzun ömürlü bir sisteme imza atıldı.

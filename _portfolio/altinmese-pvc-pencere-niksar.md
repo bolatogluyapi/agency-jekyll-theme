@@ -31,6 +31,27 @@ Altınmeşe folyo kaplı profil bu noktada devreye girdi. Ahşap desenli yüzey 
 * **Entegre Pileli Sineklik:** Tüm açılır kanatlara sineklik takıldı. Yaylada akşam saatlerinde sinek yoğunluğu şehirdekiyle kıyaslanmaz.
 * **Çift Açılım Mekanizması:** Kanatlar hem yana açılıyor hem yukarıdan devriliyor. Ev boşken devrik konumda bırakılarak güvenlik riski oluşturmadan havalandırma sağlanabiliyor.
 
+### Ahşap görünümlü folyo kaplama
+
+Altınmeşe, ceviz, antik meşe gibi ahşap desenler PVC profile boya ile değil,
+folyo kaplama ile uygulanıyor. Profilin yüzeyine ısı ve baskıyla yapıştırılan
+ince bir film bu.
+
+Kaliteli folyonun iki özelliği var: yüzeyinde UV koruyucu katman bulunuyor ve
+kenarlardan kalkmaması için profil köşelerinden kıvrılarak sonlandırılıyor.
+Ucuz folyoda ikisi de eksik; birkaç yıl içinde güneş gören yüzeyde renk soluyor
+ve kenarlar kabarmaya başlıyor.
+
+Yayla ve dağ evlerinde bu tercih özellikle mantıklı. Gerçek ahşap doğrama iki
+yılda bir vernik istiyor; yılın büyük bölümü boş kalan bir evde bu bakım
+yapılmıyor ve doğrama birkaç sezonda çatlayıp su almaya başlıyor. Folyo kaplı
+PVC ahşap görünümünü koruyor, bakım gerektirmiyor.
+
+Çamiçi'ndeki bu uygulamada altınmeşe desen seçildi. Rakım yüksek olduğu için
+cam tarafında da ısı yalıtımı öncelikliydi.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Niksar sayfamıza](/niksar/) bakabilirsiniz.
+
 ### Sonuç
 
 Ev, dışarıdan bakıldığında ahşap dokusunu koruyor. Isınma tarafında ise fark net: soba yakıldığında ısı içeride tutuluyor, sabaha karşı sıcaklık düşüşü eskisi gibi hissedilmiyor.

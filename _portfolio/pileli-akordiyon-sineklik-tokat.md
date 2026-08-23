@@ -31,6 +31,31 @@ Pileli sistem farklı çalışır: tül, akordiyon gibi katlanarak yan profilde 
 * **Yatay ve Dikey Çalışma:** Kapılara yatay, pencerelere dikey çalışan modeller uygulandı. Aynı sistem her iki eksende de kullanılabildiği için dairede görünüm bütünlüğü korundu.
 * **İnce Alt Ray:** Kapı geçişlerinde takılma yaratmayacak alçak profilli alt ray tercih edildi.
 
+### Tül tipi nasıl seçilir
+
+Sineklik tülü tek çeşit değil ve seçim, sisteme ödediğiniz paranın karşılığını
+belirliyor.
+
+**Standart plastik tül** en ekonomik. İlk yıl sorunsuz ama güneş gören
+cephelerde zamanla gevrekleşiyor; birkaç sezon sonra dokununca yırtılmaya
+başlıyor.
+
+**Fiberglass tül** cam elyaf esaslı. Güneşte gevrekleşmiyor, alev almıyor ve
+esnekliğini koruyor. Fiyat farkı büyük değil, standart tercihimiz bu.
+
+**Kedi tırnağına dayanıklı tül** kalın örgülü ve belirgin şekilde sağlam.
+Evinde kedi olanlara öneriyoruz; normal tül birkaç ayda deliniyor ve tül
+değişimi her yıl tekrarlanan bir masrafa dönüşüyor.
+
+**Polen tülü** daha sık dokunmuş, alerjisi olanlar için. Hava geçirgenliği
+düşüyor, bunu baştan söylemek gerekiyor.
+
+Görünürlük de tül tipine göre değişiyor. Sık dokunmuş tül dışarıyı daha
+bulanık gösteriyor. Manzara önemliyse ince telli fiberglass tercih ediliyor;
+Yeşilırmak Evleri'ndeki bu uygulamada seçim bu yönde oldu.
+
+Benzer işlerimiz ve seçenekler için [sineklik sayfamıza](/hizmetler/sineklik/), bu bölgede yaptığımız diğer işler için [Tokat merkez sayfamıza](/tokat/) bakabilirsiniz.
+
 ### Sonuç
 
 Yaz aylarında pencereler gün boyu açık bırakılabiliyor. Sineklikler kullanılmadığında yan profilde toplandığı için manzarayı ve gün ışığını kapatmıyor — menteşeli sistemlerde en sık şikayet edilen konu buydu.

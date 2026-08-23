@@ -29,6 +29,28 @@ Müşterimiz, balkonu sadece yazın değil, kış aylarında da soğuktan etkile
 * **Geniş Kanat Açılımları:** Havalandırmayı kolaylaştırmak için çift açılımlı (vasistaslı) kanat mekanizmaları entegre edildi.
 * **Sızdırmazlık ve İzolasyon:** Duvar birleşim noktalarında hava ve su geçişini tamamen engelleyen poliüretan köpük ve antibakteriyel silikon uygulaması yapıldı.
 
+### Çatı eğimi ve su tahliyesi
+
+Teras kapatmada en çok atlanan detay çatı eğimi. Düz görünen bir çatı aslında
+düz olmamalı; suyun akması için eğim şart.
+
+Eğim yetersizse iki sorun çıkıyor. Yağmur suyu çatıda göllenip birleşim
+noktalarından sızıyor. Kışın kar birikip erimediği için ağırlık yapıyor ve
+taşıyıcı sistem tasarlandığından fazla yüklenıyor.
+
+Uygulamada çatıya belirli bir eğim veriyoruz ve suyu tek yöne yönlendiriyoruz.
+Toplanan su oluk aracılığıyla binanın mevcut yağmur iniş borusuna bağlanıyor.
+Bu bağlantı önemli: suyu sadece dışarı akıtmak, alt kattaki komşunun balkonuna
+boşaltmak anlamına gelebiliyor ve komşuluk sorunu doğuruyor.
+
+Bir de kar birikmesi var. Eğim, karın kendi ağırlığıyla kaymasını
+kolaylaştırıyor ama kayan karın nereye düşeceği de hesaplanmalı; giriş kapısının
+üstüne düşen bir kar kütlesi tehlikeli olabiliyor.
+
+Yavuz Sultan Selim'deki bu uygulamada tahliye mevcut iniş borusuna bağlandı.
+
+Benzer işlerimiz ve seçenekler için [teras kapatma sayfamıza](/hizmetler/teras-kapatma-kis-bahcesi/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Eski ve atıl durumdaki balkon; dekoratif tuğla duvarı, şık zemini ve mükemmel yalıtımlı PVC cam cephesiyle evin en keyifli köşesi haline geldi. Ev sahiplerine dört mevsim manzaranın tadını çıkarabilecekleri, rüzgar ve soğuk geçirmeyen ekstra bir oda kazandırıldı.

@@ -30,6 +30,27 @@ Müşterimizin estetik kaygılarını gidermek adına, mevcut kapı rengiyle bir
 * Profilin beyaz rengi, fırın boya teknolojisi ile üretildiğinden sararma ve dökülmelere karşı garantilidir.
 * Montaj işlemi sırasında mevcut kapıya zarar vermeden temiz işçilik uygulandı.
 
+### Beyaz kasa ve görünüm dengesi
+
+Sineklik kasası doğramayla aynı renkte olduğunda gözden kayboluyor; farklı
+olduğunda pencerenin çevresinde ikinci bir çerçeve gibi duruyor.
+
+Beyaz PVC doğramada beyaz sineklik kasası doğru tercih. Kasa profili
+doğramanın kenarına oturuyor ve dışarıdan bakınca tek bir bütün gibi
+görünüyor. Antrasit kasa aynı yere takıldığında pencere görsel olarak
+küçülüyor, çünkü göz koyu çerçeveyi pencerenin sınırı sanıyor.
+
+Beyaz kasanın bir dezavantajı var: kirlenmeyi gösteriyor. Özellikle dış tarafa
+takılan sistemlerde toz ve yağmur izi beyaz profilde daha belirgin. Nemli bezle
+silmek yeterli oluyor ama sıklık artıyor.
+
+Tül rengi de ayrı bir konu. Gri tül dışarıyı daha net gösteriyor, siyah tül
+içeriden dışarıyı görmeyi kolaylaştırırken dışarıdan içeriyi zorlaştırıyor.
+Karşıyaka'daki bu uygulamada beyaz kasa ve gri tül seçildi; manzara korundu,
+sistem doğramayla bütünleşti.
+
+Benzer işlerimiz ve seçenekler için [sineklik sayfamıza](/hizmetler/sineklik/), bu bölgede yaptığımız diğer işler için [Tokat merkez sayfamıza](/tokat/) bakabilirsiniz.
+
 ### Sonuç
 
 Yaz aylarında evin en çok kullanılan bu bölümü, sinek ve böcek derdi olmadan konforlu hale getirildi. Beyaz rengin ferahlığı korunurken, pileli sistemin pratikliği sayesinde çocuklar dahil herkesin kolayca kullanabileceği bir mekanizma teslim edildi.

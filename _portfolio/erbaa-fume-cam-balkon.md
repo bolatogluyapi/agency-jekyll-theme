@@ -27,6 +27,23 @@ Bu talepler doğrultusunda, mekana modern bir hava katan ve güneşin yakıcı e
 * **Profil Sistemi:** Balkonun gri ve beyaz tonlarındaki iç cephesiyle tam uyum sağlayan paslanmaz mekanizmalı antrasit alüminyum kasa.
 * **Yalıtım ve Koruma:** Kombi cihazını, su tesisatını rüzgar ve don tehlikesine karşı koruyan özel yalıtımlı fitil uygulaması.
 
+### Katlanır sistemde kanatlar nereye toplanır
+
+Katlanır cam balkonun en çok atlanan detayı, açıldığında kanatların nereye
+park edeceğidir. Kanatlar bir kenarda üst üste toplanır ve o noktada
+balkonun bir bölümünü kaplar.
+
+Ölçü alırken bunu hesaplıyoruz: kaç kanat, hangi yöne toplanacak, toplandığında
+kaç santim yer kaplayacak. Balkonun bir ucunda kombi, klima dış ünitesi ya da
+sabit bir dolap varsa kanatları diğer yöne yönlendiriyoruz. Çift yöne bölmek de
+mümkün; o zaman her iki uçta yarı kadar yer kaplar ve orta açıklık tam açılır.
+
+Kanat genişliği de bir tercih. Dar kanat daha çok sayıda demek, toplandığında
+daha kalın bir paket oluşturur. Geniş kanat daha az yer kaplar ama tek tek
+daha ağırdır. Balkon boyuna göre bunu keşifte konuşuyoruz.
+
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Evin bu geniş ve ferah balkonu, füme camların sunduğu estetik görünüm ve sistemin sağladığı yüksek izolasyon sayesinde evin en konforlu alanlarından biri haline geldi. Cihaz güvenliği sağlanırken, manzaranın tadı dört mevsim çıkarılabilir oldu.

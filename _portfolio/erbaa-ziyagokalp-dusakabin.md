@@ -30,6 +30,29 @@ Müşterimizin banyosunda tercih ettiği koyu antrasit seramiklerin yarattığı
 * **Minimal Alt Eşik:** Su sızıntısını engellemek için zemine sadece ince bir bariyer profili konularak temizliği zorlaştıran kalın raylardan kaçınıldı.
 * **Şeffaf Mıknatıslı Fitiller:** Kapı kapandığında tam öpüşme sağlayarak suyun dışarı sızmasını %100 engelleyen mıknatıslı şeffaf fitiller kullanıldı.
 
+### Cam yüzeyinin bakımı ve kireç
+
+Duşakabinde camın matlaşması, sistemin bozulmasından çok önce ortaya çıkan ve
+en çok şikayet edilen konu.
+
+Sebep kireç. Sert suyla duş alındığında cam yüzeyinde kuruyan damlalar kalsiyum
+bırakıyor. Bu birikim mikroskobik gözeneklere işliyor ve bir aşamadan sonra
+normal temizlikle çıkmıyor.
+
+Önlemek temizlemekten kolay. Duş sonrası camı bir cam çektirmesiyle sıyırmak,
+otuz saniyelik bir iş ama kireç birikimini neredeyse tamamen önlüyor. Su
+üzerinde kalmadığında iz de bırakmıyor.
+
+Bir de nano kaplama seçeneği var. Cam yüzeyine uygulanan bu kaplama suyun
+yüzeye tutunmasını zorlaştırıyor, damlalar kaymadan akıp gidiyor. Kalıcı değil,
+birkaç yılda yenilenmesi gerekiyor.
+
+Kireç oluşmuşsa sirke veya limon asidi çözüyor. Aşındırıcı sünger ve ovma
+tozu kullanmayın; cam yüzeyinde çizik bırakıyor ve çizik oluştuktan sonra kireç
+oraya daha hızlı yerleşiyor.
+
+Benzer işlerimiz ve seçenekler için [duşakabin ve banyo sayfamıza](/hizmetler/dusakabin-banyo/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Banyodaki ölü alan değerlendirilerek, mekana modern ve ferah bir otel konsepti kazandırıldı. Kullanımı son derece ergonomik, temizliği kolay ve banyonun genel tasarımıyla bütünleşen birinci sınıf bir duşakabin teslim edildi.

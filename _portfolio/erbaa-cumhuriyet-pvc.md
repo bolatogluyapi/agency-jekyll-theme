@@ -30,6 +30,27 @@ Müşterimizin isteği üzerine binanın dış cephesine uygun **Antrasit Gri** 
 * Kullanım kolaylığı için çift açılım (vasistas) aksesuar montajı yapıldı.
 * Eskiyen mermer denizlikler yenileriyle değiştirildi.
 
+### Yenilemede kasa kararı
+
+Eski doğramayı yenilerken iki yol var ve aradaki fark yıllar sonra ortaya
+çıkıyor.
+
+**Kasa üstü montaj:** eski kasa yerinde bırakılır, yeni doğrama onun üzerine
+geçirilir. Hızlıdır, sıva bozulmaz, işçilik ucuzdur. Bedeli şu: yeni kasa
+eskisinin üstüne bindiği için cam alanı her yönden birkaç santim daralır. Üç
+pencerede fark edilmez, salon penceresinde belli olur. Eski kasa ahşap veya
+paslanmışsa üstünü kapatmak sorunu görünmez kılar ama ortadan kaldırmaz.
+
+**Tam söküm:** eski kasa duvardan çıkarılır, yeni kasa tam ölçüyle oturur. Cam
+alanı korunur, yalıtım baştan doğru yapılır. Bedeli sıva kenarlarında dökülme
+ve biraz daha uzun süre.
+
+Cumhuriyet Mahallesi'ndeki bu işte tam söküm yapıldı. Genel önerimiz de bu
+yönde; kasa üstü montajı sadece sıvanın kesinlikle bozulmaması gereken
+durumlarda öneriyoruz.
+
+Benzer işlerimiz ve seçenekler için [PVC kapı ve pencere sayfamıza](/hizmetler/pvc-kapi-pencere/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Dairenin ısınma maliyetlerinde **%30'a varan tasarruf** hedeflendi. Yol gürültüsü tamamen kesildi ve ferah bir görünüm elde edildi. Montaj işlemi 1 gün içerisinde tamamlanarak daire temiz bir şekilde teslim edildi.

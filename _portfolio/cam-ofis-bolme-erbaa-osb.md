@@ -31,6 +31,31 @@ Alçıpan duvar bu iki isteği aynı anda karşılamıyor. Duvarla bölünen bir
 * **Ses Yalıtımı:** Cam kalınlığı ve conta detayı, ofisler arası konuşmaların anlaşılır şekilde geçmesini engelleyecek düzeyde seçildi. Toplantı odası tarafında conta sıkılığı ayrıca artırıldı.
 * **Kapı Entegrasyonu:** Menteşeler cam üzerine değil profile bağlandı; uzun vadede camda çatlama riski oluşturan noktasal yük ortadan kaldırıldı.
 
+### Çalışan tesiste montaj planlaması
+
+Sanayi tesislerinde ve çalışan işletmelerde montajın kendisi kolay; zor olan
+üretimi durdurmadan yapmak.
+
+Cam bölme kurulumu üç şey üretiyor: toz, gürültü ve geçici olarak kullanılamayan
+alan. Ankraj delikleri açılırken beton tozu çıkıyor, profil kesimi gürültülü ve
+cam taşınırken çevrede boşluk gerekiyor.
+
+Bu yüzden ticari işlerde montaj saatini baştan konuşuyoruz. Çoğu zaman mesai
+dışı ya da hafta sonu çalışıyoruz. Vardiyalı çalışan tesislerde vardiya
+değişimine denk getirmek de bir seçenek.
+
+İkinci konu toz kontrolü. Delme işlemi sırasında ortama yayılan beton tozu,
+hassas ekipman bulunan alanlarda sorun yaratıyor. Çalışma alanını naylonla
+ayırıyoruz ve delme sırasında elektrikli süpürgeyle nokta emiş yapıyoruz.
+
+Üçüncüsü ölçü. Sanayi yapılarında tavan yükseklikleri konut standardının
+üzerinde ve zemin her zaman düz değil. Bölme yüksekliği birkaç noktadan
+ölçülüyor.
+
+Organize Sanayi'deki bu uygulama mesai dışında tamamlandı.
+
+Benzer işlerimiz ve seçenekler için [alüminyum doğrama sayfamıza](/hizmetler/aluminyum-dograma/), bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+
 ### Sonuç
 
 Montaj, üretimi ve ofis işleyişini aksatmamak için hafta sonu yapıldı ve pazartesi sabahına teslim edildi. Yönetim katı bölünmüş olmasına rağmen ilk günkü ferahlığını koruyor.
