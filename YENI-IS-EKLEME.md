@@ -1,3 +1,21 @@
+# Bolatoğlu Yapı — İçerik Ekleme Rehberi
+
+Bu dosya üç işi anlatır: **proje**, **hizmet** ve **bölge** eklemek.
+
+> **Önce dosyanın sonundaki "İÇERİK STANDARTLARI" bölümünü oku.**
+> Kelime sayısı, kopya içerik kuralı, iç link zorunluluğu ve karakter
+> sınırları orada. Bunlara uymadan eklenen sayfa sonradan düzeltilmek
+> zorunda kalıyor.
+
+Hızlı geçiş:
+
+* [Proje eklemek](#1-dosyayı-oluştur) — aşağıda, 1. bölümden itibaren
+* [Hizmet eklemek](#yeni-bir-hizmet-eklemek)
+* [Bölge eklemek](#yeni-bölge-ilçe-sayfası-eklemek)
+* [İçerik standartları](#i̇çerik-standartlari--her-ekleme-öncesi-oku)
+
+---
+
 # Yeni İş (Proje) Ekleme Rehberi
 
 Bu dosya siteye dahil edilmez, sadece senin için not.
@@ -307,3 +325,151 @@ listesinde görünüyor mu. Proje çıkmıyorsa `ilce` yazımı tutmuyordur.
 
 Yayınladıktan sonra Google Search Console'da **URL Denetimi → Dizine eklenmesini
 iste** demeyi unutma; yeni sayfanın taranması aksi halde haftalar sürer.
+
+---
+
+# İÇERİK STANDARTLARI — her ekleme öncesi oku
+
+Bu bölüm, sitedeki 71 sayfanın tamamına uygulanmış kuralları özetler. Yeni bir
+proje, hizmet veya bölge eklerken bunlara uy; sonradan toplu düzeltme yapmak
+zorunda kalmayız.
+
+## 1. Kelime sayısı
+
+Sitedeki mevcut durum (ölçülmüş değerler):
+
+| Sayfa tipi | Aralık | Ortalama | Yeni eklerken hedef |
+|---|---|---|---|
+| Proje | 253-356 | 318 | **en az 280** |
+| Bölge | 368-440 | 396 | **en az 350** |
+| Hizmet | 416-607 | 484 | **en az 420** |
+
+Bu sayılar gövde metnini kapsar; başlık, proje grid'i ve hizmet listesi dahil
+değildir.
+
+**Alt sınırın altına düşme.** Yeni eklediğin sayfa 150 kelimeyse, o sayfa
+"ince içerik" sayılır ve sadece kendisi değil, aynı kategorideki diğer
+sayfaların değerini de aşağı çeker.
+
+**Üst sınır için dolgu yazma.** Söyleyecek şey bittiğinde dur. Dolgu metin,
+kısa metinden daha zararlıdır — Google bunu "arama motoru için yazılmış
+içerik" olarak okur.
+
+## 2. Kopya içerik — en kritik kural
+
+Sitede 10 cam balkon, 12 PVC, 7 korkuluk projesi var. **Aynı kategorideki
+sayfalara aynı teknik metni koyarsan hepsi birbirinin kopyası olur.** Google
+buna "kapı sayfası" (doorway page) diyor ve tek bir kopya sayfa, aynı gruptaki
+bütün sayfaların değerini düşürebilir.
+
+Kural: **her sayfa, o sayfaya özgü tek bir konuyu anlatır ve o konu başka
+sayfada tekrar edilmez.**
+
+Mevcut sayfalarda uygulanmış hali — hepsi cam balkon projesi, hiçbiri aynı
+şeyi anlatmıyor:
+
+| Proje | Anlattığı konu |
+|---|---|
+| Tepeşehir | Füme camın işlevi, hangi cephede yanlış tercih |
+| Erbaa Füme | Katlanır sistemde kanatların park yeri |
+| Erbaa Merkez Füme | Rulman ve ray bakımı |
+| Niksar Bağlar | Balkon düz değilse ölçü nasıl alınır |
+| Ünye Gölevi | Deniz havasında bakım |
+| Karayaka | Koyu profilin ısınması, folyo kalitesi |
+| Gazi Osman Paşa | L köşe birleşim profili |
+| Amasya Bronz | Bronz profil + şeffaf cam |
+| Tokat Isıcamlı | Isıcam ile tek cam farkı |
+| Füme + Korkuluk | İki sistemin birlikte tasarlanması |
+
+Yeni bir cam balkon projesi eklerken bu on konudan hiçbirini tekrar etme;
+onbirinci bir konu bul (cam temizliği, kanat kilidi, katlanır ile sürme
+karşılaştırması, kış kullanımında havalandırma...).
+
+**Ölçüt:** iki sayfanın kelime örtüşmesi %35'i geçmemeli. Şu an sitedeki en
+yüksek değer %22.
+
+## 3. İç link — her sayfada zorunlu
+
+Her proje sayfasının gövdesinde **iki link** bulunur:
+
+```markdown
+Benzer işlerimiz ve seçenekler için [cam balkon sayfamıza](/hizmetler/cam-balkon/),
+bu bölgede yaptığımız diğer işler için [Erbaa sayfamıza](/erbaa/) bakabilirsiniz.
+```
+
+Birincisi projenin kategorisine karşılık gelen hizmet sayfası, ikincisi
+projenin `ilce` değerine karşılık gelen bölge sayfası. Doğru adresler için
+aşağıdaki tabloya bak.
+
+Bölge ve hizmet sayfalarında da metnin **içinden** en az bir bağlamsal link
+olmalı. Sayfanın altındaki otomatik listeler ayrı; konu içinde geçen link daha
+değerli.
+
+| İlçe | Bölge sayfası | | Kategori | Hizmet sayfası |
+|---|---|---|---|---|
+| Erbaa | `/erbaa/` | | PVC Kapı Pencere | `/hizmetler/pvc-kapi-pencere/` |
+| Tokat | `/tokat/` | | Cam Balkon Sistemleri | `/hizmetler/cam-balkon/` |
+| Turhal | `/turhal/` | | Korkuluk Sistemleri | `/hizmetler/korkuluk-kupeste/` |
+| Niksar | `/niksar/` | | Banyo Sistemleri | `/hizmetler/dusakabin-banyo/` |
+| Amasya | `/amasya/` | | Sineklik Sistemleri | `/hizmetler/sineklik/` |
+| Taşova | `/tasova/` | | Alüminyum Doğrama | `/hizmetler/aluminyum-dograma/` |
+| Suluova | `/suluova/` | | PVC Sistemleri | `/hizmetler/teras-kapatma-kis-bahcesi/` |
+| Ünye | `/unye/` | | Tamir ve Bakım | `/hizmetler/tadilat-bakim/` |
+| Kadıköy | `/kadikoy/` | | Çelik Kapı | `/hizmetler/celik-kapi/` |
+
+## 4. Başlık ve açıklama uzunlukları
+
+**`title` — 40-45 karakter.** Sonuna `| Bolatoğlu Yapı` (17 karakter) otomatik
+ekleniyor, toplam 60'ı geçmesin. Google 60 karakterden sonrasını keser.
+
+**`description` — 140-160 karakter.** 120'nin altı arama sonucunda yer boşa
+harcar, 165'in üstü kesilir. Mevcut sayfalarda aralık 101-169; yeni
+eklediklerinde 140-160'ta kal.
+
+**İkisi de her sayfada benzersiz olmalı.** Şu an sitede tek bir tekrar eden
+başlık veya açıklama yok, bu durumu koru. İki sayfaya aynı açıklamayı yazmak,
+Google'a "bu iki sayfa aynı" demektir.
+
+## 5. Başlık yapısı
+
+* Her sayfada **tek bir `h1`** olur. Bunu layout otomatik üretir, gövdeye
+  `# Başlık` yazma.
+* Gövdede `##` ile başla, alt kırılım için `###` kullan.
+* `##` olmadan `###` kullanma.
+* Proje sayfalarında mevcut yapı: `## Proje Hakkında` → `### Teknik Detaylar`
+  → `### [sana özgü konu]` → `### Sonuç`
+
+## 6. Ne uydurulur, ne uydurulmaz
+
+**Uydurma:** müşteri adı, iş süresi, fiyat, yapılmamış iş, proje sayısı,
+"X yılda Y iş yaptık" gibi sayılar, sahip olmadığın belge veya yetki
+("yetkili bayi" gibi). Bunlar bir müşteri sorduğunda seni zor durumda bırakır.
+
+**Serbest:** sektör bilgisi ve teknik anlatım. Malzeme özellikleri, montaj
+yöntemleri, bakım önerileri, "neye dikkat edilmeli" tarzı içerik. Bunlar hem
+doğru hem müşterinin işine yarıyor ve kelime sayısını rahatça dolduruyor.
+
+**Dikkatli ol:** işleyişe dair cümleler ("keşif ücretsiz", "kenar düzeltmesi
+montaja dahil", "kışın yaylaya montaj yapmıyoruz"). Bunlar doğruysa yaz, ama
+müşteri okuyup ona göre gelir.
+
+## 7. Ekleme sonrası kontrol listesi
+
+```bash
+bundle _2.7.2_ exec jekyll build
+```
+
+`Error` veya `Conflict` çıkmamalı (Sass uyarıları normal). Sonra sırayla:
+
+- [ ] Sayfa kendi adresinde açılıyor mu
+- [ ] `/islerim/` listesinde görünüyor mu (proje ekledinse)
+- [ ] İlgili hizmet sayfasında sayı bir arttı mı → artmadıysa `category` yazımı
+- [ ] İlgili bölge sayfasında sayı bir arttı mı → artmadıysa `ilce` yazımı
+- [ ] `/hizmetler/` sayfasında hiçbir kart boş kalmış mı
+- [ ] Gövdede iki iç link var mı
+- [ ] Kelime sayısı alt sınırın üstünde mi
+- [ ] Aynı kategorideki başka bir sayfayla aynı konuyu anlatmıyor mu
+- [ ] Başlık 45, açıklama 160 karakteri geçmiyor mu
+
+Yayınladıktan sonra Google Search Console → **URL Denetimi** → yeni adresi
+yaz → **Dizine eklenmesini iste**.
