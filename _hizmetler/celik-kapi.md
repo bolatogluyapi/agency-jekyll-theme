@@ -7,7 +7,10 @@ description: "Erbaa ve Tokat'ta çelik kapı montajı. Kilit sistemi, sac kalın
 icon: fas fa-door-closed
 order: 9
 # bu hizmete ait projeler bu kategorilerden cekilir (_portfolio icindeki category alani)
-categories: []
+categories:
+  # Bir celik kapi isi ekledigin gun proje dosyasina category: "Çelik Kapı"
+  # yazman yeterli; bu satir sayesinde otomatik eslesir.
+  - "Çelik Kapı"
 ---
 
 Çelik kapı seçiminde dışarıdan görünen tek şey kaplamadır; oysa kapının işini yapan kısmı görünmez. Aşağıda bir teklifi değerlendirirken sormanız gereken şeyleri sıraladık.

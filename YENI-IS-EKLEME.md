@@ -105,6 +105,9 @@ Sonra `bundle _2.7.2_ exec jekyll serve` ile üçünü de kontrol et:
 - `/islerim/` — yeni proje en üstte mi (tarih en yeniyse)
 - `/hizmetler/<ilgili-sayfa>/` — proje sayısı bir artmış mı
 - `/<ilce>/` — bölge sayfasındaki sayı bir artmış mı
+- `/hizmetler/` — hiçbir hizmet kartı boş kalmış mı (tıklayınca hiç proje
+  göstermeyen bir hizmet varsa `categories` alanı ya boştur ya da yazımı
+  projedeki `category` ile tutmuyordur)
 
 İkincisi artmadıysa `category`, üçüncüsü artmadıysa `ilce` yazımı tutmuyordur.
 Build hata vermez, sessizce eşleşmez.
@@ -132,7 +135,7 @@ heading: "... Sistemleri"          # sayfadaki h1 ve kart basligi
 subtitle: "Tek cumlelik ozet"      # kartin altindaki aciklama
 description: "140-160 karakter."
 icon: tools                        # asagidaki listeden bir ad
-order: 10                          # kartlarin sirasi
+order: 10                          # kartlarin sirasi (her hizmette farkli olmali)
 categories:
   - "İlgili Kategori"
 ---
@@ -157,6 +160,20 @@ alanına **yalnızca** şunlardan birini yazabilirsin:
 `fas fa-tools` gibi eski yazım da çalışır, sondaki adı alır. Ama listede
 olmayan bir ad yazarsan (örneğin `fa-fire-extinguisher`) sayfa bozulmaz,
 **sade bir daire** çıkar.
+
+### `categories` alanını boş bırakma
+
+```yaml
+categories:
+  - "Panjur Sistemleri"
+```
+
+Bu alan hizmet sayfasının hangi projeleri listeleyeceğini belirler. **Boş
+bırakırsan (`categories: []`) o hizmet sayfası hiçbir zaman proje göstermez** —
+sonradan o kategoriyle proje eklesen bile. Bir süre `celik-kapi.md` bu haldeydi.
+
+Yeni bir hizmet açarken kategori adını şimdiden yaz; henüz o işten projen
+olmasa bile. Proje eklediğin gün kendiliğinden eşleşir.
 
 Yeni ikon gerekiyorsa: fontawesome.com/icons adresinden SVG'yi indir,
 `_includes/ikon.html` dosyasına örnektekiler gibi bir `when` satırı ekle.
