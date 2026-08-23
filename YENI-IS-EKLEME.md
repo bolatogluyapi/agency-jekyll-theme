@@ -57,7 +57,7 @@ Bir paragraf: ortaya ne çıktı.
 | `title` | Proje sayfasının `h1`'i ve arama sonucu başlığı. |
 | `subtitle` | Proje sayfasında başlığın altındaki tek satır. |
 | `location` | Meta şeridindeki "Konum". |
-| `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı: Erbaa, Tokat, Turhal, Niksar, Taşova, Suluova, Kadıköy. |
+| `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı. Şu an tanımlı olanlar: Erbaa, Tokat, Turhal, Niksar, Amasya, Taşova, Suluova, Ünye, Kadıköy. Listede olmayan bir ilçe yazacaksan önce o bölge sayfasını aç (aşağıdaki bölüm). |
 | `date` | **Sıralamayı bu belirler.** Yeni tarih en üste çıkar. `YYYY-AA-GG`. |
 | `category` | **Hangi hizmet sayfasında görüneceğini belirler.** Aşağıya bak. |
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
@@ -190,7 +190,7 @@ layout: bolge
 permalink: /zile/
 order: 10                # link sirasindaki yeri (her bolgede farkli olmali)
 ilce: "Zile"             # projelerdeki ilce degeriyle ayni
-il: "Tokat"              # bagli oldugu il
+il: "Tokat"              # bagli oldugu il - asagida acikliyorum
 title: "Zile PVC Pencere ve Cam Balkon"    # arama sonucu basligi, ~40 karakter
 heading: "Zile"                            # sayfadaki h1
 subtitle: "Zile'de tamamladığımız işler."  # h1 altindaki tek satir
@@ -200,7 +200,25 @@ description: "140-160 karakter, arama sonucu aciklamasi."
 Buraya o ilçeye özgü metin yaz. En az 100 kelime olsun.
 ```
 
-### 3. ÖNEMLİ: metin gerçekten farklı olmalı
+### 3. `il` alanı neden gerekiyor
+
+Bu alan sayfada hiçbir yerde görünmez. Google'a gönderdiğimiz yapısal veride
+"bu ilçe hangi ilde" bilgisini taşır:
+
+```json
+{ "name": "Turhal", "containedInPlace": { "name": "Tokat" } }
+```
+
+Neden önemli: Türkiye'de aynı isimde birden fazla yer var ve bizim hizmet
+alanımız tek ile sığmıyor. Taşova ve Suluova Amasya'da, Ünye Ordu'da. İl
+bilgisi olmadan Google bunları doğru eşleştiremez, yerel aramada yanlış
+bölgeye bağlayabilir.
+
+**Yazmayı unutursan** bölge sayfası yine çalışır, sadece o ilçe için il
+bilgisi gönderilmez. Bilerek böyle yaptık: yanlış bir il yazmaktansa hiç
+yazmamak daha iyi.
+
+### 4. ÖNEMLİ: metin gerçekten farklı olmalı
 
 Aynı metni ilçe adını değiştirerek çoğaltma. Google buna "kapı sayfası" diyor ve
 cezalandırıyor — tek bir kopyala-yapıştır sayfa bütün bölge sayfalarının değerini
@@ -216,7 +234,7 @@ Her sayfada o ilçeye **özgü** bir şey anlat. Örnekler:
 Anlatacak özgün bir şey yoksa o ilçe için sayfa açma; projeler zaten
 `/islerim/` içinde ve kendi sayfalarında görünüyor.
 
-### 4. Hizmet vermediğin bir yerse
+### 5. Hizmet vermediğin bir yerse
 
 Bir bölge sayfası açtın ama orada düzenli hizmet vermiyorsan (örneğin tek
 seferlik bir iş yaptıysan), front matter'a şunu ekle:
@@ -228,7 +246,7 @@ hizmet_bolgesi: false
 Sayfa yine yayınlanır ve listede görünür, ama Google'a gönderdiğimiz yapısal
 veride "hizmet bölgem" olarak geçmez. Örnek: `kadikoy.md`.
 
-### 5. Başka bir şey yapmana gerek yok
+### 6. Başka bir şey yapmana gerek yok
 
 Yeni bölge sayfası açtığında **üç yer birden** kendiliğinden güncellenir:
 
@@ -243,7 +261,7 @@ verirsen sıralama Jekyll'ın dosya okuma sırasına kalır, yani öngörülemez
 Şu an kullanımdakiler: 1 Erbaa, 2 Tokat, 3 Turhal, 4 Niksar, 5 Amasya,
 6 Taşova, 7 Suluova, 8 Ünye, 9 Kadıköy.
 
-### 6. Kontrol
+### 7. Kontrol
 
 ```bash
 bundle _2.7.2_ exec jekyll build

@@ -51,8 +51,15 @@
     {%- for bl in hizmet_bolgeleri %}
     {
       "@type": "City",
-      "name": {{ bl.ilce | jsonify }},
-      "containedInPlace": { "@type": "AdministrativeArea", "name": {{ bl.il | default: "Tokat" | jsonify }} }
+      "name": {{ bl.ilce | jsonify }}
+      {%- comment -%}
+        il alani yazilmamissa bagli oldugu ili hic belirtmiyoruz.
+        Varsayilan bir il koymak (orn. Tokat) baska bir ilin ilcesi
+        eklendiginde Google'a sessizce yanlis bilgi verirdi.
+      {%- endcomment -%}
+      {%- if bl.il %},
+      "containedInPlace": { "@type": "AdministrativeArea", "name": {{ bl.il | jsonify }} }
+      {%- endif %}
     }{% unless forloop.last %},{% endunless %}
     {%- endfor %}
   ]
