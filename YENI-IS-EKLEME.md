@@ -69,7 +69,7 @@ Bir paragraf: ortaya ne çıktı.
 
 ## 4. Kategori listesi — TAM OLARAK böyle yazılmalı
 
-`category` alanına aşağıdaki sekiz değerden **birini** yaz. Harfi harfine
+`category` alanına aşağıdaki dokuz değerden **birini** yaz. Harfi harfine
 aynı olmalı; büyük/küçük harf veya Türkçe karakter farkı olursa proje
 hiçbir hizmet sayfasında görünmez (kendi sayfası ve /islerim/ yine çalışır).
 
@@ -83,13 +83,12 @@ hiçbir hizmet sayfasında görünmez (kendi sayfası ve /islerim/ yine çalış
 | `"Alüminyum Doğrama"` | /hizmetler/aluminyum-dograma/ |
 | `"PVC Sistemleri"` | /hizmetler/teras-kapatma-kis-bahcesi/ (teras, kış bahçesi) |
 | `"Tamir ve Bakım"` | /hizmetler/tadilat-bakim/ |
-
-Çelik kapı işi eklersen yeni bir kategori gerekir; o zaman
-`_hizmetler/celik-kapi.md` içindeki `categories: []` satırını
-`categories: ["Çelik Kapı"]` yapıp projeye de aynı değeri yaz.
+| `"Çelik Kapı"` | /hizmetler/celik-kapi/ (henüz projesi yok) |
 
 Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 Şüphedeysen ilgili hizmet dosyasını açıp oraya bak — asıl kaynak orası.
+Yeni bir kategori kullanmak istiyorsan önce ilgili hizmet dosyasının
+`categories` listesine eklemen gerekir, yoksa eşleşme olmaz.
 
 ## 5. Kontrol et
 
@@ -120,7 +119,14 @@ git commit -m "Yeni proje: erbaa cumhuriyet cam balkon"
 git push
 ```
 
-Push sonrası GitHub Actions siteyi otomatik yayına alır.
+Push sonrası GitHub Actions siteyi otomatik yayına alır ve Cloudflare
+önbelleğini temizler. Elle bir şey yapmana gerek yok; birkaç dakika içinde
+canlıda görünür.
+
+**Yeni bir sayfa eklediysen** (proje, bölge veya hizmet), son bir adım var:
+Google Search Console'da `URL Denetimi` kutusuna yeni adresi yazıp
+**"Dizine eklenmesini iste"** de. Bu olmadan da Google eninde sonunda bulur
+ama haftalar sürebilir.
 
 ---
 
@@ -142,6 +148,18 @@ categories:
 
 Hizmet metni buraya.
 ```
+
+### Alanların anlamı
+
+| Alan | Ne işe yarar |
+|---|---|
+| `title` | Arama sonucu başlığı. Sonuna `| Bolatoğlu Yapı` otomatik eklenir, o yüzden ~40 karakterde tut. |
+| `heading` | Sayfadaki `h1` ve ana sayfadaki kart başlığı. Kısa. |
+| `subtitle` | Kartın altındaki tek satırlık özet. |
+| `description` | Arama sonucundaki açıklama. 140-160 karakter. |
+| `icon` | Karttaki ikon. Aşağıdaki listeden bir ad. |
+| `order` | Kartların sırası. **Her hizmette farklı olmalı.** Şu an 1-9 dolu, yenisi için 10'dan devam et. |
+| `categories` | **Bu sayfada hangi projelerin listeleneceğini belirler.** Projelerdeki `category` değeriyle harfi harfine aynı olmalı. |
 
 Ana sayfadaki hizmet kartları, `/hizmetler/` sayfası, bütün bölge
 sayfalarındaki hizmet listesi ve yapısal veri bu klasörden otomatik beslenir.
