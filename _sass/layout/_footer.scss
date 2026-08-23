@@ -41,3 +41,27 @@ ul.social-buttons {
     }
   }
 }
+
+// Footer slogani. Onceden footer.html icinde satir ici stildi; iki blokta
+// tekrar ettigi icin buraya alindi.
+.footer-slogan {
+  display: inline-block;
+  max-width: 100%;
+  color: #8a6d00;
+  font-size: 1.2rem;
+  @include script-font;
+}
+
+// Sabit WhatsApp butonu ekranin sag altinda duruyor (mobilde 56px + 16px
+// bosluk). Footer'in alt boslugu 25px oldugu icin sayfanin en altina
+// inildiginde buton son satiri (slogani) ortuyordu. Masaustunde footer uc
+// sutunlu oldugu icin fark edilmiyor, mobilde alt alta dizilince ortusuyor.
+@media (max-width: 767px) {
+  .footer {
+    padding-bottom: 100px;
+  }
+  .footer-slogan {
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+}
