@@ -14,7 +14,7 @@ type: HomeAndConstructionBusiness
 
 name: "Bolatoğlu Yapı"
 alternate_name: "Erbaa Pimapen"   # eski ticari isim, bu isimle arayanlar icin
-founded: 2005
+founded: "2005"   # tirnak sart: schema.org Date bekler, sayi degil
 
 phone: "+905302945495"
 email: "bolatogluyapi@gmail.com"
@@ -45,8 +45,10 @@ areas:
   - { name: "Niksar", region: "Tokat" }
   - { name: "Turhal", region: "Tokat" }
   - { name: "Tokat", region: "Tokat" }
+  - { name: "Amasya", region: "Amasya" }
   - { name: "Taşova", region: "Amasya" }
   - { name: "Suluova", region: "Amasya" }
+  - { name: "Ünye", region: "Ordu" }
 
 # -----------------------------------------------------------------------
 # CALISMA SAATLERI
