@@ -52,15 +52,22 @@ ul.social-buttons {
   @include script-font;
 }
 
-// Sabit WhatsApp butonu ekranin sag altinda duruyor (mobilde 56px + 16px
-// bosluk). Footer'in alt boslugu 25px oldugu icin sayfanin en altina
-// inildiginde buton son satiri (slogani) ortuyordu. Masaustunde footer uc
-// sutunlu oldugu icin fark edilmiyor, mobilde alt alta dizilince ortusuyor.
+// Sabit WhatsApp butonu ekranin sag altinda duruyor ve sayfanin en altina
+// inildiginde footer icerigini ortuyor. Masaustunde buton "WhatsApp" yazisiyla
+// birlikte genis bir hap (58px yuksek, alttan 22px) ve sag sutundaki sloganin
+// uzerine biniyor; mobilde 56px'lik daire olup en alttaki slogani ortuyor.
+// Cozum ayni: footer'a butonun sigacagi kadar alt bosluk vermek.
+.footer {
+  padding-bottom: 95px;
+}
+
 @media (max-width: 767px) {
   .footer {
     padding-bottom: 100px;
   }
   .footer-slogan {
+    // Sutunlar alt alta dizildiginde sosyal ikonlarla slogan bitisik kaliyor
+    margin-top: 18px;
     font-size: 1.05rem;
     line-height: 1.4;
   }
