@@ -3,6 +3,8 @@ layout: bolge
 permalink: /kadikoy/
 order: 9
 ilce: "Kadıköy"
+il: "İstanbul"
+hizmet_bolgesi: false   # yapisal veride hizmet bolgesi olarak gecmesin
 title: "İstanbul Kadıköy Duşakabin Uygulamamız"
 heading: "İstanbul / Kadıköy"
 subtitle: "Şehir dışından gelen özel talepler üzerine yaptığımız işler."

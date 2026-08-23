@@ -3,6 +3,7 @@ layout: bolge
 permalink: /unye/
 order: 8
 ilce: "Ünye"
+il: "Ordu"
 title: "Ünye Cam Balkon, PVC Pencere ve Korkuluk"
 heading: "Ünye"
 subtitle: "Ordu'nun Ünye ilçesinde hayata geçirdiğimiz projeler."

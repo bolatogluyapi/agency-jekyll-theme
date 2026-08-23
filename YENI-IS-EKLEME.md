@@ -190,6 +190,7 @@ layout: bolge
 permalink: /zile/
 order: 10                # link sirasindaki yeri (her bolgede farkli olmali)
 ilce: "Zile"             # projelerdeki ilce degeriyle ayni
+il: "Tokat"              # bagli oldugu il
 title: "Zile PVC Pencere ve Cam Balkon"    # arama sonucu basligi, ~40 karakter
 heading: "Zile"                            # sayfadaki h1
 subtitle: "Zile'de tamamladığımız işler."  # h1 altindaki tek satir
@@ -215,18 +216,34 @@ Her sayfada o ilçeye **özgü** bir şey anlat. Örnekler:
 Anlatacak özgün bir şey yoksa o ilçe için sayfa açma; projeler zaten
 `/islerim/` içinde ve kendi sayfalarında görünüyor.
 
-### 4. Başka bir şey yapmana gerek yok
+### 4. Hizmet vermediğin bir yerse
 
-`/islerim/` sayfasının altındaki bölge listesi `layout: bolge` olan tüm
-sayfalardan otomatik üretilir. Sıralama `order` alanına göre. Sitemap'e de
-kendiliğinden girer.
+Bir bölge sayfası açtın ama orada düzenli hizmet vermiyorsan (örneğin tek
+seferlik bir iş yaptıysan), front matter'a şunu ekle:
+
+```yaml
+hizmet_bolgesi: false
+```
+
+Sayfa yine yayınlanır ve listede görünür, ama Google'a gönderdiğimiz yapısal
+veride "hizmet bölgem" olarak geçmez. Örnek: `kadikoy.md`.
+
+### 5. Başka bir şey yapmana gerek yok
+
+Yeni bölge sayfası açtığında **üç yer birden** kendiliğinden güncellenir:
+
+* `/islerim/` sayfasının altındaki bölge bağlantı listesi (sıra `order` ile)
+* Sitemap
+* **Yapısal veridekiareaServed listesi** — Google'a "buralarda hizmet
+  veriyorum" diyen alan. Eskiden `_data/business.yml` içinde elle tutuluyordu,
+  artık bölge sayfalarından üretiliyor.
 
 **`order` değeri her bölgede farklı olmalı.** İki bölgeye aynı sayıyı
 verirsen sıralama Jekyll'ın dosya okuma sırasına kalır, yani öngörülemez olur.
 Şu an kullanımdakiler: 1 Erbaa, 2 Tokat, 3 Turhal, 4 Niksar, 5 Amasya,
 6 Taşova, 7 Suluova, 8 Ünye, 9 Kadıköy.
 
-### 5. Kontrol
+### 6. Kontrol
 
 ```bash
 bundle _2.7.2_ exec jekyll build

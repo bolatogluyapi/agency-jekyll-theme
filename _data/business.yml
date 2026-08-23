@@ -39,16 +39,14 @@ same_as:
   - "https://www.instagram.com/bolatogluyapi/"
   - "https://www.tiktok.com/@bolatogluyapi"
 
-# Hizmet verilen ilceler (proje sayfalarindaki gercek konumlardan)
-areas:
-  - { name: "Erbaa", region: "Tokat" }
-  - { name: "Niksar", region: "Tokat" }
-  - { name: "Turhal", region: "Tokat" }
-  - { name: "Tokat", region: "Tokat" }
-  - { name: "Amasya", region: "Amasya" }
-  - { name: "Taşova", region: "Amasya" }
-  - { name: "Suluova", region: "Amasya" }
-  - { name: "Ünye", region: "Ordu" }
+# HIZMET BOLGELERI BURADA DEGIL
+#
+# Yapisal veridekiareaServed listesi, kok dizindeki bolge sayfalarindan
+# (layout: bolge) otomatik uretiliyor. Yeni bolge ekledigin anda oraya da
+# giriyor; burada tutulacak bir liste yok.
+#
+# Bir bolgenin listeye girmemesini istersen o sayfaya hizmet_bolgesi: false
+# yaz (ornek: kadikoy.md).
 
 # -----------------------------------------------------------------------
 # CALISMA SAATLERI

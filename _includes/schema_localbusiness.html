@@ -32,12 +32,27 @@
     "longitude": {{ b.geo.lng }}
   },
   "sameAs": {{ b.same_as | jsonify }},
+  {%- comment -%}
+    Hizmet bolgeleri elle tutulmuyor: layout'u "bolge" olan sayfalardan
+    otomatik uretiliyor. Yeni bir bolge sayfasi actiginda yapisal veriye
+    kendiliginden giriyor, burayi duzenlemeye gerek yok.
+
+    Bir bolgenin listeye girmemesi icin o sayfada hizmet_bolgesi: false
+    yazmak yeterli (ornek: Kadikoy - duzenli hizmet verilmiyor).
+  {%- endcomment -%}
+  {%- assign bolgeler = site.pages | where: "layout", "bolge" | sort: "order" -%}
+  {%- assign hizmet_bolgeleri = "" | split: "" -%}
+  {%- for bl in bolgeler -%}
+    {%- unless bl.hizmet_bolgesi == false -%}
+      {%- assign hizmet_bolgeleri = hizmet_bolgeleri | push: bl -%}
+    {%- endunless -%}
+  {%- endfor -%}
   "areaServed": [
-    {%- for a in b.areas %}
+    {%- for bl in hizmet_bolgeleri %}
     {
       "@type": "City",
-      "name": {{ a.name | jsonify }},
-      "containedInPlace": { "@type": "AdministrativeArea", "name": {{ a.region | jsonify }} }
+      "name": {{ bl.ilce | jsonify }},
+      "containedInPlace": { "@type": "AdministrativeArea", "name": {{ bl.il | default: "Tokat" | jsonify }} }
     }{% unless forloop.last %},{% endunless %}
     {%- endfor %}
   ]

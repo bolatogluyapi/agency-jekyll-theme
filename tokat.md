@@ -3,6 +3,7 @@ layout: bolge
 permalink: /tokat/
 order: 2
 ilce: "Tokat"
+il: "Tokat"
 title: "Tokat Merkez PVC Pencere ve Cam Balkon"
 heading: "Tokat Merkez"
 subtitle: "Tokat merkezde tamamladığımız işler ve hizmet verdiğimiz alanlar."

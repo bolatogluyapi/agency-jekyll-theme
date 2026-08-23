@@ -3,6 +3,7 @@ layout: bolge
 permalink: /tasova/
 order: 6
 ilce: "Taşova"
+il: "Amasya"
 title: "Taşova Korkuluk, PVC Pencere ve Cam Balkon"
 heading: "Taşova"
 subtitle: "Amasya'nın Taşova ilçesinde yaptığımız işler."
