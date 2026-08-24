@@ -76,7 +76,7 @@ Bir paragraf: ortaya ne çıktı.
 | `title` | Proje sayfasının `h1`'i ve arama sonucu başlığı. |
 | `subtitle` | Proje sayfasında başlığın altındaki tek satır. |
 | `location` | Meta şeridindeki "Konum". |
-| `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı. Şu an tanımlı olanlar: Erbaa, Tokat, Turhal, Niksar, Amasya, Taşova, Suluova, Ünye, Kadıköy. Listede olmayan bir ilçe yazacaksan önce o bölge sayfasını aç (aşağıdaki bölüm). |
+| `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı. Şu an tanımlı olanlar: Erbaa, Tokat, Turhal, Niksar, Amasya, Taşova, Suluova, Ünye, Akkuş, Kadıköy. Listede olmayan bir ilçe yazacaksan önce o bölge sayfasını aç (aşağıdaki bölüm). |
 | `date` | **Sıralamayı bu belirler.** Yeni tarih en üste çıkar. `YYYY-AA-GG`. |
 | `category` | **Hangi hizmet sayfasında görüneceğini belirler.** Aşağıya bak. |
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
@@ -313,7 +313,7 @@ Yeni bölge sayfası açtığında **üç yer birden** kendiliğinden güncellen
 **`order` değeri her bölgede farklı olmalı.** İki bölgeye aynı sayıyı
 verirsen sıralama Jekyll'ın dosya okuma sırasına kalır, yani öngörülemez olur.
 Şu an kullanımdakiler: 1 Erbaa, 2 Tokat, 3 Turhal, 4 Niksar, 5 Amasya,
-6 Taşova, 7 Suluova, 8 Ünye, 9 Kadıköy.
+6 Taşova, 7 Suluova, 8 Ünye, 9 Akkuş, 10 Kadıköy.
 
 ### 7. Kontrol
 
@@ -455,7 +455,8 @@ değerli.
 | Amasya | `/amasya/` | | Sineklik Sistemleri | `/hizmetler/sineklik/` |
 | Taşova | `/tasova/` | | Alüminyum Doğrama | `/hizmetler/aluminyum-dograma/` |
 | Suluova | `/suluova/` | | PVC Sistemleri | `/hizmetler/teras-kapatma-kis-bahcesi/` |
-| Ünye | `/unye/` | | Tamir ve Bakım | `/hizmetler/tadilat-bakim/` |
+| Ünye | `/unye/` |
+| Akkuş | `/akkus/` | | Tamir ve Bakım | `/hizmetler/tadilat-bakim/` |
 | Kadıköy | `/kadikoy/` | | Çelik Kapı | `/hizmetler/celik-kapi/` |
 
 ## 4. Başlık ve açıklama uzunlukları
