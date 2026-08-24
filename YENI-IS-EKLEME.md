@@ -12,6 +12,7 @@ Hızlı geçiş:
 * [Proje eklemek](#1-dosyayı-oluştur) — aşağıda, 1. bölümden itibaren
 * [Hizmet eklemek](#yeni-bir-hizmet-eklemek)
 * [Bölge eklemek](#yeni-bölge-ilçe-sayfası-eklemek)
+* [Rehber yazısı eklemek](#yeni-rehber-yazısı-eklemek)
 * [İçerik standartları](#i̇çerik-standartlari--her-ekleme-öncesi-oku)
 
 ---
@@ -328,6 +329,45 @@ iste** demeyi unutma; yeni sayfanın taranması aksi halde haftalar sürer.
 
 ---
 
+## Yeni rehber yazısı eklemek
+
+Rehber yazıları `/rehber/` altında yayınlanır ve soru formatlı aramaları
+hedefler ("pvc pencere neden rüzgar alır", "cam balkon ısıcam mı").
+
+`_rehber/` klasörüne bir `.md` dosyası aç:
+
+```yaml
+---
+layout: rehber
+order: 7                 # /rehber/ listesindeki sirasi, benzersiz olmali
+title: "Çelik Kapı Seçim Rehberi"     # ~40 karakter
+heading: "Çelik Kapı Seçim Rehberi"   # sayfadaki h1
+subtitle: "Merkezi kilit, sac kalınlığı ve dolgu."   # kart altindaki satir
+ozet: "Yazinin basinda vurgulu kutuda cikan giris. 1-2 cumle."
+description: "140-160 karakter, arama sonucu aciklamasi."
+---
+
+Yazi metni. En az 400 kelime.
+```
+
+`/rehber/` liste sayfası ve menü otomatik güncelleniyor, dokunman gerekmiyor.
+
+### Rehber yazısı hizmet sayfasından farklı olmalı
+
+En kritik kural bu. Hizmet sayfası **ne yaptığımızı** anlatır (ticari niyet),
+rehber yazısı **nasıl karar verileceğini** anlatır (bilgi niyeti). İkisi aynı
+şeyi anlatırsa birbirinin kopyası olurlar.
+
+Mevcut altı yazıda ölçülen örtüşme oranları %11-20 arasında; üst sınır %35.
+Yeni yazı eklerken ilgili hizmet sayfasını açıp yan yana oku.
+
+### Her yazıda en az bir iç link
+
+Metnin içinden ilgili hizmet sayfasına link ver. Sayfanın altındaki "Diğer
+Rehberler" listesi otomatik, o ayrı.
+
+---
+
 # İÇERİK STANDARTLARI — her ekleme öncesi oku
 
 Bu bölüm, sitedeki 71 sayfanın tamamına uygulanmış kuralları özetler. Yeni bir
@@ -343,6 +383,7 @@ Sitedeki mevcut durum (ölçülmüş değerler):
 | Proje | 253-356 | 318 | **en az 280** |
 | Bölge | 368-440 | 396 | **en az 350** |
 | Hizmet | 416-607 | 484 | **en az 420** |
+| Rehber yazısı | 428-493 | 469 | **en az 400** |
 
 Bu sayılar gövde metnini kapsar; başlık, proje grid'i ve hizmet listesi dahil
 değildir.

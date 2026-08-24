@@ -9,6 +9,8 @@ en: &DEFAULT_EN
       url: "/hizmetler/"
     - title: "İŞLERİMİZ"
       url: "/islerim/"
+    - title: "REHBER"
+      url: "/rehber/"
     - title: "HAKKIMIZDA"
       section: hakkimizda
     - title: "İLETİŞİM"

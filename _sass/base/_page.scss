@@ -424,3 +424,66 @@ ul.social-buttons li a:hover {
   background-color: rgba(176, 42, 55, 0.15);
   color: #f8d7da;
 }
+
+// -----------------------------------------------------------------------
+// Rehber bolumu
+// -----------------------------------------------------------------------
+.rehber-ozet {
+  font-size: 19px;
+  line-height: 1.6;
+  padding: 18px 22px;
+  margin-bottom: 28px;
+  border-left: 4px solid $primary;
+  background-color: rgba(254, 209, 54, 0.08);
+}
+
+.rehber-kartlar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.rehber-kart {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 24px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  h2 {
+    @include heading-font;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: $gray-900;
+  }
+  p {
+    flex: 1;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.rehber-devam {
+  @include heading-font;
+  font-weight: 700;
+  font-size: 14px;
+  color: $link-color;
+}
+
+.rehber-liste {
+  padding-left: 20px;
+  li {
+    margin-bottom: 8px;
+  }
+}

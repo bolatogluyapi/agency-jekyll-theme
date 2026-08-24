@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section class="bg-light page-section" id="rehber" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Rehber</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        <p class="section-subheading text-muted">{{ page.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <div class="project-body">{{ content }}</div>
+      </div>
+    </div>
+
+    {%- comment -%}
+      Liste otomatik: _rehber/ klasorundeki her dosya burada gorunur.
+      Yeni yazi eklerken bu sayfayi duzenlemeye gerek yok, sira "order" ile.
+    {%- endcomment -%}
+    <div class="rehber-kartlar">
+      {%- assign yazilar = site.rehber | sort: "order" -%}
+      {% for y in yazilar %}
+      <a class="rehber-kart" href="{{ y.url | relative_url }}">
+        <h2>{{ y.heading | default: y.title }}</h2>
+        <p class="text-muted">{{ y.subtitle }}</p>
+        <span class="rehber-devam">Yazıyı oku &rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
