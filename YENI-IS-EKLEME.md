@@ -383,13 +383,14 @@ zorunda kalmayız.
 
 ## 1. Kelime sayısı
 
-Sitedeki mevcut durum (ölçülmüş değerler):
+Sitedeki mevcut durum. **Aralık sütunu her yeni sayfayla değişir**, asıl
+bağlayıcı olan son sütundaki alt sınırdır:
 
 | Sayfa tipi | Aralık | Ortalama | Yeni eklerken hedef |
 |---|---|---|---|
-| Proje | 253-356 | 318 | **en az 280** |
-| Bölge | 368-440 | 396 | **en az 350** |
-| Hizmet | 416-607 | 484 | **en az 420** |
+| Proje | 253-532 | 327 | **en az 280** |
+| Bölge | 368-477 | 404 | **en az 350** |
+| Hizmet | 416-607 | 496 | **en az 420** |
 | Rehber yazısı | 428-493 | 469 | **en az 400** |
 
 Bu sayılar gövde metnini kapsar; başlık, proje grid'i ve hizmet listesi dahil
