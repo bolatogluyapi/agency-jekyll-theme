@@ -88,7 +88,7 @@ Bir paragraf: ortaya ne çıktı.
 
 ## 4. Kategori listesi — TAM OLARAK böyle yazılmalı
 
-`category` alanına aşağıdaki dokuz değerden **birini** yaz. Harfi harfine
+`category` alanına aşağıdaki on değerden **birini** yaz. Harfi harfine
 aynı olmalı; büyük/küçük harf veya Türkçe karakter farkı olursa proje
 hiçbir hizmet sayfasında görünmez (kendi sayfası ve /islerim/ yine çalışır).
 
@@ -102,7 +102,8 @@ hiçbir hizmet sayfasında görünmez (kendi sayfası ve /islerim/ yine çalış
 | `"Alüminyum Doğrama"` | /hizmetler/aluminyum-dograma/ |
 | `"PVC Sistemleri"` | /hizmetler/teras-kapatma-kis-bahcesi/ (teras, kış bahçesi) |
 | `"Tamir ve Bakım"` | /hizmetler/tadilat-bakim/ |
-| `"Çelik Kapı"` | /hizmetler/celik-kapi/ (henüz projesi yok) |
+| `"Çelik Kapı"` | /hizmetler/celik-kapi/ |
+| `"Panjur Sistemleri"` | /hizmetler/panjur-kepenk/ (henüz projesi yok) |
 
 Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 Şüphedeysen ilgili hizmet dosyasını açıp oraya bak — asıl kaynak orası.
@@ -160,7 +161,7 @@ heading: "... Sistemleri"          # sayfadaki h1 ve kart basligi
 subtitle: "Tek cumlelik ozet"      # kartin altindaki aciklama
 description: "140-160 karakter."
 icon: tools                        # asagidaki listeden bir ad
-order: 10                          # kartlarin sirasi (her hizmette farkli olmali)
+order: 11                          # kartlarin sirasi (her hizmette farkli olmali)
 categories:
   - "İlgili Kategori"
 ---
@@ -177,7 +178,7 @@ Hizmet metni buraya.
 | `subtitle` | Kartın altındaki tek satırlık özet. |
 | `description` | Arama sonucundaki açıklama. 140-160 karakter. |
 | `icon` | Karttaki ikon. Aşağıdaki listeden bir ad. |
-| `order` | Kartların sırası. **Her hizmette farklı olmalı.** Şu an 1-9 dolu, yenisi için 10'dan devam et. |
+| `order` | Kartların sırası. **Her hizmette farklı olmalı.** Şu an 1-10 dolu, yenisi için 11'den devam et. |
 | `categories` | **Bu sayfada hangi projelerin listeleneceğini belirler.** Projelerdeki `category` değeriyle harfi harfine aynı olmalı. |
 
 Ana sayfadaki hizmet kartları, `/hizmetler/` sayfası, bütün bölge
@@ -193,6 +194,12 @@ alanına **yalnızca** şunlardan birini yazabilirsin:
     bars          bath          border-all    clock         columns
     door-closed   envelope      home          layer-group   map-marker-alt
     phone         plus          shield-alt    tools         window-maximize
+
+Şu an kullanımda olanlar: `window-maximize` (PVC), `layer-group` (cam balkon),
+`shield-alt` (korkuluk), `bath` (duşakabin), `border-all` (sineklik),
+`columns` (alüminyum), `home` (teras), `tools` (tadilat), `door-closed`
+(çelik kapı), `bars` (panjur). Aynı ikonu iki hizmette kullanmak teknik olarak
+sorun değil ama kartlar birbirine benzer görünür.
 
 `fas fa-tools` gibi eski yazım da çalışır, sondaki adı alır. Ama listede
 olmayan bir ad yazarsan (örneğin `fa-fire-extinguisher`) sayfa bozulmaz,
@@ -458,6 +465,7 @@ değerli.
 | Ünye | `/unye/` |
 | Akkuş | `/akkus/` | | Tamir ve Bakım | `/hizmetler/tadilat-bakim/` |
 | Kadıköy | `/kadikoy/` | | Çelik Kapı | `/hizmetler/celik-kapi/` |
+| Akkuş | `/akkus/` | | Panjur Sistemleri | `/hizmetler/panjur-kepenk/` |
 
 ## 4. Başlık ve açıklama uzunlukları
 
