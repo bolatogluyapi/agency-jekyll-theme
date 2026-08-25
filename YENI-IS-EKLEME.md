@@ -2,7 +2,7 @@
 
 Bu dosya üç işi anlatır: **proje**, **hizmet** ve **bölge** eklemek.
 
-> **Önce dosyanın sonundaki "İÇERİK STANDARTLARI" bölümünü oku.**
+> **Önce dosyanın sonundaki [İÇERİK STANDARTLARI](#icerik-standartlari) bölümünü oku.**
 > Kelime sayısı, kopya içerik kuralı, iç link zorunluluğu ve karakter
 > sınırları orada. Bunlara uymadan eklenen sayfa sonradan düzeltilmek
 > zorunda kalıyor.
@@ -13,7 +13,7 @@ Hızlı geçiş:
 * [Hizmet eklemek](#yeni-bir-hizmet-eklemek)
 * [Bölge eklemek](#yeni-bölge-ilçe-sayfası-eklemek)
 * [Rehber yazısı eklemek](#yeni-rehber-yazısı-eklemek)
-* [İçerik standartları](#i̇çerik-standartlari--her-ekleme-öncesi-oku)
+* [İçerik standartları](#icerik-standartlari)
 
 ---
 
@@ -375,9 +375,11 @@ Rehberler" listesi otomatik, o ayrı.
 
 ---
 
+<a id="icerik-standartlari"></a>
+
 # İÇERİK STANDARTLARI — her ekleme öncesi oku
 
-Bu bölüm, sitedeki 71 sayfanın tamamına uygulanmış kuralları özetler. Yeni bir
+Bu bölüm, sitedeki tüm sayfalara uygulanmış kuralları özetler. Yeni bir
 proje, hizmet veya bölge eklerken bunlara uy; sonradan toplu düzeltme yapmak
 zorunda kalmayız.
 
@@ -406,7 +408,8 @@ içerik" olarak okur.
 
 ## 2. Kopya içerik — en kritik kural
 
-Sitede 10 cam balkon, 12 PVC, 7 korkuluk projesi var. **Aynı kategorideki
+Aynı kategoride onlarca proje sayfası var (PVC, cam balkon ve korkuluk en
+kalabalık gruplar). **Aynı kategorideki
 sayfalara aynı teknik metni koyarsan hepsi birbirinin kopyası olur.** Google
 buna "kapı sayfası" (doorway page) diyor ve tek bir kopya sayfa, aynı gruptaki
 bütün sayfaların değerini düşürebilir.
