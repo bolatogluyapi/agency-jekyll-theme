@@ -103,7 +103,7 @@ hiçbir hizmet sayfasında görünmez (kendi sayfası ve /islerim/ yine çalış
 | `"PVC Sistemleri"` | /hizmetler/teras-kapatma-kis-bahcesi/ (teras, kış bahçesi) |
 | `"Tamir ve Bakım"` | /hizmetler/tadilat-bakim/ |
 | `"Çelik Kapı"` | /hizmetler/celik-kapi/ |
-| `"Panjur Sistemleri"` | /hizmetler/panjur-kepenk/ (henüz projesi yok) |
+| `"Panjur Sistemleri"` | /hizmetler/panjur-kepenk/ |
 
 Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 Şüphedeysen ilgili hizmet dosyasını açıp oraya bak — asıl kaynak orası.
