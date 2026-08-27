@@ -11,7 +11,7 @@ location: "Tokat / Erbaa - Yıldırım Beyazıt Mah."
 ilce: "Erbaa"
 date: 2026-08-27
 category: "Banyo Sistemleri"
-video: "https://v1.pinimg.com/videos/iht/hls/3d/b3/a0/3db3a0fad8db9213979d63c1418c7e5e.m3u8"
+video: "https://youtube.com/shorts/gL9TtM6qwEY"
 video_baslik: "Erbaa Yıldırım Beyazıt Duşakabin Montaj Videosu"
 alt: Erbaa Yıldırım Beyazıt mahallesi sıfır kotlu hemzemin cam duşakabin uygulaması
 description: "Erbaa Yıldırım Beyazıt'ta uyguladığımız, hemzemin lineer süzgeçli ve kireç tutmayan nano camlı duşakabin projemiz. Kusursuz su tahliyesi ve ferahlık."
