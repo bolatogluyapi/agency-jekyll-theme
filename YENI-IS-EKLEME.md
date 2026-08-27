@@ -142,8 +142,12 @@ HLS, videoyu parçalara bölüp bağlantı hızına göre kalite ayarlayan bir a
 biçimi. Safari bunu kendi destekliyor; Chrome, Firefox ve Edge desteklemiyor,
 o yüzden `hls.js` kütüphanesi gerekiyor.
 
-Kütüphane **yalnızca oynat'a basıldığında ve yalnızca gereken tarayıcılarda**
-indiriliyor (~130 KB). Safari'de hiç indirilmiyor.
+Kütüphane **yalnızca oynat'a basıldığında** indiriliyor (~130 KB). Sayfa
+açılırken hiçbir şey yüklenmiyor.
+
+Masaüstü Safari'de de yükleniyor; kütüphanenin kendisi orada da çalışıyor.
+iOS Safari'de kütüphane devreye girmiyor, tarayıcının kendi HLS desteği
+kullanılıyor.
 
 **Dış kaynaklı HLS linki kullanacaksan dikkat:** adres değişirse veya kaynak
 erişimi keserse video sessizce çalışmaz olur. Sayfa bozulmaz ama video yerine
@@ -191,6 +195,11 @@ ekleniyor. Google arama sonuçlarında video işareti gösterebiliyor.
 
 Kapak olarak **projenin kendi fotoğrafı** kullanılıyor, ayrıca kapak görseli
 belirtmene gerek yok.
+
+**Video eklediğinde sayfanın üstündeki büyük fotoğraf otomatik olarak
+kaldırılıyor.** Video zaten aynı fotoğrafı kapak olarak kullandığı için ikisi
+alt alta tekrar ediyordu. Fotoğraf yine de link önizlemesinde (`og:image`) ve
+`/islerim/` listesindeki küçük resimde kullanılmaya devam ediyor.
 
 Video **zorunlu değil**; alanı hiç yazmazsan sayfa eskisi gibi çalışır.
 

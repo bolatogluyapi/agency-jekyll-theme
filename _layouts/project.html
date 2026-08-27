@@ -23,7 +23,15 @@ layout: default
 
     <div class="row">
       <div class="col-lg-9 mx-auto">
+        {%- comment -%}
+          Video varsa ustteki buyuk gorseli gostermiyoruz: video zaten kapak
+          olarak ayni fotografi kullaniyor, ikisi alt alta tekrar oluyordu.
+          Gorsel yine de onizleme (og:image) ve grid kucuk resmi olarak
+          kullanilmaya devam ediyor.
+        {%- endcomment -%}
+        {% unless page.video %}
         <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy" style="width: 100%; max-height: 520px; object-fit: cover;">
+        {% endunless %}
 
         {% include proje_video.html %}
 

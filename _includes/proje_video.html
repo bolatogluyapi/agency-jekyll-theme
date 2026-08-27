@@ -84,12 +84,10 @@
       oynatici.setAttribute("title", kapak.getAttribute("aria-label"));
       kapak.parentNode.replaceChild(oynatici, kapak);
 
-      // Safari HLS'i kendi destekliyor, kutuphaneye gerek yok
-      if (oynatici.canPlayType("application/vnd.apple.mpegurl")) {
-        oynatici.src = adres;
-        return;
-      }
-      // Diger tarayicilar icin hls.js - yalnizca burada, tiklandiginda iniyor
+      // canPlayType ile karar VERILMEZ: Chrome bu MIME tipine "maybe"
+      // cevabi veriyor ama HLS oynatamiyor. Dogru yontem once hls.js'i
+      // yukleyip Hls.isSupported() ile sormak; kutuphane desteklemiyorsa
+      // (iOS Safari) tarayicinin kendi HLS destegine dusmek.
       var betik = document.createElement("script");
       betik.src = "https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js";
       betik.onload = function () {
@@ -97,6 +95,12 @@
           var h = new window.Hls();
           h.loadSource(adres);
           h.attachMedia(oynatici);
+        } else if (oynatici.canPlayType("application/vnd.apple.mpegurl")) {
+          oynatici.src = adres;
+        } else {
+          oynatici.insertAdjacentHTML("afterend",
+            '<p class="text-muted">Bu tarayıcı videoyu oynatamıyor. ' +
+            '<a href="' + adres + '">Bağlantıyı açmayı deneyin</a>.</p>');
         }
       };
       betik.onerror = function () {
