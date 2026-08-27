@@ -68,7 +68,9 @@
       var cerceve = document.createElement("iframe");
       cerceve.src = "https://www.youtube-nocookie.com/embed/" + kapak.dataset.youtube + "?autoplay=1&rel=0";
       cerceve.title = kapak.getAttribute("aria-label");
-      cerceve.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+      // clipboard-write olmadan oynaticinin "bagi kopyala" butonu calismiyor;
+      // tarayici izin politikasi geregi iframe'e acikca verilmesi gerekiyor.
+      cerceve.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       cerceve.allowFullscreen = true;
       kapak.parentNode.replaceChild(cerceve, kapak);
       return;

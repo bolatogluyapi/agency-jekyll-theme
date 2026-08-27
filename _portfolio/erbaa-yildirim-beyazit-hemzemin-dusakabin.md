@@ -13,6 +13,7 @@ date: 2026-08-27
 category: "Banyo Sistemleri"
 video: "https://youtube.com/shorts/gL9TtM6qwEY"
 video_baslik: "Erbaa Yıldırım Beyazıt Duşakabin Montaj Videosu"
+image: https://i.pinimg.com/736x/e4/a5/9f/e4a59f6d2f9888fb8bf247a8c582c3ba.jpg
 alt: Erbaa Yıldırım Beyazıt mahallesi sıfır kotlu hemzemin cam duşakabin uygulaması
 description: "Erbaa Yıldırım Beyazıt'ta uyguladığımız, hemzemin lineer süzgeçli ve kireç tutmayan nano camlı duşakabin projemiz. Kusursuz su tahliyesi ve ferahlık."
 ---

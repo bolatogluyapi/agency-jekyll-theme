@@ -149,9 +149,16 @@ Masaüstü Safari'de de yükleniyor; kütüphanenin kendisi orada da çalışıy
 iOS Safari'de kütüphane devreye girmiyor, tarayıcının kendi HLS desteği
 kullanılıyor.
 
-**Dış kaynaklı HLS linki kullanacaksan dikkat:** adres değişirse veya kaynak
-erişimi keserse video sessizce çalışmaz olur. Sayfa bozulmaz ama video yerine
-hata mesajı çıkar. Kendi kontrolündeki bir adres tercih et.
+**Dış kaynaklı HLS linki çoğu zaman çalışmaz.** Tarayıcılar, başka bir alan
+adından video akışı çekmeyi güvenlik gereği engelliyor (CORS). Kaynak site
+açıkça izin vermediği sürece video yüklenmiyor ve konsola CORS hatası
+düşüyor.
+
+Pinterest, Instagram gibi platformların video adresleri bu izni vermiyor —
+denedik, çalışmıyor ve bizim tarafımızdan çözülebilecek bir şey değil.
+
+HLS'i ancak **kendi kontrolündeki** bir sunucudan (CORS başlıklarını
+ayarlayabildiğin yerden) kullanabilirsin. Aksi halde YouTube'a yükle.
 
 ### Kendi sunucumuzdan MP4
 
@@ -196,6 +203,11 @@ ekleniyor. Google arama sonuçlarında video işareti gösterebiliyor.
 Kapak olarak **projenin kendi fotoğrafı** kullanılıyor, ayrıca kapak görseli
 belirtmene gerek yok.
 
+**`image` alanını yazmayı unutma.** Video eklesen bile bu alan gerekiyor:
+videonun kapak fotoğrafı, link önizlemesi ve yapısal veri hep oradan
+besleniyor. Yazmazsan üçünde de projenin fotoğrafı yerine firma logosu
+görünür — sayfa hata vermez, sadece yanlış görünür.
+
 **Video eklediğinde sayfanın üstündeki büyük fotoğraf otomatik olarak
 kaldırılıyor.** Video zaten aynı fotoğrafı kapak olarak kullandığı için ikisi
 alt alta tekrar ediyordu. Fotoğraf yine de link önizlemesinde (`og:image`) ve
@@ -211,8 +223,9 @@ yaratır. Bu, fotoğraflar için de geçerli.
 
 ### Kontrol
 
-Video ekledikten sonra sayfayı aç ve şuna bak: kapak fotoğrafı ve sarı oynat
-butonu görünüyor mu, tıklayınca video başlıyor mu. Başlamıyorsa adresi
+Video ekledikten sonra sayfayı aç ve şuna bak: **kapak olarak projenin
+fotoğrafı mı görünüyor** (logo görünüyorsa `image` alanı eksiktir), sarı oynat
+butonu var mı, tıklayınca video başlıyor mu. Başlamıyorsa adresi
 kontrol et — özellikle HLS ve MP4'te yol yanlışsa sayfa hata vermez, video
 sessizce çalışmaz.
 
