@@ -1,6 +1,7 @@
 # Bolatoğlu Yapı — İçerik Ekleme Rehberi
 
-Bu dosya üç işi anlatır: **proje**, **hizmet** ve **bölge** eklemek.
+Bu dosya dört işi anlatır: **proje**, **hizmet**, **bölge** ve **rehber
+yazısı** eklemek.
 
 > **Önce dosyanın sonundaki [İÇERİK STANDARTLARI](#icerik-standartlari) bölümünü oku.**
 > Kelime sayısı, kopya içerik kuralı, iç link zorunluluğu ve karakter
@@ -78,6 +79,7 @@ Bir paragraf: ortaya ne çıktı.
 | `location` | Meta şeridindeki "Konum". |
 | `ilce` | **Hangi bölge sayfasında görüneceğini belirler.** Yazmazsan proje hiçbir bölge sayfasında çıkmaz. Bölge dosyasındaki `ilce` değeriyle harfi harfine aynı olmalı. Şu an tanımlı olanlar: Erbaa, Tokat, Turhal, Niksar, Amasya, Taşova, Suluova, Ünye, Akkuş, Kadıköy. Listede olmayan bir ilçe yazacaksan önce o bölge sayfasını aç (aşağıdaki bölüm). |
 | `date` | **Sıralamayı bu belirler.** Yeni tarih en üste çıkar. `YYYY-AA-GG`. |
+| `date_text` | İsteğe bağlı. Meta şeridinde tarih yerine serbest yazı göstermek istersen (örn. `"2025 Kışı"`). Yazmazsan `date` biçimlenerek gösterilir. Sıralamayı yine `date` belirler. |
 | `category` | **Hangi hizmet sayfasında görüneceğini belirler.** Aşağıya bak. |
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
 | `description` | Arama sonucundaki açıklama. 140-160 karakter ideal. |
@@ -643,6 +645,8 @@ bundle _2.7.2_ exec jekyll build
 - [ ] Kelime sayısı alt sınırın üstünde mi
 - [ ] Aynı kategorideki başka bir sayfayla aynı konuyu anlatmıyor mu
 - [ ] Başlık 45, açıklama 160 karakteri geçmiyor mu
+- [ ] Video eklediysen: kapakta projenin fotoğrafı görünüyor mu (logo
+      görünüyorsa `image` alanı eksiktir) ve tıklayınca açılıyor mu
 
 Yayınladıktan sonra Google Search Console → **URL Denetimi** → yeni adresi
 yaz → **Dizine eklenmesini iste**.
