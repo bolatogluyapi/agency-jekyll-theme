@@ -1,0 +1,113 @@
+{%- comment -%}
+  Proje videosu. Front matter'daki "video" alanindan besleniyor ve uc bicimi
+  destekliyor:
+
+    video: "https://www.youtube.com/watch?v=ABC123"   -> YouTube, tikla-oynat
+    video: "https://.../akis.m3u8"                    -> HLS akis, tikla-oynat
+    video: "/assets/video/ornek.mp4"                  -> kendi sunucumuz
+
+  Ucunde de sayfa acilirken videodan hicbir sey yuklenmiyor. YouTube iframe'i
+  yarim megabayt, hls.js kutuphanesi de ~130 KB; ziyaretcilerin cogu videoyu
+  oynatmiyor. Bu yuzden once projenin kendi fotografi ve bir oynat butonu
+  gosteriliyor, yukleme ancak tiklandiginda basliyor.
+{%- endcomment -%}
+
+{%- if page.video -%}
+{%- assign v = page.video -%}
+
+{%- if v contains "youtu" -%}
+  {%- if v contains "youtu.be/" -%}
+    {%- assign vid = v | split: "youtu.be/" | last | split: "?" | first -%}
+  {%- elsif v contains "/shorts/" -%}
+    {%- assign vid = v | split: "/shorts/" | last | split: "?" | first -%}
+  {%- else -%}
+    {%- assign vid = v | split: "v=" | last | split: "&" | first -%}
+  {%- endif -%}
+
+<div class="proje-video">
+  <button type="button" class="video-kapak" data-youtube="{{ vid }}"
+          aria-label="{{ page.video_baslik | default: page.title }} videosunu oynat">
+    <img src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy">
+    <span class="video-oynat" aria-hidden="true"></span>
+  </button>
+</div>
+
+{%- elsif v contains ".m3u8" -%}
+
+<div class="proje-video">
+  <button type="button" class="video-kapak" data-hls="{{ v }}"
+          aria-label="{{ page.video_baslik | default: page.title }} videosunu oynat">
+    <img src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy">
+    <span class="video-oynat" aria-hidden="true"></span>
+  </button>
+</div>
+
+{%- else -%}
+
+<div class="proje-video">
+  {%- comment -%} preload="none": dosya ancak oynat'a basilinca inmeye basliyor {%- endcomment -%}
+  <video controls preload="none" poster="{{ page.image }}"
+         {% if page.video_baslik %}title="{{ page.video_baslik }}"{% endif %}>
+    <source src="{{ v | relative_url }}" type="video/mp4">
+    Tarayıcınız video oynatmayı desteklemiyor.
+    <a href="{{ v | relative_url }}">Videoyu indirin</a>.
+  </video>
+</div>
+
+{%- endif -%}
+
+{%- if v contains "youtu" or v contains ".m3u8" -%}
+<script>
+(function () {
+  document.addEventListener("click", function (e) {
+    var kapak = e.target.closest(".video-kapak");
+    if (!kapak) return;
+
+    // --- YouTube: iframe ile degistir ---
+    if (kapak.dataset.youtube) {
+      var cerceve = document.createElement("iframe");
+      cerceve.src = "https://www.youtube-nocookie.com/embed/" + kapak.dataset.youtube + "?autoplay=1&rel=0";
+      cerceve.title = kapak.getAttribute("aria-label");
+      cerceve.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+      cerceve.allowFullscreen = true;
+      kapak.parentNode.replaceChild(cerceve, kapak);
+      return;
+    }
+
+    // --- HLS: video etiketi olustur, gerekirse hls.js yukle ---
+    if (kapak.dataset.hls) {
+      var adres = kapak.dataset.hls;
+      var oynatici = document.createElement("video");
+      oynatici.controls = true;
+      oynatici.autoplay = true;
+      oynatici.playsInline = true;
+      oynatici.setAttribute("title", kapak.getAttribute("aria-label"));
+      kapak.parentNode.replaceChild(oynatici, kapak);
+
+      // Safari HLS'i kendi destekliyor, kutuphaneye gerek yok
+      if (oynatici.canPlayType("application/vnd.apple.mpegurl")) {
+        oynatici.src = adres;
+        return;
+      }
+      // Diger tarayicilar icin hls.js - yalnizca burada, tiklandiginda iniyor
+      var betik = document.createElement("script");
+      betik.src = "https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js";
+      betik.onload = function () {
+        if (window.Hls && window.Hls.isSupported()) {
+          var h = new window.Hls();
+          h.loadSource(adres);
+          h.attachMedia(oynatici);
+        }
+      };
+      betik.onerror = function () {
+        oynatici.insertAdjacentHTML("afterend",
+          '<p class="text-muted">Video oynatılamadı. ' +
+          '<a href="' + adres + '">Bağlantıyı açmayı deneyin</a>.</p>');
+      };
+      document.head.appendChild(betik);
+    }
+  });
+})();
+</script>
+{%- endif -%}
+{%- endif -%}

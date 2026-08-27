@@ -82,6 +82,8 @@ Bir paragraf: ortaya ne çıktı.
 | `client` | İsteğe bağlı. Yazmazsan meta şeridinde hiç görünmez. |
 | `description` | Arama sonucundaki açıklama. 140-160 karakter ideal. |
 | `alt` | Görsel açıklaması. Görsel aramada işe yarar, boş bırakma. |
+| `video` | **İsteğe bağlı.** Projeye video ekler. YouTube linki, HLS `.m3u8` adresi veya `/assets/video/x.mp4` yolu. Ayrıntı aşağıda. |
+| `video_baslik` | İsteğe bağlı. Videonun adı; yapısal veride kullanılır. Yazmazsan proje başlığı kullanılır. |
 | `image` | **Link paylaşıldığında çıkan önizleme görseli.** Proje sayfalarında o işin fotoğrafı, diğer tüm sayfalarda logo kullanılır. Değeri `caption.thumbnail` ile aynı olmalı. |
 
 `order` diye bir alan yok, sıralama tamamen `date` ile.
@@ -110,7 +112,102 @@ Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 Yeni bir kategori kullanmak istiyorsan önce ilgili hizmet dosyasının
 `categories` listesine eklemen gerekir, yoksa eşleşme olmaz.
 
-## 5. Kontrol et
+## 5. Projeye video eklemek (isteğe bağlı)
+
+Proje dosyasına `video` alanı eklersen, fotoğrafın altında video görünür.
+Üç biçim destekleniyor; sistem hangisi olduğunu adresten anlıyor.
+
+### YouTube (önerilen)
+
+```yaml
+video: "https://www.youtube.com/watch?v=ABC123"
+video_baslik: "Montaj videosu"
+```
+
+`youtu.be/ABC123` ve `youtube.com/shorts/ABC123` biçimleri de çalışır.
+
+Sayfa açıldığında YouTube'dan **hiçbir şey yüklenmez**; projenin kendi
+fotoğrafı ve bir oynat butonu görünür. Ziyaretçi tıklayınca video yüklenir.
+Bu, sayfa hızını korumak için önemli — doğrudan gömülen YouTube iframe'i
+yarım megabayta yakın veri indiriyor ve ziyaretçilerin çoğu videoyu
+oynatmıyor.
+
+### HLS akış linki (.m3u8)
+
+```yaml
+video: "https://ornek.com/videolar/akis.m3u8"
+```
+
+HLS, videoyu parçalara bölüp bağlantı hızına göre kalite ayarlayan bir akış
+biçimi. Safari bunu kendi destekliyor; Chrome, Firefox ve Edge desteklemiyor,
+o yüzden `hls.js` kütüphanesi gerekiyor.
+
+Kütüphane **yalnızca oynat'a basıldığında ve yalnızca gereken tarayıcılarda**
+indiriliyor (~130 KB). Safari'de hiç indirilmiyor.
+
+**Dış kaynaklı HLS linki kullanacaksan dikkat:** adres değişirse veya kaynak
+erişimi keserse video sessizce çalışmaz olur. Sayfa bozulmaz ama video yerine
+hata mesajı çıkar. Kendi kontrolündeki bir adres tercih et.
+
+### Kendi sunucumuzdan MP4
+
+```yaml
+video: "/assets/video/erbaa-dusakabin.mp4"
+```
+
+Dosyayı `assets/video/` klasörüne koy. Video, oynat'a basılana kadar
+indirilmez; kapak olarak projenin fotoğrafı kullanılır.
+
+**Bunu tercih etmeden önce iki şeyi bil:**
+
+1. **Cloudflare'in ücretsiz planı**, CDN'in ağırlıklı olarak video servis
+   etmek için kullanılmasına izin vermiyor (Hizmet Şartları 2.8). Ara sıra
+   kısa bir klip sorun olmaz; düzenli video yayını yaparsan kısıtlama riski
+   var.
+2. **Dosya boyutu.** Telefonla çekilmiş bir dakikalık video 30-80 MB olabilir.
+   Mobil kullanıcı bunu 4G ile indiriyor. Yüklemeden önce sıkıştır; 15 MB'ı
+   geçmemeye çalış.
+
+Düzenli video paylaşacaksan YouTube'u tercih et.
+
+### Hangisini seçmeli
+
+| Durum | Öneri |
+|---|---|
+| Kendi çektiğin video, düzenli paylaşacaksın | **YouTube** |
+| Tek seferlik, çok kısa klip (15 MB altı) | MP4 |
+| Başka bir yerde barındırılan akış linki var | HLS |
+
+Kararsızsan YouTube. Bant genişliği maliyeti yok, kalite otomatik ayarlanıyor,
+adres değişmiyor ve YouTube'un kendisi bir arama kanalı — video orada da
+bulunur.
+
+### Üç biçimde de geçerli olanlar
+
+Video eklendiğinde sayfaya otomatik olarak `VideoObject` yapısal verisi
+ekleniyor. Google arama sonuçlarında video işareti gösterebiliyor.
+
+`video_baslik` isteğe bağlı; yazmazsan proje başlığı kullanılır.
+
+Kapak olarak **projenin kendi fotoğrafı** kullanılıyor, ayrıca kapak görseli
+belirtmene gerek yok.
+
+Video **zorunlu değil**; alanı hiç yazmazsan sayfa eskisi gibi çalışır.
+
+### Videonun sana ait olduğundan emin ol
+
+Projede gösterdiğin video **senin yaptığın işin** videosu olmalı. İnternette
+bulduğun bir videoyu kendi projen gibi göstermek hem etik hem hukuki sorun
+yaratır. Bu, fotoğraflar için de geçerli.
+
+### Kontrol
+
+Video ekledikten sonra sayfayı aç ve şuna bak: kapak fotoğrafı ve sarı oynat
+butonu görünüyor mu, tıklayınca video başlıyor mu. Başlamıyorsa adresi
+kontrol et — özellikle HLS ve MP4'te yol yanlışsa sayfa hata vermez, video
+sessizce çalışmaz.
+
+## 6. Kontrol et
 
 ```bash
 bundle _2.7.2_ exec jekyll build
@@ -131,7 +228,7 @@ Sonra `bundle _2.7.2_ exec jekyll serve` ile üçünü de kontrol et:
 İkincisi artmadıysa `category`, üçüncüsü artmadıysa `ilce` yazımı tutmuyordur.
 Build hata vermez, sessizce eşleşmez.
 
-## 6. Yayınla
+## 7. Yayınla
 
 ```bash
 git add -A
