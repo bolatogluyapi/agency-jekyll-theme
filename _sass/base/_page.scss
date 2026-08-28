@@ -562,3 +562,13 @@ ul.social-buttons li a:hover {
     border-color: transparent transparent transparent $gray-900;
   }
 }
+
+// Dikey video (YouTube Shorts, telefonla dikey cekilmis klipler).
+// 16:9 kapta iki yanda genis siyah bosluk kaliyordu. Genisligi de
+// sinirliyoruz; yoksa dikey video sayfayi asiri uzatiyor.
+.proje-video-dikey {
+  aspect-ratio: 9 / 16;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}

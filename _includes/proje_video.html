@@ -23,8 +23,15 @@
   {%- else -%}
     {%- assign vid = v | split: "v=" | last | split: "&" | first -%}
   {%- endif -%}
+  {%- comment -%}
+    Shorts videolari dikey cekiliyor. 16:9 bir kaba konursa iki yanda genis
+    siyah bosluk kaliyor. Adreste /shorts/ geciyorsa veya dosyada
+    video_dikey: true yazıyorsa kap dikey orana geciyor.
+  {%- endcomment -%}
+  {%- assign dikey = false -%}
+  {%- if v contains "/shorts/" or page.video_dikey -%}{%- assign dikey = true -%}{%- endif -%}
 
-<div class="proje-video">
+<div class="proje-video{% if dikey %} proje-video-dikey{% endif %}">
   <button type="button" class="video-kapak" data-youtube="{{ vid }}"
           aria-label="{{ page.video_baslik | default: page.title }} videosunu oynat">
     <img src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy">
@@ -34,7 +41,7 @@
 
 {%- elsif v contains ".m3u8" -%}
 
-<div class="proje-video">
+<div class="proje-video{% if page.video_dikey %} proje-video-dikey{% endif %}">
   <button type="button" class="video-kapak" data-hls="{{ v }}"
           aria-label="{{ page.video_baslik | default: page.title }} videosunu oynat">
     <img src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy">
@@ -44,7 +51,7 @@
 
 {%- else -%}
 
-<div class="proje-video">
+<div class="proje-video{% if page.video_dikey %} proje-video-dikey{% endif %}">
   {%- comment -%} preload="none": dosya ancak oynat'a basilinca inmeye basliyor {%- endcomment -%}
   <video controls preload="none" poster="{{ page.image }}"
          {% if page.video_baslik %}title="{{ page.video_baslik }}"{% endif %}>

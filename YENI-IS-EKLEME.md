@@ -86,11 +86,41 @@ Bir paragraf: ortaya ne çıktı.
 | `alt` | Görsel açıklaması. Görsel aramada işe yarar, boş bırakma. |
 | `video` | **İsteğe bağlı.** Projeye video ekler. YouTube linki, HLS `.m3u8` adresi veya `/assets/video/x.mp4` yolu. Ayrıntı aşağıda. |
 | `video_baslik` | İsteğe bağlı. Videonun adı; yapısal veride kullanılır. Yazmazsan proje başlığı kullanılır. |
+| `video_dikey` | İsteğe bağlı, `true`. Dikey çekilmiş video için. YouTube Shorts linklerinde otomatik algılanır, elle yazmana gerek yok. |
 | `image` | **Link paylaşıldığında çıkan önizleme görseli.** Proje sayfalarında o işin fotoğrafı, diğer tüm sayfalarda logo kullanılır. Değeri `caption.thumbnail` ile aynı olmalı. |
 
 `order` diye bir alan yok, sıralama tamamen `date` ile.
 
-## 4. Kategori listesi — TAM OLARAK böyle yazılmalı
+## 4. Görseller nereden geliyor
+
+Proje dosyasında görsel için **iki alan** var ve ikisi de **aynı adresi**
+taşımalı. Sitede toplam beş yeri besliyorlar:
+
+| Görselin çıktığı yer | Hangi alandan |
+|---|---|
+| `/islerim/` sayfasındaki kart küçük resmi | `caption.thumbnail` |
+| Ana sayfa grid'indeki kart | `caption.thumbnail` |
+| Proje sayfasındaki büyük fotoğraf | `image` *(video varsa gösterilmez)* |
+| **Video kapağı** — oynat butonunun arkasındaki görsel | `image` |
+| Link paylaşınca çıkan önizleme (`og:image`) | `image` |
+| Videonun yapısal verisindeki küçük resim | `image` |
+
+Sistem başka hiçbir yerden görsel çekmiyor. Sayfada beklemediğin bir görsel
+görüyorsan (logo gibi), o iki alandan birine yazılmış demektir.
+
+**İkisi farklı olursa:** kartta bir fotoğraf, sayfada başka bir fotoğraf
+görünür. Build hata vermez, sadece tutarsız durur.
+
+**İkisi de boşsa:** hepsinde firma logosu görünür.
+
+### Video kapağı için ayrı görsel yok
+
+Videoya ayrı bir kapak görseli tanımlanmıyor; `image` alanındaki fotoğraf
+kapak olarak kullanılıyor. Videonun kapağını değiştirmek istersen `image`
+alanını değiştirmen gerekiyor — ama o zaman link önizlemesi de değişir,
+ikisi aynı kaynaktan besleniyor.
+
+## 5. Kategori listesi — TAM OLARAK böyle yazılmalı
 
 `category` alanına aşağıdaki on değerden **birini** yaz. Harfi harfine
 aynı olmalı; büyük/küçük harf veya Türkçe karakter farkı olursa proje
@@ -114,7 +144,7 @@ Bu liste `_hizmetler/*.md` dosyalarındaki `categories` alanlarından gelir.
 Yeni bir kategori kullanmak istiyorsan önce ilgili hizmet dosyasının
 `categories` listesine eklemen gerekir, yoksa eşleşme olmaz.
 
-## 5. Projeye video eklemek (isteğe bağlı)
+## 6. Projeye video eklemek (isteğe bağlı)
 
 Proje dosyasına `video` alanı eklersen, fotoğrafın altında video görünür.
 Üç biçim destekleniyor; sistem hangisi olduğunu adresten anlıyor.
@@ -205,10 +235,27 @@ ekleniyor. Google arama sonuçlarında video işareti gösterebiliyor.
 Kapak olarak **projenin kendi fotoğrafı** kullanılıyor, ayrıca kapak görseli
 belirtmene gerek yok.
 
+### Dikey videolar
+
+Telefonla dikey çekilmiş videolar 16:9 bir kutuya konursa iki yanda geniş
+siyah boşluk kalıyor. YouTube **Shorts** linklerinde bu otomatik algılanıyor
+ve kutu dikey orana geçiyor.
+
+MP4 veya HLS ile dikey video koyacaksan dosyaya şunu ekle:
+
+```yaml
+video_dikey: true
+```
+
 **`image` alanını yazmayı unutma.** Video eklesen bile bu alan gerekiyor:
 videonun kapak fotoğrafı, link önizlemesi ve yapısal veri hep oradan
 besleniyor. Yazmazsan üçünde de projenin fotoğrafı yerine firma logosu
 görünür — sayfa hata vermez, sadece yanlış görünür.
+
+**Bu alana logo koyma.** `image` ve `caption.thumbnail` alanlarına firma
+logosunun adresini yazarsan grid küçük resmi, video kapağı ve link önizlemesi
+logo gösterir. Buraya **yapılan işin fotoğrafı** gelmeli. Elinde fotoğraf
+yoksa videodan iyi bir kare alıp kullanabilirsin.
 
 **Video eklediğinde sayfanın üstündeki büyük fotoğraf otomatik olarak
 kaldırılıyor.** Video zaten aynı fotoğrafı kapak olarak kullandığı için ikisi
@@ -231,7 +278,7 @@ butonu var mı, tıklayınca video başlıyor mu. Başlamıyorsa adresi
 kontrol et — özellikle HLS ve MP4'te yol yanlışsa sayfa hata vermez, video
 sessizce çalışmaz.
 
-## 6. Kontrol et
+## 7. Kontrol et
 
 ```bash
 bundle _2.7.2_ exec jekyll build
@@ -252,7 +299,7 @@ Sonra `bundle _2.7.2_ exec jekyll serve` ile üçünü de kontrol et:
 İkincisi artmadıysa `category`, üçüncüsü artmadıysa `ilce` yazımı tutmuyordur.
 Build hata vermez, sessizce eşleşmez.
 
-## 7. Yayınla
+## 8. Yayınla
 
 ```bash
 git add -A
