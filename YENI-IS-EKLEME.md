@@ -86,7 +86,7 @@ Bir paragraf: ortaya ne çıktı.
 | `alt` | Görsel açıklaması. Görsel aramada işe yarar, boş bırakma. |
 | `video` | **İsteğe bağlı.** Projeye video ekler. YouTube linki, HLS `.m3u8` adresi veya `/assets/video/x.mp4` yolu. Ayrıntı aşağıda. |
 | `video_baslik` | İsteğe bağlı. Videonun adı; yapısal veride kullanılır. Yazmazsan proje başlığı kullanılır. |
-| `video_dikey` | İsteğe bağlı, `true`. Dikey çekilmiş video için. YouTube Shorts linklerinde otomatik algılanır, elle yazmana gerek yok. |
+| `video_dikey` | İsteğe bağlı, `true`. Oynatıcıyı dikey orana geçirir. Yazmazsan her video 16:9 yatay kutuda gösterilir. |
 | `image` | **Link paylaşıldığında çıkan önizleme görseli.** Proje sayfalarında o işin fotoğrafı, diğer tüm sayfalarda logo kullanılır. Değeri `caption.thumbnail` ile aynı olmalı. |
 
 `order` diye bir alan yok, sıralama tamamen `date` ile.
@@ -237,15 +237,21 @@ belirtmene gerek yok.
 
 ### Dikey videolar
 
-Telefonla dikey çekilmiş videolar 16:9 bir kutuya konursa iki yanda geniş
-siyah boşluk kalıyor. YouTube **Shorts** linklerinde bu otomatik algılanıyor
-ve kutu dikey orana geçiyor.
+Oynatıcı varsayılan olarak **16:9 yatay**. Telefonla dikey çekilmiş bir video
+(YouTube Shorts dahil) bu kutuda iki yanda siyah bantla görünür.
 
-MP4 veya HLS ile dikey video koyacaksan dosyaya şunu ekle:
+Bu bilinçli bir tercih: yatay kutu sayfanın geri kalanıyla — proje
+fotoğrafları ve grid kartlarıyla — tutarlı duruyor. Siyah bantların işlevsel
+ya da SEO açısından bir zararı yok, tamamen görünüm meselesi.
+
+Belirli bir projede dikey kutu istersen dosyaya şunu ekle:
 
 ```yaml
 video_dikey: true
 ```
+
+Bu alan yazılmadıkça hiçbir video dikey gösterilmez; Shorts linkleri de
+otomatik dikey yapılmaz.
 
 **`image` alanını yazmayı unutma.** Video eklesen bile bu alan gerekiyor:
 videonun kapak fotoğrafı, link önizlemesi ve yapısal veri hep oradan

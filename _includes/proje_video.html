@@ -24,14 +24,12 @@
     {%- assign vid = v | split: "v=" | last | split: "&" | first -%}
   {%- endif -%}
   {%- comment -%}
-    Shorts videolari dikey cekiliyor. 16:9 bir kaba konursa iki yanda genis
-    siyah bosluk kaliyor. Adreste /shorts/ geciyorsa veya dosyada
-    video_dikey: true yazıyorsa kap dikey orana geciyor.
+    Varsayilan kap 16:9. Dikey cekilmis bir videoyu dikey kapta gostermek
+    istersen dosyaya video_dikey: true ekle. Shorts linkleri otomatik dikey
+    yapilmiyor; 16:9 kapta iki yanda siyah bant kaliyor ama gorunum
+    sayfanin geri kalaniyla tutarli oluyor.
   {%- endcomment -%}
-  {%- assign dikey = false -%}
-  {%- if v contains "/shorts/" or page.video_dikey -%}{%- assign dikey = true -%}{%- endif -%}
-
-<div class="proje-video{% if dikey %} proje-video-dikey{% endif %}">
+<div class="proje-video{% if page.video_dikey %} proje-video-dikey{% endif %}">
   <button type="button" class="video-kapak" data-youtube="{{ vid }}"
           aria-label="{{ page.video_baslik | default: page.title }} videosunu oynat">
     <img src="{{ page.image }}" alt="{{ page.alt | default: page.title }}" loading="lazy">
