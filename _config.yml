@@ -73,6 +73,10 @@ markdown: kramdown
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 formspree_form_path: "f/mblnyzvg"
 # Yayina dahil edilmeyecek dosyalar
+# Zaman dilimi. Tanimli olmazsa Jekyll build makinesinin saatini kullanir;
+# GitHub Actions UTC calistigi icin tarihler bir saat kayabiliyordu.
+timezone: Europe/Istanbul
+
 exclude:
   - YENI-IS-EKLEME.md
   - vendor

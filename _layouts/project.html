@@ -132,7 +132,12 @@ layout: default
   "name": {{ page.video_baslik | default: page.title | jsonify }},
   "description": {{ page.description | jsonify }},
   "thumbnailUrl": {{ page.image | jsonify }},
-  "uploadDate": {{ page.date | date: "%Y-%m-%d" | jsonify }},
+  {%- comment -%}
+    date_to_xmlschema tam ISO 8601 uretiyor (saat ve zaman dilimi dahil).
+    Sadece tarih yazmak Google Search Console'da "zaman dilimi eksik" ve
+    "gecersiz datetime degeri" uyarilarina yol aciyordu.
+  {%- endcomment -%}
+  "uploadDate": {{ page.date | date_to_xmlschema | jsonify }},
   {%- if page.video contains "youtu" %}
   "embedUrl": {{ page.video | jsonify }}
   {%- else %}
