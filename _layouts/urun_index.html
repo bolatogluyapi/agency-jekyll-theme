@@ -30,21 +30,24 @@ layout: default
       Liste otomatik: _urunler/ klasorundeki her dosya burada gorunur.
       Yeni urun eklerken bu sayfayi duzenlemeye gerek yok, sira "order" ile.
     {%- endcomment -%}
-    <div class="row" style="margin-top: 40px;">
+    {%- comment -%}
+      Kartlar CSS grid ile diziliyor. Onceden projelerin portfolio-item
+      yapisi kullaniliyordu; oradaki "+" hover ikonu urunlere uymuyordu ve
+      kartlar icerik uzunluguna gore farkli yuksekliklerde kaliyordu.
+    {%- endcomment -%}
+    <div class="urun-kartlar">
       {%- assign urunler = site.urunler | sort: "order" -%}
       {% for u in urunler %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="{{ u.url | relative_url }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">{% include ikon.html ad="plus" sinif="ikon-buyuk" %}</div>
-          </div>
-          <img class="img-fluid" src="{{ u.image }}" alt="{{ u.alt | default: u.title }}" loading="lazy">
-        </a>
-        <div class="portfolio-caption">
-          <h4><a href="{{ u.url | relative_url }}" style="color: inherit;">{{ u.heading | default: u.title }}</a></h4>
-          <p class="text-muted">{{ u.subtitle }}</p>
-        </div>
-      </div>
+      <a class="urun-kart" href="{{ u.url | relative_url }}">
+        <span class="urun-kart-gorsel">
+          <img src="{{ u.image }}" alt="{{ u.alt | default: u.title }}" loading="lazy">
+        </span>
+        <span class="urun-kart-govde">
+          <h2 class="urun-kart-baslik">{{ u.heading | default: u.title }}</h2>
+          <span class="urun-kart-alt">{{ u.subtitle }}</span>
+          <span class="urun-kart-devam">Ürünü inceleyin &rarr;</span>
+        </span>
+      </a>
       {% endfor %}
     </div>
 

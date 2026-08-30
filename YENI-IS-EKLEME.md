@@ -589,6 +589,11 @@ Projelerdeki gibi `caption.thumbnail` yok.
 Ürünün kendi fotoğrafını koy — logo değil. Fotoğraf ürünü net gösteren,
 mümkünse tek başına çekilmiş bir kare olmalı.
 
+`/urunler/` listesindeki kartlar **4:3 oranında** kırpılıyor. Çok uzun dikey
+bir fotoğraf koyarsan kartta üst ve alt kısmı kesilir; ürün sayfasında tam
+hâli görünür. Kartta düzgün durması için yatay veya kareye yakın fotoğraf
+tercih et.
+
 ### Mevcut ürünler ve konuları
 
 Yeni ürün eklerken bunlarla aynı konuyu tekrar etme:

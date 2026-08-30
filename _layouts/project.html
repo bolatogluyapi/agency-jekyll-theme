@@ -87,42 +87,8 @@ layout: default
   </div>
 </section>
 
-<div class="lightbox" id="lightbox" aria-hidden="true">
-  <button type="button" class="lightbox-kapat" aria-label="Kapat">&times;</button>
-  <img alt="">
-</div>
+{% include lightbox.html %}
 
-<script>
-  (function () {
-    var kutu = document.getElementById("lightbox");
-    if (!kutu) return;
-    var buyuk = kutu.querySelector("img");
-
-    // ana gorsel + govde icindeki tum gorseller (galeri dahil)
-    var hedefler = document.querySelectorAll(".zoomable, .project-body img");
-    Array.prototype.forEach.call(hedefler, function (im) {
-      im.classList.add("zoomable");
-      im.addEventListener("click", function () {
-        buyuk.src = im.currentSrc || im.src;
-        buyuk.alt = im.alt || "";
-        kutu.classList.add("acik");
-        kutu.setAttribute("aria-hidden", "false");
-        document.body.style.overflow = "hidden";
-      });
-    });
-
-    function kapat() {
-      kutu.classList.remove("acik");
-      kutu.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-      buyuk.removeAttribute("src");
-    }
-    kutu.addEventListener("click", kapat);
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" || e.keyCode === 27) kapat();
-    });
-  })();
-</script>
 
 {%- if page.video -%}
 <script type="application/ld+json">
