@@ -74,5 +74,25 @@
 	    });
 	  </script>
 
+	  <!-- Logoya tiklayinca sayfa basina donme.
+	       Temanin yumusak kaydirma kodu her hedef icin "hedefin ustu - 54px"
+	       hesabi yapiyor; menu cubugunun altinda kalmasin diye. Bolum
+	       baglantilarinda dogru ama hedef <body> oldugunda offset zaten 0,
+	       0 - 54 = -54 cikiyor ve ustte bos beyaz bir serit kaliyordu.
+	       Bu yuzden logo baglantisini kendimiz ele aliyoruz: dogrudan 0'a. -->
+	  <script>
+	    window.addEventListener("load", function () {
+	      var logo = document.querySelector('.navbar-brand[href="#sayfa-basi"]');
+	      if (!logo) return;
+	      logo.classList.remove("js-scroll-trigger");
+	      logo.addEventListener("click", function (e) {
+	        e.preventDefault();
+	        window.scrollTo({ top: 0, behavior: "smooth" });
+	        // acik mobil menuyu kapat
+	        if (window.jQuery) window.jQuery(".navbar-collapse").collapse("hide");
+	      });
+	    });
+	  </script>
+
   </body>
 </html>
