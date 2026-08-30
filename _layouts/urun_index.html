@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section class="bg-light page-section" id="urunler" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Ürünler</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        <p class="section-subheading text-muted">{{ page.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <div class="project-body">{{ content }}</div>
+      </div>
+    </div>
+
+    {%- comment -%}
+      Liste otomatik: _urunler/ klasorundeki her dosya burada gorunur.
+      Yeni urun eklerken bu sayfayi duzenlemeye gerek yok, sira "order" ile.
+    {%- endcomment -%}
+    <div class="row" style="margin-top: 40px;">
+      {%- assign urunler = site.urunler | sort: "order" -%}
+      {% for u in urunler %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="{{ u.url | relative_url }}">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">{% include ikon.html ad="plus" sinif="ikon-buyuk" %}</div>
+          </div>
+          <img class="img-fluid" src="{{ u.image }}" alt="{{ u.alt | default: u.title }}" loading="lazy">
+        </a>
+        <div class="portfolio-caption">
+          <h4><a href="{{ u.url | relative_url }}" style="color: inherit;">{{ u.heading | default: u.title }}</a></h4>
+          <p class="text-muted">{{ u.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

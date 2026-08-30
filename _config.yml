@@ -45,6 +45,9 @@ collections:
   rehber:
     output: true
     permalink: /rehber/:name/
+  urunler:
+    output: true
+    permalink: /urunler/:name/
 
 defaults:
   # WhatsApp/Instagram/Facebook'ta link paylasilinca gorunen onizleme gorseli.

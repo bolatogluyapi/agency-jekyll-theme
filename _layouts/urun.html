@@ -1,0 +1,93 @@
+---
+layout: default
+---
+{%- comment -%}
+  Urun sayfasi layout'u. _urunler/ koleksiyonundaki dosyalar bunu kullanir.
+
+  Front matter alanlari:
+    title    -> arama sonucu basligi
+    heading  -> sayfadaki h1 (yoksa title)
+    subtitle -> h1 altindaki tek satir
+    ozet     -> yazinin basindaki vurgulu giris (istege bagli)
+    image    -> urun fotografi (link onizlemesi de bunu kullanir)
+    alt      -> fotografin aciklamasi
+    hizmet   -> bagli oldugu hizmet sayfasinin slug'i, orn: sineklik
+    order    -> /urunler/ listesindeki sirasi
+{%- endcomment -%}
+{% include nav.html %}
+
+{%- assign bagli = site.hizmetler | where_exp: "h", "h.url contains page.hizmet" | first -%}
+
+<section class="page-section" id="urun" style="padding-top: 140px;">
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Ana Sayfa</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/urunler/' | relative_url }}">Ürünler</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.heading | default: page.title }}</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="section-heading text-uppercase">{{ page.heading | default: page.title }}</h1>
+        {% if page.subtitle %}<p class="section-subheading text-muted">{{ page.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        {% if page.image %}
+        <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.image }}"
+             alt="{{ page.alt | default: page.title }}" loading="lazy"
+             style="width: 100%; max-height: 520px; object-fit: cover; border-radius: 8px;">
+        {% endif %}
+
+        {% if page.ozet %}<p class="rehber-ozet">{{ page.ozet }}</p>{% endif %}
+
+        <div class="project-body">
+          {{ content }}
+        </div>
+
+        {%- comment -%} Bagli hizmet sayfasina ve diger urunlere yonlendirme {%- endcomment -%}
+        {% if bagli %}
+        <p class="urun-hizmet-baglantisi">
+          Bu ürünün montajını ve uygulama sürecini
+          <a href="{{ bagli.url | relative_url }}">{{ bagli.heading | default: bagli.title }} sayfamızda</a>
+          anlattık.
+        </p>
+        {% endif %}
+
+        {%- assign digerleri = site.urunler | where_exp: "u", "u.url != page.url" | sort: "order" -%}
+        {% if digerleri.size > 0 %}
+        <div style="margin-top: 50px;">
+          <h2 class="section-heading text-uppercase" style="font-size: 24px;">DİĞER ÜRÜNLER</h2>
+          <ul class="rehber-liste">
+            {%- for u in digerleri limit: 6 %}
+            <li><a href="{{ u.url | relative_url }}">{{ u.heading | default: u.title }}</a></li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        <div class="text-center" style="margin-top: 40px;">
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/#iletisim' | relative_url }}">FİYAT VE STOK İÇİN ARAYIN</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": {{ '/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": "Ürünler", "item": {{ '/urunler/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 3, "name": {{ page.heading | default: page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>

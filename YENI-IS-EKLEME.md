@@ -1,7 +1,7 @@
 # Bolatoğlu Yapı — İçerik Ekleme Rehberi
 
-Bu dosya dört işi anlatır: **proje**, **hizmet**, **bölge** ve **rehber
-yazısı** eklemek.
+Bu dosya beş işi anlatır: **proje**, **hizmet**, **bölge**, **ürün** ve
+**rehber yazısı** eklemek.
 
 > **Önce dosyanın sonundaki [İÇERİK STANDARTLARI](#icerik-standartlari) bölümünü oku.**
 > Kelime sayısı, kopya içerik kuralı, iç link zorunluluğu ve karakter
@@ -13,6 +13,7 @@ Hızlı geçiş:
 * [Proje eklemek](#1-dosyayı-oluştur) — aşağıda, 1. bölümden itibaren
 * [Hizmet eklemek](#yeni-bir-hizmet-eklemek)
 * [Bölge eklemek](#yeni-bölge-ilçe-sayfası-eklemek)
+* [Ürün eklemek](#yeni-ürün-eklemek)
 * [Rehber yazısı eklemek](#yeni-rehber-yazısı-eklemek)
 * [İçerik standartları](#icerik-standartlari)
 
@@ -104,6 +105,10 @@ taşımalı. Sitede toplam beş yeri besliyorlar:
 | **Video kapağı** — oynat butonunun arkasındaki görsel | `image` |
 | Link paylaşınca çıkan önizleme (`og:image`) | `image` |
 | Videonun yapısal verisindeki küçük resim | `image` |
+
+Ürün sayfalarında da aynı mantık geçerli ama tek alan var: `image`. Hem
+sayfadaki büyük fotoğrafı, hem `/urunler/` listesindeki kartı, hem de link
+önizlemesini o besliyor.
 
 Sistem başka hiçbir yerden görsel çekmiyor. Sayfada beklemediğin bir görsel
 görüyorsan (logo gibi), o iki alandan birine yazılmış demektir.
@@ -510,6 +515,99 @@ iste** demeyi unutma; yeni sayfanın taranması aksi halde haftalar sürer.
 
 ---
 
+## Yeni ürün eklemek
+
+Ürün sayfaları `/urunler/` altında yayınlanır. Amaçları belirli bir ürünün
+teknik özelliklerini, ölçü seçeneklerini ve montaj koşullarını anlatmak.
+
+`_urunler/` klasörüne bir `.md` dosyası aç:
+
+```yaml
+---
+layout: urun
+order: 3                 # /urunler/ listesindeki sirasi, benzersiz olmali
+title: "Pileli Sineklik - Alüminyum Kasa"   # ~40 karakter
+heading: "Pileli Sineklik"                  # sayfadaki h1 ve kart basligi
+subtitle: "Alüminyum kasa, kapı ve geniş açıklıklar için"
+ozet: "Sayfanin basinda vurgulu kutuda cikan giris. 1-2 cumle."
+description: "140-160 karakter, arama sonucu aciklamasi."
+image: https://.../urun-fotografi.jpg
+alt: "Alüminyum kasalı pileli sineklik"
+hizmet: sineklik         # bagli oldugu hizmet sayfasinin slug'i
+---
+
+Ürün metni. En az 400 kelime.
+```
+
+`/urunler/` liste sayfası ve menü otomatik güncelleniyor.
+
+### `hizmet` alanı ne yapıyor
+
+Ürünün bağlı olduğu hizmet sayfasının slug'ı. Sayfanın altında otomatik bir
+bağlantı oluşturuyor: "Bu ürünün montajını ve uygulama sürecini … sayfamızda
+anlattık."
+
+Geçerli değerler hizmet dosyalarının adları: `pvc-kapi-pencere`, `cam-balkon`,
+`korkuluk-kupeste`, `dusakabin-banyo`, `sineklik`, `aluminyum-dograma`,
+`teras-kapatma-kis-bahcesi`, `tadilat-bakim`, `celik-kapi`, `panjur-kepenk`.
+
+Yanlış yazarsan bağlantı hiç görünmez, sayfa hata vermez.
+
+### Ürün sayfası hizmet sayfasından farklı olmalı
+
+**En kritik kural bu.** Sitede zaten her hizmet için 400-600 kelimelik bir
+sayfa var. Ürün sayfası aynı konuları tekrar anlatırsa ikisi birbirinin
+kopyası olur ve **ikisi birden** zarar görür.
+
+Ayrım şöyle:
+
+| | Hizmet sayfası | Ürün sayfası |
+|---|---|---|
+| Konu | Yaptığımız iş: süreç, yaklaşım, fiyatı ne belirler | Belirli bir ürün: malzeme, ölçü, model farkları |
+| Örnek başlık | "Erbaa Pileli ve Sürgülü Sineklik" | "Pileli Sineklik — Alüminyum Kasa" |
+| Arama niyeti | "erbaa sineklik yaptırmak" | "pileli sineklik ölçüleri" |
+
+Ürün sayfasında **fiyatı ne belirler** bölümü yazma; o hizmet sayfasında var.
+Onun yerine ürünün kendi teknik özelliklerini, ölçü aralıklarını, renk
+seçeneklerini ve montaj koşullarını anlat.
+
+Sık sorulan sorular bölümü ekleyebilirsin ama sorular **ürüne özgü** olmalı,
+hizmet sayfasındakilerin tekrarı değil.
+
+### Fiyat yazma
+
+Ürün sayfalarında fiyat yayınlamıyoruz; sayfa altındaki buton müşteriyi
+iletişime yönlendiriyor. Fiyat yazarsan yapısal veri de eklemek gerekir ve
+fiyat değiştiğinde Google uyarı göndermeye başlar.
+
+### Görsel
+
+Ürün sayfasında tek görsel alanı var: `image`. Hem sayfadaki büyük fotoğrafı,
+hem `/urunler/` listesindeki kartı, hem de link önizlemesini besliyor.
+Projelerdeki gibi `caption.thumbnail` yok.
+
+Ürünün kendi fotoğrafını koy — logo değil. Fotoğraf ürünü net gösteren,
+mümkünse tek başına çekilmiş bir kare olmalı.
+
+### Mevcut ürünler ve konuları
+
+Yeni ürün eklerken bunlarla aynı konuyu tekrar etme:
+
+| Ürün | Anlattığı konular |
+|---|---|
+| Beyaz PVC Açılır Kanat Pencere | Çift açılım (vasistas), çok noktalı kilit, menteşe ayarı, kanat ölçü sınırı, cam ve renk seçenekleri |
+| Plise Sineklik | Alüminyum kasa ve folyo, tek/çift yöne toplanma, alt ray bakımı, tül paketi kalınlığı, mıknatıslı kapanma |
+
+### Ekleme sonrası kontrol
+
+- [ ] `/urunler/` sayfasında kart göründü mü
+- [ ] Ürün sayfası kendi adresinde açılıyor mu
+- [ ] Sayfanın altındaki hizmet bağlantısı doğru sayfaya gidiyor mu
+      (gitmiyorsa `hizmet` alanının yazımı yanlıştır)
+- [ ] Kart görselinde ürünün fotoğrafı var mı
+- [ ] `order` değeri başka bir üründe kullanılıyor mu
+- [ ] Metin, bağlı olduğu hizmet sayfasının tekrarı olmuş mu
+
 ## Yeni rehber yazısı eklemek
 
 Rehber yazıları `/rehber/` altında yayınlanır ve soru formatlı aramaları
@@ -568,6 +666,7 @@ bağlayıcı olan son sütundaki alt sınırdır:
 | Bölge | 368-477 | 404 | **en az 350** |
 | Hizmet | 416-607 | 496 | **en az 420** |
 | Rehber yazısı | 428-493 | 469 | **en az 400** |
+| Ürün | 402-492 | 447 | **en az 400** |
 
 Bu sayılar gövde metnini kapsar; başlık, proje grid'i ve hizmet listesi dahil
 değildir.
