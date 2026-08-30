@@ -39,9 +39,14 @@ layout: default
     <div class="row">
       <div class="col-lg-9 mx-auto">
         {% if page.image %}
-        <img class="img-fluid d-block mx-auto mb-4 zoomable" src="{{ page.image }}"
-             alt="{{ page.alt | default: page.title }}" loading="lazy"
-             style="width: 100%; max-height: 520px; object-fit: cover; border-radius: 8px;">
+        {%- comment -%}
+          object-fit: cover KULLANMIYORUZ. Urun sayfasinda urunun tamami
+          gorunmeli; cover, gorseli kutuya sigdirmak icin kenarlardan kirpiyor
+          ve urunun bir kismi kayboluyordu. Burada gorsel kendi oraninda,
+          yuksekligi sinirlandirilarak gosteriliyor.
+        {%- endcomment -%}
+        <img class="urun-gorsel d-block mx-auto mb-4 zoomable" src="{{ page.image }}"
+             alt="{{ page.alt | default: page.title }}" loading="lazy">
         {% endif %}
 
         {% if page.ozet %}<p class="rehber-ozet">{{ page.ozet }}</p>{% endif %}

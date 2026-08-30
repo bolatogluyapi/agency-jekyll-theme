@@ -590,9 +590,12 @@ Projelerdeki gibi `caption.thumbnail` yok.
 mümkünse tek başına çekilmiş bir kare olmalı.
 
 `/urunler/` listesindeki kartlar **4:3 oranında** kırpılıyor. Çok uzun dikey
-bir fotoğraf koyarsan kartta üst ve alt kısmı kesilir; ürün sayfasında tam
-hâli görünür. Kartta düzgün durması için yatay veya kareye yakın fotoğraf
-tercih et.
+bir fotoğraf koyarsan kartta üst ve alt kısmı kesilir. Kartta düzgün durması
+için yatay veya kareye yakın fotoğraf tercih et.
+
+**Ürün sayfasında görsel kırpılmıyor**; kendi oranında, en fazla 560 piksel
+yükseklikte gösteriliyor. Yani ürünün tamamı görünür. Tıklayınca da tam
+boyutta açılıyor.
 
 ### Mevcut ürünler ve konuları
 
