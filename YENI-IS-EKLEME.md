@@ -539,7 +539,14 @@ hizmet: sineklik         # bagli oldugu hizmet sayfasinin slug'i
 Ürün metni. En az 400 kelime.
 ```
 
-`/urunler/` liste sayfası ve menü otomatik güncelleniyor.
+Dosyayı ekledikten sonra **üç yer birden** kendiliğinden güncellenir:
+
+* `/urunler/` liste sayfasındaki kartlar (sıra `order` ile)
+* Diğer ürün sayfalarının altındaki **"Diğer Ürünler"** listesi — her sayfa
+  kendisi hariç diğerlerini gösterir, en fazla altı tane
+* Sitemap
+
+Menüdeki "ÜRÜNLER" bağlantısı zaten sabit; ona da dokunman gerekmiyor.
 
 ### `hizmet` alanı ne yapıyor
 
