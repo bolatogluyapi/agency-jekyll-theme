@@ -77,21 +77,32 @@
 	  <!-- Logoya tiklayinca sayfa basina donme.
 	       Temanin yumusak kaydirma kodu her hedef icin "hedefin ustu - 54px"
 	       hesabi yapiyor; menu cubugunun altinda kalmasin diye. Bolum
-	       baglantilarinda dogru ama hedef <body> oldugunda offset zaten 0,
-	       0 - 54 = -54 cikiyor ve ustte bos beyaz bir serit kaliyordu.
-	       Bu yuzden logo baglantisini kendimiz ele aliyoruz: dogrudan 0'a. -->
+	       baglantilarinda dogru ama logonun hedefi <body>, yani offset zaten 0.
+	       0 - 54 = -54 cikiyor; Chrome bunu tasma (overscroll) olarak gosterip
+	       ustte beyaz serit birakiyordu.
+
+	       DIKKAT: jQuery dinleyiciyi sinifa degil dogrudan elemana bagliyor.
+	       Sinifi kaldirmak bagi koparmiyor, iki kod birden calisiyordu. Bu
+	       yuzden olayi document uzerinde YAKALAMA (capture) asamasinda
+	       kesiyoruz; boylece elemana hic ulasmadan durduruluyor ve temanin
+	       kodu hic calismiyor. jQuery'nin yuklenmis olmasi da gerekmiyor. -->
 	  <script>
-	    window.addEventListener("load", function () {
-	      var logo = document.querySelector('.navbar-brand[href="#sayfa-basi"]');
-	      if (!logo) return;
-	      logo.classList.remove("js-scroll-trigger");
-	      logo.addEventListener("click", function (e) {
+	    document.addEventListener(
+	      "click",
+	      function (e) {
+	        var logo = e.target.closest
+	          ? e.target.closest('.navbar-brand[href="#sayfa-basi"]')
+	          : null;
+	        if (!logo) return;
 	        e.preventDefault();
+	        e.stopPropagation();
 	        window.scrollTo({ top: 0, behavior: "smooth" });
-	        // acik mobil menuyu kapat
-	        if (window.jQuery) window.jQuery(".navbar-collapse").collapse("hide");
-	      });
-	    });
+	        // acik mobil menuyu kapat (temanin kodu artik calismadigi icin)
+	        var menu = document.querySelector(".navbar-collapse.show");
+	        if (menu && window.jQuery) window.jQuery(menu).collapse("hide");
+	      },
+	      true
+	    );
 	  </script>
 
   </body>
