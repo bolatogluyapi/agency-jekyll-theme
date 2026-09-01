@@ -1,27 +1,29 @@
 ---
 layout: bolge
-permalink: /samsun/
+permalink: /atakum/
 order: 12
-ilce: "Samsun"
+ilce: "Atakum"
 il: "Samsun"
-title: "Samsun Cam Balkon ve PVC Pencere"
-subtitle: "Yüksek katlı yapılarda doğrama, cam balkon ve ses yalıtımı."
-heading: "Samsun"
-description: "Samsun'da cam balkon ve PVC pencere. Yüksek katlarda rüzgar yükü ve cam kalınlığı, şehir gürültüsüne karşı ses yalıtımı, montaj planlaması."
+title: "Atakum Cam Balkon ve PVC Pencere"
+subtitle: "Yüksek katlı sahil yapılarında doğrama, cam balkon ve ses yalıtımı."
+heading: "Atakum"
+description: "Atakum'da cam balkon ve PVC pencere. Yüksek katlarda rüzgar yükü ve cam kalınlığı, deniz manzarası, ses yalıtımı ve montaj planlaması."
 ---
 
-Samsun, hizmet alanımızdaki en büyük şehir ve yapı stoku diğer bölgelerden
-belirgin şekilde farklı: yüksek katlı apartmanlar, siteler ve yeni konut
-projeleri ağırlıkta.
+Atakum, Samsun'un sahil boyunca uzanan ve son yıllarda hızla büyüyen ilçesi.
+Yapı stoku hizmet alanımızdaki diğer bölgelerden belirgin şekilde farklı:
+yüksek katlı apartmanlar, siteler ve deniz manzaralı yeni konut projeleri
+ağırlıkta.
 
 Bu fark doğrama seçimini de değiştiriyor. Erbaa'da bir üçüncü kat ile
-Samsun'da bir on ikinci kat aynı koşullarda değil.
+Atakum'da deniz cephesinde bir on ikinci kat aynı koşullarda değil.
 
 ## Yükseklik neyi değiştiriyor
 
 **Rüzgar yükü katla birlikte artıyor.** Yerden yükseldikçe rüzgar hızı
-büyüyor ve cam yüzeyine binen basınç da öyle. Alt katlarda sorunsuz çalışan
-bir kesit, üst katlarda yetersiz kalabiliyor.
+büyüyor ve cam yüzeyine binen basınç da öyle. Sahil cephesinde bu etki daha
+da belirgin; önünde engel olmadığı için rüzgar doğrudan vuruyor. Alt katlarda
+sorunsuz çalışan bir kesit, üst katlarda yetersiz kalabiliyor.
 
 Pratik karşılığı iki başlıkta toplanıyor.
 
@@ -31,17 +33,18 @@ alırken sorulması gereken bir detay — "kaç mm cam" sorusu.
 
 **Kanat bölümü.** Kanat genişledikçe rüzgar yükü artıyor. Üst katlarda çok
 geniş tek kanat yerine iki kanada bölmek hem sağlamlık hem kullanım açısından
-daha doğru oluyor. Manzarayı en çok açan çözüm genelde geniş sabit cam ile
-yanında dar açılır kanat kombinasyonu.
+daha doğru oluyor. Deniz manzarasını en çok açan çözüm genelde geniş sabit cam
+ile yanında dar açılır kanat kombinasyonu — böylece cam yüzeyi korunurken
+hareket eden kanat makul ağırlıkta kalıyor.
 
 Cam balkon seçenekleri için [cam balkon sayfamıza](/hizmetler/cam-balkon/)
 bakabilirsiniz.
 
-## Şehir gürültüsü
+## Ses yalıtımı
 
-Samsun'da diğer bölgelerde nadiren duyduğumuz bir talep var: **ses yalıtımı**.
-Cadde üzerindeki dairelerde trafik gürültüsü doğrama seçiminin belirleyicisi
-olabiliyor.
+Atakum'da diğer bölgelerde nadiren duyduğumuz bir talep var: **ses yalıtımı**.
+Ana bulvar üzerindeki dairelerde trafik gürültüsü doğrama seçiminin
+belirleyicisi olabiliyor.
 
 Burada işe yarayan üç şey var.
 
@@ -65,9 +68,12 @@ Bu, kanat sayısını değiştirebilen bir kısıt. Keşifte asansör ölçüsü
 merdiven genişliğini not ediyoruz; gerekirse cam ölçüsünü taşınabilecek
 şekilde bölüyoruz. Sonradan sürpriz olmaması için baştan konuşuyoruz.
 
+Sitelerde ayrıca yönetim onayı ve çalışma saati kısıtı olabiliyor. Bunları
+ölçü aşamasında netleştirmek montaj gününde zaman kaybını önlüyor.
+
 ## Keşif ve planlama
 
-Samsun'a keşif ücretsiz. Mesafe nedeniyle işleri gruplayarak planlıyoruz;
+Atakum'a keşif ücretsiz. Mesafe nedeniyle işleri gruplayarak planlıyoruz;
 ölçü ve montaj için ayrı ayrı yola çıkmak yerine takvimi baştan kuruyoruz.
 Aynı hafta [Çarşamba](/carsamba/) veya [Terme](/terme/) tarafında işimiz varsa
 randevuyu ona denk getiriyoruz.

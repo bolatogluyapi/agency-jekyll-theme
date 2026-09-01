@@ -11,7 +11,7 @@ description: "Çarşamba'da PVC pencere, güvenlik kepengi, dükkan vitrini ve c
 ---
 
 Çarşamba, Samsun'un en büyük ilçelerinden biri ve bölgenin tarım merkezi.
-[Terme](/terme/) ile komşu olduğu için sahil şeridindeki işlerimizi birlikte
+Terme ile komşu olduğu için sahil şeridindeki işlerimizi birlikte
 planlayabiliyoruz.
 
 Buranın bizim açımızdan ayırt edici yanı şu: konut işinin yanında **ticari
@@ -71,7 +71,8 @@ sineklik. Ovada sivrisinek yoğunluğu yüksek olduğu için sineklik burada da
 ## Keşif ve planlama
 
 Çarşamba'ya keşif ücretsiz. Sahil şeridindeki işleri gruplayarak planlıyoruz;
-aynı hafta Terme veya Samsun tarafında işimiz varsa randevuyu ona denk
+aynı hafta [Terme](/terme/) veya [Atakum](/atakum/) tarafında işimiz varsa
+randevuyu ona denk
 getirmeye çalışıyoruz ve bunu baştan söylüyoruz.
 
 Ticari işlerde ölçü aşamasında montaj takvimini de birlikte belirliyoruz;
