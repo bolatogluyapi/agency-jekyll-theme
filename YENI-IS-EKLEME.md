@@ -683,7 +683,7 @@ bağlayıcı olan son sütundaki alt sınırdır:
 | Sayfa tipi | Aralık | Ortalama | Yeni eklerken hedef |
 |---|---|---|---|
 | Proje | 253-532 | 327 | **en az 280** |
-| Bölge | 368-477 | 404 | **en az 350** |
+| Bölge | 352-477 | 402 | **en az 350** |
 | Hizmet | 416-607 | 496 | **en az 420** |
 | Rehber yazısı | 428-493 | 469 | **en az 400** |
 | Ürün | 402-556 | 473 | **en az 400** |
