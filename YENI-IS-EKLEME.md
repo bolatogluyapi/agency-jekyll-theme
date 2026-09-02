@@ -527,6 +527,7 @@ teknik özelliklerini, ölçü seçeneklerini ve montaj koşullarını anlatmak.
 ---
 layout: urun
 order: 3                 # /urunler/ listesindeki sirasi, benzersiz olmali
+                         # sirali git: 1,2,3... Araya buyuk sayi yazma
 title: "Pileli Sineklik - Alüminyum Kasa"   # ~40 karakter
 heading: "Pileli Sineklik"                  # sayfadaki h1 ve kart basligi
 subtitle: "Alüminyum kasa, kapı ve geniş açıklıklar için"
@@ -615,6 +616,7 @@ Yeni ürün eklerken bunlarla aynı konuyu tekrar etme:
 | Plise Sineklik | Alüminyum kasa ve folyo, tek/çift yöne toplanma, alt ray bakımı, tül paketi kalınlığı, mıknatıslı kapanma |
 | Dıştan Takma Kutulu Panjur | Kutu çapı hesabı, kılavuz ray ve mantolu cephe, sineklikle birlikte montaj, kumanda seçenekleri |
 | Paslanmaz Merdiven Korkuluğu | Küpeşte çapı ve kavrama, baba dikmesi, yatay boru sayısı, parlak/saten yüzey farkı, merdiven açısı |
+| Ahşap Desenli Çelik Kapı | Yüzey kaplaması ve boya, kilit sistemi, kasa dolgusu ve yalıtım, ölçü ve montaj esnekliği |
 
 ### Ekleme sonrası kontrol
 
@@ -684,7 +686,7 @@ bağlayıcı olan son sütundaki alt sınırdır:
 | Bölge | 368-477 | 404 | **en az 350** |
 | Hizmet | 416-607 | 496 | **en az 420** |
 | Rehber yazısı | 428-493 | 469 | **en az 400** |
-| Ürün | 402-492 | 447 | **en az 400** |
+| Ürün | 402-556 | 473 | **en az 400** |
 
 Bu sayılar gövde metnini kapsar; başlık, proje grid'i ve hizmet listesi dahil
 değildir.
