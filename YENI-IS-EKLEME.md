@@ -613,6 +613,7 @@ Yeni ürün eklerken bunlarla aynı konuyu tekrar etme:
 |---|---|
 | Beyaz PVC Açılır Kanat Pencere | Çift açılım (vasistas), çok noktalı kilit, menteşe ayarı, kanat ölçü sınırı, cam ve renk seçenekleri |
 | Plise Sineklik | Alüminyum kasa ve folyo, tek/çift yöne toplanma, alt ray bakımı, tül paketi kalınlığı, mıknatıslı kapanma |
+| Dıştan Takma Kutulu Panjur | Kutu çapı hesabı, kılavuz ray ve mantolu cephe, sineklikle birlikte montaj, kumanda seçenekleri |
 
 ### Ekleme sonrası kontrol
 
