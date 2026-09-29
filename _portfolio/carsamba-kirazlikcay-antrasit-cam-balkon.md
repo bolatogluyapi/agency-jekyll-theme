@@ -2,7 +2,7 @@
 caption: 
   title: Antrasit L Balkon
   subtitle: Çarşamba / Kirazlıkçay
-  thumbnail: /assets/img/portfolio/carsamba-antrasit-cam-balkon-dis-cephe.jpg
+  thumbnail: https://i.pinimg.com/736x/ff/ff/d5/ffffd5b30884ac2c9b5cae1d6e6d7455.jpg
 
 #proje sayfasinda gorunen bilgiler
 title: Çarşamba Antrasit L Tipi Katlanır Cam Balkon
@@ -11,7 +11,7 @@ location: "Samsun / Çarşamba - Kirazlıkçay Mah."
 ilce: "Çarşamba"
 date: 2026-09-28
 category: "Cam Balkon Sistemleri"
-image: /assets/img/portfolio/carsamba-antrasit-cam-balkon-dis-cephe.jpg
+image: https://i.pinimg.com/736x/ff/ff/d5/ffffd5b30884ac2c9b5cae1d6e6d7455.jpg
 alt: Çarşamba antrasit alüminyum profilli füme cam balkon dış cephe görünümü
 description: "Samsun Çarşamba'da uyguladığımız, L köşe dönüşlü, sabit üst havalandırma pencereli ve füme camlı antrasit katlanır cam balkon projesi."
 ---
