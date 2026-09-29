@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /suluova/
-order: 7
+order: 8
 ilce: "Suluova"
 il: "Amasya"
 title: "Suluova PVC Pencere ve Doğrama İşleri"

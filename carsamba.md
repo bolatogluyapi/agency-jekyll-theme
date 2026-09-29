@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /carsamba/
-order: 11
+order: 12
 ilce: "Çarşamba"
 il: "Samsun"
 title: "Çarşamba PVC Doğrama, Kepenk ve Cam"

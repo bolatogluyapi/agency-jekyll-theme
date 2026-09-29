@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /akkus/
-order: 9
+order: 10
 ilce: "Akkuş"
 il: "Ordu"
 title: "Akkuş PVC Pencere ve Doğrama"

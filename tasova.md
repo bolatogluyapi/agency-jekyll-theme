@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /tasova/
-order: 6
+order: 7
 ilce: "Taşova"
 il: "Amasya"
 title: "Taşova Korkuluk, PVC Pencere ve Cam Balkon"

@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /kadikoy/
-order: 13
+order: 14
 ilce: "Kadıköy"
 il: "İstanbul"
 hizmet_bolgesi: false   # yapisal veride hizmet bolgesi olarak gecmesin

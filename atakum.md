@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /atakum/
-order: 12
+order: 13
 ilce: "Atakum"
 il: "Samsun"
 title: "Atakum Cam Balkon ve PVC Pencere"

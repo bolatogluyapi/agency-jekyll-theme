@@ -1,7 +1,7 @@
 ---
 layout: bolge
 permalink: /terme/
-order: 10
+order: 11
 ilce: "Terme"
 il: "Samsun"
 title: "Terme PVC Pencere, Sineklik ve Doğrama"
