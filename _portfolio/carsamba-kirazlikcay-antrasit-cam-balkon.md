@@ -13,16 +13,16 @@ date: 2026-09-28
 category: "Cam Balkon Sistemleri"
 image: https://i.pinimg.com/736x/ff/ff/d5/ffffd5b30884ac2c9b5cae1d6e6d7455.jpg
 alt: Çarşamba antrasit alüminyum profilli füme cam balkon dış cephe görünümü
-description: "Samsun Çarşamba'da uyguladığımız, L köşe dönüşlü, sabit üst havalandırma pencereli ve füme camlı antrasit katlanır cam balkon projesi."
+description: "Samsun Çarşamba Kirazlıkçay'da uyguladığımız, L köşe dönüşlü, üst bantta vasistas havalandırma kanatlı, füme camlı antrasit katlanır cam balkon."
 ---
 
 ## Proje Hakkında
 
-Samsun Çarşamba'nın Kirazlıkçay Mahallesi'nde henüz inşaat (veya detaylı tadilat) aşamasında olan bu yapıda, müşterimiz geniş ve "L" formundaki balkonunu evin dört mevsim kullanılabilir bir yaşam alanına dönüştürmek istiyordu. Dışarıdan bakıldığında binanın gri ve beyaz ton ağırlıklı modern cephesine uyum sağlaması, içeriden ise mahremiyeti koruyarak güneşin yakıcı etkisini kırması en önemli taleplerdi. 
+Samsun Çarşamba'nın Kirazlıkçay Mahallesi'nde henüz inşaat aşamasında olan bu yapıda, müşterimiz geniş ve "L" formundaki balkonunu evin dört mevsim kullanılabilir bir yaşam alanına dönüştürmek istiyordu. Dışarıdan bakıldığında binanın gri ve beyaz ton ağırlıklı modern cephesine uyum sağlaması, içeriden ise mahremiyeti koruyarak güneşin yakıcı etkisini kırması en önemli taleplerdi. 
 
-Bu mimari beklentileri karşılamak üzere, [cam balkon sistemleri](/hizmetler/cam-balkon/) ürün grubumuzun en donanımlı modellerinden birini tasarladık. Antrasit gri alüminyum profiller ile hafif yansıtıcı füme camların entegre edildiği bu sistem, [Çarşamba](/carsamba/) bölgesindeki sert rüzgarlara ve yağışlara karşı da maksimum izolasyon sağlamaktadır. Standart cam balkonların aksine, sistemin üst kısmına eklenen sabit çift açılım (vasistas) doğramalar, projenin fonksiyonelliğini tamamen farklı bir boyuta taşımıştır.
+Bu mimari beklentileri karşılamak üzere, [cam balkon sistemleri](/hizmetler/cam-balkon/) ürün grubumuzun en donanımlı modellerinden birini tasarladık. Antrasit gri alüminyum profiller ile hafif yansıtıcı füme camların entegre edildiği bu sistem, [Çarşamba](/carsamba/) bölgesindeki sert rüzgarlara ve yağışlara karşı da maksimum izolasyon sağlamaktadır. Standart cam balkonların aksine, sistemin üst kısmına eklenen vasistas açılımlı doğrama bandı, projenin fonksiyonelliğini tamamen farklı bir boyuta taşımıştır.
 
-### Sabit Üst Doğrama (Vasistas) ile İklimlendirme
+### Üst Bantta Vasistas Kanatlarla Havalandırma
 
 Bu projenin en dikkat çekici mühendislik farkı, katlanır cam panellerin doğrudan tavana kadar uzanmak yerine, üst kısımda sabit bir alüminyum doğrama bandı ile sonlandırılmış olmasıdır. Bu üst bandın içerisine, tıpkı PVC pencerelerde olduğu gibi içe doğru devrilerek (vasistas) açılabilen kanatlar yerleştirilmiştir. 
 
@@ -32,11 +32,11 @@ Bu tasarımın en büyük avantajı "kontrollü havalandırma" sağlamasıdır. 
 
 Görsellerdeki iç mekan çekimlerinde net bir şekilde görüldüğü üzere, balkon 90 derecelik keskin bir "L" dönüşüne sahiptir. Cam balkon sistemlerinde en çok izolasyon zafiyeti yaşanan yerler bu köşe birleşimleridir. 
 
-Bu zafiyeti ortadan kaldırmak için, köşede standart bir birleşim yerine, milimetrik olarak CNC'de kesilmiş özel "açılı köşe dönüş profilleri" kullanılmıştır. Kanatlar açılırken veya kapanırken köşeden bağımsız ve takılmadan dönebilir. Kapatıldığında ise her iki kanadın silikon fitilleri bu köşe profiline tam olarak basarak rüzgarın içeriye sızabileceği tüm boşlukları hermetik olarak (hava sızdırmaz şekilde) mühürler.
+Bu zafiyeti ortadan kaldırmak için, köşede standart bir birleşim yerine, milimetrik olarak CNC'de kesilmiş özel "açılı köşe dönüş profilleri" kullanılmıştır. Kanatlar açılırken veya kapanırken köşeden bağımsız ve takılmadan dönebilir. Kapatıldığında ise her iki kanadın silikon fitilleri bu köşe profiline tam olarak basarak rüzgar ve toz girişini büyük ölçüde keser.
 
 ### Sonuç
 
-İnşaat/tadilat süreci devam eden binanın en önemli aşamalarından biri olan doğrama montajı, sıva ve son boya işlemlerinden önce eksiksiz olarak teslim edildi. Dışarıdan bakıldığında antrasit profiller ve füme camlarla binaya ciddi bir prestij katan, içeriden ise üst havalandırma sistemi ve kusursuz L köşe izolasyonuyla yüksek konfor sunan uzun ömürlü bir sisteme imza atıldı.
+İnşaat süreci devam eden binanın en önemli aşamalarından biri olan doğrama montajı, sıva ve son boya işlemlerinden önce eksiksiz olarak teslim edildi. Dışarıdan bakıldığında antrasit profiller ve füme camlarla binaya ciddi bir prestij katan, içeriden ise üst havalandırma sistemi ve kusursuz L köşe izolasyonuyla yüksek konfor sunan uzun ömürlü bir sisteme imza atıldı.
 
 ---
 

@@ -24,9 +24,11 @@ Amasya merkezde yer alan bu müstakil konut projesinde, müşterimiz bina içind
 
 Standart yuvarlak (borusal) korkuluklar daha yumuşak ve klasik bir geçiş sağlarken; kare ve dikdörtgen kesitli (kutu profil) paslanmaz sistemler mekana çok daha endüstriyel, keskin ve çağdaş bir karakter katar. Görselde de detayları net olarak seçilebilen bu projede, ana taşıyıcı dikmeler, dönüş mafsalları ve üst tutamak (küpeşte) tamamen köşeli profillerden imal edilmiştir. Bu köşeli yapı sadece estetik bir tercih değildir; aynı zamanda merdivenin basamaklarındaki 90 derecelik keskin mermer kesimleriyle mükemmel bir görsel paralellik kurar. Mühendislik açısından bakıldığında, kare profillerin burulma ve esneme mukavemeti, yatay yüklere karşı son derece yüksektir. Bu sayede merdivene yaslanıldığında dahi sistem milim bile esnemez.
 
-### Çoklu Yatay Şeritler ile Maksimum Çocuk Güvenliği
+### Dört Sıra Yatay Şerit ve Aralık Ölçüsü
 
-İç mekan merdivenlerinde estetiğin ardında yatan en kritik unsur fiziksel güvenliktir. Standart merdiven korkuluklarında genellikle maliyeti düşürmek adına iki veya üç adet yatay emniyet şeridi kullanılır. Ancak bu projemizde, ev sahibinin güvenlik hassasiyetlerini (özellikle küçük çocuklar veya evcil hayvanlar için) merkeze alarak, ana dikmeler arasına birbirine çok daha yakın mesafelerde konumlandırılmış 4 sıralı yatay paslanmaz emniyet şeridi (emniyet borusu) yerleştirdik. Bu sıkı ve çoklu dizilim, basamaklar ile üst küpeşte arasında boşluktan kaynaklanabilecek düşme veya sarkma risklerini tamamen ortadan kaldırmıştır.
+İç mekan merdivenlerinde estetiğin ardında yatan en kritik unsur fiziksel güvenliktir. Standart merdiven korkuluklarında genellikle maliyeti düşürmek adına iki veya üç adet yatay emniyet şeridi kullanılır. Bu projemizde ev sahibinin güvenlik hassasiyetini merkeze alarak, ana dikmeler arasına birbirine çok daha yakın mesafelerde konumlandırılmış 4 sıralı yatay paslanmaz şerit yerleştirdik. Sık dizilim, şeritler arasındaki boşluğu daraltarak bir çocuğun ya da evcil hayvanın aradan geçmesini engelliyor.
+
+Yatay şeritli tasarımlarda bilinmesi gereken bir nokta var: şeritler küçük bir çocuk için tırmanma basamağı işlevi görebiliyor. Evde küçük çocuk varsa alt bölüme cam panel eklemek ya da dikey çubuklu tasarımı tercih etmek daha güvenli oluyor. Bunu keşifte ev sahibiyle konuşuyoruz.
 
 ### Teknik Detaylar
 
